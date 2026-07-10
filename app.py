@@ -787,7 +787,7 @@ def topbar() -> None:
             <div class="brand-logo">🤝</div>
             <div>
               <div class="brand-name">{esc(APP_NAME)}</div>
-              <div class="brand-sub">Your calls, your progress — just for you</div>
+              <div class="brand-sub">Our kamai ka saathi</div>
             </div>
           </div>
         </div>
@@ -1225,7 +1225,7 @@ def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -
         <div class="login-shell">
           <div class="login-hero">
             <div class="brand-logo">🤝</div>
-            <div class="login-big">{esc(APP_NAME)} — a companion for your calls, not a report card.</div>
+            <div class="login-big">{esc(APP_NAME)} — our kamai ka saathi.</div>
             <div class="login-copy">
               Private agent view. Focuses on clear strengths, priority coaching moments, and call evidence — without overwhelming you.
             </div>
