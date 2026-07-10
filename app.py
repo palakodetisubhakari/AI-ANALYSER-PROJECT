@@ -25,6 +25,7 @@ FEEDBACK_SHEET_URL = "https://docs.google.com/spreadsheets/d/1_mDEbmmEC3FD4CJg-L
 MANAGER_PASSCODE = "saathi-admin"  # change this before sharing the app / repo
 
 APP_NAME = "Saathi"
+APP_TAGLINE = "Your partner in performance and rewards"
 
 # Friendly premium palette
 INK = "#0B1220"          # deep navy text
@@ -47,7 +48,7 @@ LILAC = "#7C3AED"
 LILAC_SOFT = "#F3EEFF"
 
 st.set_page_config(
-    page_title=f"{APP_NAME} — Owner Sales",
+    page_title=f"{APP_NAME} — {APP_TAGLINE}",
     page_icon="🤝",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -787,7 +788,7 @@ def topbar() -> None:
             <div class="brand-logo">🤝</div>
             <div>
               <div class="brand-name">{esc(APP_NAME)}</div>
-              <div class="brand-sub">Our kamai ka saathi</div>
+              <div class="brand-sub">{esc(APP_TAGLINE)}</div>
             </div>
           </div>
         </div>
@@ -796,7 +797,7 @@ def topbar() -> None:
 
 
 def render_hero(agent: Dict[str, Any]) -> None:
-    score = score_int(agent.get("overall_score", 0))
+    score = score_int(agent.get("call_score", 0))
     deg = score * 3.6
     colour = score_colour(score)
     name = esc(agent.get("name", "Agent"))
@@ -1229,7 +1230,7 @@ def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -
             f"""
             <div class="login-hero" style="height:100%;">
               <div class="brand-logo">🤝</div>
-              <div class="login-big">{esc(APP_NAME)} — your kamai ka saathi.</div>
+              <div class="login-big">{esc(APP_NAME)} — {esc(APP_TAGLINE)}.</div>
               <div class="login-copy">
                 Private agent view. Focuses on clear strengths, priority coaching moments, and call evidence — without overwhelming you.
               </div>
