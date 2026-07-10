@@ -1,6 +1,6 @@
 """
 Saathi — Owner Sales Call Quality Companion
-Attractive v3 Streamlit UI: redesigned layout, new color system, friendlier
+Final Streamlit UI: redesigned layout, new color system, friendlier
 coaching cards, compact call evidence, safer HTML escaping, and responsive views.
 
 Reads agents_data.json, shows each agent their own dashboard after login, and
@@ -83,22 +83,13 @@ def num(value: Any, default: float = 0) -> float:
         return default
 
 
-def first_available(agent: Dict[str, Any], keys: Iterable[str], default: Any = "—") -> Any:
-    """Return the first non-empty value from possible JSON field names.
-
-    This keeps the UI compatible with the original agents_data.json, which uses
-    fields like overall_score / conversation_quality / conversion_score, while
-    also supporting newer names if you add them later.
-    """
-    for key in keys:
-        value = agent.get(key)
-        if value not in (None, ""):
-            return value
-    return default
-
-
 def overall_score_value(agent: Dict[str, Any]) -> int:
-    return score_int(first_available(agent, ["overall_score", "call_score", "score", "performance_score"], 0))
+    """Display only the overall_score from agents_data.json.
+
+    Intentionally does not fall back to call_score, conversation_quality,
+    conversion_score, or any other score-like field.
+    """
+    return score_int(agent.get("overall_score", 0))
 
 
 def short_id(value: Any) -> str:
@@ -846,7 +837,7 @@ def render_hero(agent: Dict[str, Any]) -> None:
               <div class="score-ring" style="background: conic-gradient({colour} {deg:.1f}deg, rgba(255,255,255,.18) 0deg);">
                 <div class="score-core">
                   <div class="score-number">{score}</div>
-                  <div class="score-label">out of 100</div>
+                  <div class="score-label">overall score</div>
                 </div>
               </div>
               <div class="score-caption">{performance_label(score)}</div>
@@ -870,17 +861,11 @@ def quick_card(label: str, value: Any, help_text: str, accent_class: str) -> str
 
 def render_quick_grid(agent: Dict[str, Any]) -> None:
     overall = overall_score_value(agent)
-    conv_quality = first_available(agent, ["conversation_quality", "conversation_quality_score"], "—")
-    conversion = first_available(agent, ["conversion_score", "conversion"], "—")
-    calls = first_available(agent, ["n_live_calls", "calls_reviewed", "calls_this_cycle"], "—")
 
     render_html(
         f"""
-        <div class="quick-grid">
-          {quick_card('Overall score', overall, 'Same score field from your agents_data.json.', 'accent-amber')}
-          {quick_card('Conversation quality', conv_quality, 'Quality of agent-controlled conversation behaviour.', 'accent-teal')}
-          {quick_card('Conversion', conversion, 'Conversion score for this review cycle.', 'accent-coral')}
-          {quick_card('Calls reviewed', calls, 'Live calls included in this cycle.', 'accent-teal')}
+        <div class="quick-grid" style="grid-template-columns: 1fr;">
+          {quick_card('Overall score', overall, 'Pulled only from overall_score in agents_data.json.', 'accent-amber')}
         </div>
         """,
     )
@@ -1227,7 +1212,7 @@ def render_profile(agent: Dict[str, Any]) -> None:
             f"""
             <div class="quick-grid" style="margin:0; grid-template-columns: repeat(2, minmax(0, 1fr));">
               {quick_card('Calls this cycle', agent.get('n_live_calls', '—'), 'Live calls included in the current review cycle.', 'accent-teal')}
-              {quick_card('Overall score', overall_score_value(agent), 'Same overall_score used in your JSON.', 'accent-coral')}
+              {quick_card('Overall score', overall_score_value(agent), 'Pulled only from overall_score in your JSON.', 'accent-coral')}
               {quick_card('RPL', f"₹{num(agent.get('rpl', 0)):.0f}", 'Revenue per lead for this agent.', 'accent-amber')}
               {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of 34", 'Relative performance inside the team.', 'accent-teal')}
             </div>
