@@ -850,11 +850,8 @@ def quick_card(label: str, value: Any, help_text: str, accent_class: str) -> str
 def render_quick_grid(agent: Dict[str, Any]) -> None:
     render_html(
         f"""
-        <div class="quick-grid">
-          {quick_card('Overall score', score_int(agent.get('overall_score', 0)), 'Balanced view of rebuttal compliance and pitch completion.', 'accent-teal')}
+        <div class="quick-grid" style="grid-template-columns: 1fr;">
           {quick_card('Call score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team — higher RPL, higher score.', 'accent-amber')}
-          {quick_card('Conversation quality', agent.get('conversation_quality', '—'), 'How clearly and consistently the call was handled.', 'accent-coral')}
-          {quick_card('Conversion', agent.get('conversion_score', '—'), 'Whether high-intent moments moved toward the plan.', 'accent-amber')}
         </div>
         """,
     )
@@ -1201,7 +1198,7 @@ def render_profile(agent: Dict[str, Any]) -> None:
             f"""
             <div class="quick-grid" style="margin:0; grid-template-columns: repeat(2, minmax(0, 1fr));">
               {quick_card('Calls this cycle', agent.get('n_live_calls', '—'), 'Live calls included in the current review cycle.', 'accent-teal')}
-              {quick_card('Overall score', score_int(agent.get('overall_score', 0)), 'Combined coaching score for this cycle.', 'accent-coral')}
+              {quick_card('Call score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team.', 'accent-coral')}
               {quick_card('RPL', f"₹{num(agent.get('rpl', 0)):.0f}", 'Revenue per lead for this agent.', 'accent-amber')}
               {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of 34", 'Relative performance inside the team.', 'accent-teal')}
             </div>
