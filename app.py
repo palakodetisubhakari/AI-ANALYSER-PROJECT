@@ -20,7 +20,7 @@ import streamlit as st
 
 # ── CONFIG ────────────────────────────────────────────────────────────────
 DATA_FILE = "agents_data.json"
-FEEDBACK_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbw2_97ldaS5GAu-OsKrIFHflhE2d7pZrw63DBWOtx2I05uO4l7VmPQE_y7NtouA65Db8Q/exec"
+FEEDBACK_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyNyO1zu3uDeIzPqoV0giZZEXT543NhnMUjsDak5vl8R-uT3lIcPcBtR2ujLqCYmJhG/exec"
 FEEDBACK_SHEET_URL = "https://docs.google.com/spreadsheets/d/1_mDEbmmEC3FD4CJg-LhRTCtYCNFhWAtzy-nyJLrkxkM/edit?gid=0#gid=0"
 MANAGER_PASSCODE = "saathi-admin"  # change this before sharing the app / repo
 
@@ -752,6 +752,17 @@ def inject_css() -> None:
 
 
 # ── HTML HELPERS ─────────────────────────────────────────────────────────
+def render_html(body: str) -> None:
+    """render_html(..., unsafe_allow_html=True) but strips leading whitespace
+    from every line first. Streamlit's markdown parser treats any line that
+    starts with 4+ spaces as a literal code block (standard Markdown rule),
+    so indented HTML f-strings render as visible '</div>' text instead of
+    being parsed as markup. Stripping indentation is safe here since
+    whitespace between HTML tags has no visual effect."""
+    cleaned = "\n".join(line.strip() for line in str(body).strip().splitlines())
+    st.markdown(cleaned, unsafe_allow_html=True)
+
+
 def score_colour(score: int) -> str:
     if score >= 65:
         return TEAL
@@ -769,7 +780,7 @@ def performance_label(score: int) -> str:
 
 
 def topbar() -> None:
-    st.markdown(
+    render_html(
         f"""
         <div class="topbar">
           <div class="brand">
@@ -781,7 +792,6 @@ def topbar() -> None:
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -794,7 +804,7 @@ def render_hero(agent: Dict[str, Any]) -> None:
     calls = esc(agent.get("n_live_calls", "—"))
     rpl_rank = esc(agent.get("rpl_rank", "—"))
 
-    st.markdown(
+    render_html(
         f"""
         <div class="hero">
           <div class="hero-grid">
@@ -822,7 +832,6 @@ def render_hero(agent: Dict[str, Any]) -> None:
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -838,7 +847,7 @@ def quick_card(label: str, value: Any, help_text: str, accent_class: str) -> str
 
 
 def render_quick_grid(agent: Dict[str, Any]) -> None:
-    st.markdown(
+    render_html(
         f"""
         <div class="quick-grid">
           {quick_card('Overall score', score_int(agent.get('overall_score', 0)), 'Balanced view of rebuttal compliance and pitch completion.', 'accent-teal')}
@@ -846,7 +855,6 @@ def render_quick_grid(agent: Dict[str, Any]) -> None:
           {quick_card('Conversion', agent.get('conversion_score', '—'), 'Whether high-intent moments moved toward the plan.', 'accent-amber')}
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -859,7 +867,7 @@ def render_strengths_card(agent: Dict[str, Any]) -> None:
     if not items:
         items = '<div class="card-subtitle">No strengths listed for this cycle yet.</div>'
 
-    st.markdown(
+    render_html(
         f"""
         <div class="soft-card">
           <div class="card-title">What is already working</div>
@@ -867,13 +875,12 @@ def render_strengths_card(agent: Dict[str, Any]) -> None:
           {items}
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
 def render_coach_note(agent: Dict[str, Any]) -> None:
     calls = esc(agent.get("n_live_calls", "—"))
-    st.markdown(
+    render_html(
         f"""
         <div class="soft-card">
           <div class="card-title">How to read this page</div>
@@ -885,13 +892,12 @@ def render_coach_note(agent: Dict[str, Any]) -> None:
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
 def section_title(title: str, subtitle: str, badge: str = "") -> None:
     badge_html = f'<div class="section-badge">{esc(badge)}</div>' if badge else ""
-    st.markdown(
+    render_html(
         f"""
         <div class="section-title">
           <div>
@@ -901,7 +907,6 @@ def section_title(title: str, subtitle: str, badge: str = "") -> None:
           {badge_html}
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -948,7 +953,7 @@ def empty_focus_row(message: str) -> str:
 def focus_card(area_number: int, title: str, advice: str, total: int, rows_html: str, note: str = "") -> None:
     count = max(0, int(total or 0))
     note_html = f'<div class="focus-note">{esc(note)}</div>' if note else ""
-    st.markdown(
+    render_html(
         f"""
         <div class="focus-card">
           <div class="focus-top">
@@ -965,7 +970,6 @@ def focus_card(area_number: int, title: str, advice: str, total: int, rows_html:
           {note_html}
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -973,21 +977,20 @@ def focus_card(area_number: int, title: str, advice: str, total: int, rows_html:
 def trend_chart(points: Iterable[Dict[str, Any]]) -> None:
     points = list(points or [])
     if len(points) < 2:
-        st.markdown(
+        render_html(
             '<div class="coach-note">Not enough day-to-day spread in this cycle to show a reliable trend yet. Future cycles will make this chart more useful.</div>',
-            unsafe_allow_html=True,
         )
         return
 
     df = pd.DataFrame(points)
     if "date" not in df.columns or "score" not in df.columns:
-        st.markdown('<div class="coach-note">Trend data is missing date or score fields.</div>', unsafe_allow_html=True)
+        render_html('<div class="coach-note">Trend data is missing date or score fields.</div>')
         return
 
     df["score"] = pd.to_numeric(df["score"], errors="coerce")
     df = df.dropna(subset=["date", "score"])
     if len(df) < 2:
-        st.markdown('<div class="coach-note">Trend data exists, but there are not enough valid points to chart.</div>', unsafe_allow_html=True)
+        render_html('<div class="coach-note">Trend data exists, but there are not enough valid points to chart.</div>')
         return
 
     fig = go.Figure(
@@ -1152,21 +1155,19 @@ def render_trends(agent: Dict[str, Any]) -> None:
     section_title("Trend and examples", "Use this view for the manager review, not just the agent summary.")
     col1, col2 = st.columns([1.25, 1], gap="medium")
     with col1:
-        st.markdown(
+        render_html(
             '<div class="soft-card"><div class="card-title">Performance over this cycle</div><div class="card-subtitle">Daily score combines rebuttal compliance and pitch-completion rate for this agent only.</div>',
-            unsafe_allow_html=True,
         )
         trend_chart(agent.get("daily_trend", []))
-        st.markdown('</div>', unsafe_allow_html=True)
+        render_html('</div>')
 
     with col2:
-        st.markdown(
+        render_html(
             f'<div class="soft-card"><div class="card-title">A rebuttal that worked</div><div class="card-subtitle">Use this as the positive coaching anchor.</div>{good_example_html(agent.get("good_example"))}</div>',
-            unsafe_allow_html=True,
         )
 
     section_title("Data note", "What was scored and what was intentionally excluded.")
-    st.markdown(
+    render_html(
         """
         <div class="soft-card">
           <div class="coach-note">
@@ -1175,7 +1176,6 @@ def render_trends(agent: Dict[str, Any]) -> None:
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
@@ -1185,7 +1185,7 @@ def render_profile(agent: Dict[str, Any]) -> None:
 
     col1, col2 = st.columns([.85, 1.65], gap="medium")
     with col1:
-        st.markdown(
+        render_html(
             f"""
             <div class="soft-card">
               <div class="profile-avatar">{esc(initials)}</div>
@@ -1193,10 +1193,9 @@ def render_profile(agent: Dict[str, Any]) -> None:
               <div class="profile-meta">{esc(agent.get('employee_id', ''))} · Owner Sales</div>
             </div>
             """,
-            unsafe_allow_html=True,
         )
     with col2:
-        st.markdown(
+        render_html(
             f"""
             <div class="quick-grid" style="margin:0; grid-template-columns: repeat(2, minmax(0, 1fr));">
               {quick_card('Calls this cycle', agent.get('n_live_calls', '—'), 'Live calls included in the current review cycle.', 'accent-teal')}
@@ -1205,11 +1204,10 @@ def render_profile(agent: Dict[str, Any]) -> None:
               {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of 34", 'Relative performance inside the team.', 'accent-teal')}
             </div>
             """,
-            unsafe_allow_html=True,
         )
 
     section_title("Manager note", "Keep the review clear, specific, and fair.")
-    st.markdown(
+    render_html(
         f"""
         <div class="soft-card">
           <div class="coach-note">
@@ -1218,12 +1216,11 @@ def render_profile(agent: Dict[str, Any]) -> None:
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
 
 def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -> None:
-    st.markdown(
+    render_html(
         f"""
         <div class="login-shell">
           <div class="login-hero">
@@ -1244,7 +1241,6 @@ def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
 
     with st.form("login_form", border=False):
@@ -1265,7 +1261,7 @@ def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -
 
 
 def render_manager_view() -> None:
-    st.markdown(
+    render_html(
         f"""
         <div class="login-shell" style="grid-template-columns: 1fr;">
           <div class="login-hero">
@@ -1277,7 +1273,6 @@ def render_manager_view() -> None:
           </div>
         </div>
         """,
-        unsafe_allow_html=True,
     )
     st.write("")
     _, mid, _ = st.columns([1, 1, 1])
