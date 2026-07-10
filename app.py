@@ -10,6 +10,7 @@ opens a simple view linking to the feedback sheet.
 
 import html
 import json
+import os
 from datetime import datetime
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -57,8 +58,10 @@ st.set_page_config(
 
 # ── DATA ─────────────────────────────────────────────────────────────────
 @st.cache_data(show_spinner=False)
-def load_agents() -> Dict[str, Dict[str, Any]]:
-    with open(DATA_FILE, encoding="utf-8") as f:
+def load_agents(data_file: str, file_mtime: float) -> Dict[str, Dict[str, Any]]:
+    # file_mtime is intentionally an argument so Streamlit reloads data when
+    # agents_data.json changes after deployment.
+    with open(data_file, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -78,6 +81,24 @@ def num(value: Any, default: float = 0) -> float:
         return float(value)
     except (TypeError, ValueError):
         return default
+
+
+def first_available(agent: Dict[str, Any], keys: Iterable[str], default: Any = "—") -> Any:
+    """Return the first non-empty value from possible JSON field names.
+
+    This keeps the UI compatible with the original agents_data.json, which uses
+    fields like overall_score / conversation_quality / conversion_score, while
+    also supporting newer names if you add them later.
+    """
+    for key in keys:
+        value = agent.get(key)
+        if value not in (None, ""):
+            return value
+    return default
+
+
+def overall_score_value(agent: Dict[str, Any]) -> int:
+    return score_int(first_available(agent, ["overall_score", "call_score", "score", "performance_score"], 0))
 
 
 def short_id(value: Any) -> str:
@@ -797,7 +818,7 @@ def topbar() -> None:
 
 
 def render_hero(agent: Dict[str, Any]) -> None:
-    score = score_int(agent.get("call_score", 0))
+    score = overall_score_value(agent)
     deg = score * 3.6
     colour = score_colour(score)
     name = esc(agent.get("name", "Agent"))
@@ -848,10 +869,18 @@ def quick_card(label: str, value: Any, help_text: str, accent_class: str) -> str
 
 
 def render_quick_grid(agent: Dict[str, Any]) -> None:
+    overall = overall_score_value(agent)
+    conv_quality = first_available(agent, ["conversation_quality", "conversation_quality_score"], "—")
+    conversion = first_available(agent, ["conversion_score", "conversion"], "—")
+    calls = first_available(agent, ["n_live_calls", "calls_reviewed", "calls_this_cycle"], "—")
+
     render_html(
         f"""
-        <div class="quick-grid" style="grid-template-columns: 1fr;">
-          {quick_card('Call score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team — higher RPL, higher score.', 'accent-amber')}
+        <div class="quick-grid">
+          {quick_card('Overall score', overall, 'Same score field from your agents_data.json.', 'accent-amber')}
+          {quick_card('Conversation quality', conv_quality, 'Quality of agent-controlled conversation behaviour.', 'accent-teal')}
+          {quick_card('Conversion', conversion, 'Conversion score for this review cycle.', 'accent-coral')}
+          {quick_card('Calls reviewed', calls, 'Live calls included in this cycle.', 'accent-teal')}
         </div>
         """,
     )
@@ -1198,7 +1227,7 @@ def render_profile(agent: Dict[str, Any]) -> None:
             f"""
             <div class="quick-grid" style="margin:0; grid-template-columns: repeat(2, minmax(0, 1fr));">
               {quick_card('Calls this cycle', agent.get('n_live_calls', '—'), 'Live calls included in the current review cycle.', 'accent-teal')}
-              {quick_card('Call score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team.', 'accent-coral')}
+              {quick_card('Overall score', overall_score_value(agent), 'Same overall_score used in your JSON.', 'accent-coral')}
               {quick_card('RPL', f"₹{num(agent.get('rpl', 0)):.0f}", 'Revenue per lead for this agent.', 'accent-amber')}
               {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of 34", 'Relative performance inside the team.', 'accent-teal')}
             </div>
@@ -1300,7 +1329,7 @@ def main() -> None:
     inject_css()
 
     try:
-        agents = load_agents()
+        agents = load_agents(DATA_FILE, os.path.getmtime(DATA_FILE))
     except FileNotFoundError:
         st.error(f"Could not find {DATA_FILE}. Place it in the same folder as this app.")
         return
