@@ -83,13 +83,13 @@ def num(value: Any, default: float = 0) -> float:
         return default
 
 
-def overall_score_value(agent: Dict[str, Any]) -> int:
-    """Display only the overall_score from agents_data.json.
+def call_score_value(agent: Dict[str, Any]) -> int:
+    """Display only call_score from agents_data.json.
 
-    Intentionally does not fall back to call_score, conversation_quality,
+    Intentionally does not fall back to overall_score, conversation_quality,
     conversion_score, or any other score-like field.
     """
-    return score_int(agent.get("overall_score", 0))
+    return score_int(agent.get("call_score", 0))
 
 
 def short_id(value: Any) -> str:
@@ -809,7 +809,7 @@ def topbar() -> None:
 
 
 def render_hero(agent: Dict[str, Any]) -> None:
-    score = overall_score_value(agent)
+    score = call_score_value(agent)
     deg = score * 3.6
     colour = score_colour(score)
     name = esc(agent.get("name", "Agent"))
@@ -837,7 +837,7 @@ def render_hero(agent: Dict[str, Any]) -> None:
               <div class="score-ring" style="background: conic-gradient({colour} {deg:.1f}deg, rgba(255,255,255,.18) 0deg);">
                 <div class="score-core">
                   <div class="score-number">{score}</div>
-                  <div class="score-label">overall score</div>
+                  <div class="score-label">call score</div>
                 </div>
               </div>
               <div class="score-caption">{performance_label(score)}</div>
@@ -860,12 +860,12 @@ def quick_card(label: str, value: Any, help_text: str, accent_class: str) -> str
 
 
 def render_quick_grid(agent: Dict[str, Any]) -> None:
-    overall = overall_score_value(agent)
+    call_score = call_score_value(agent)
 
     render_html(
         f"""
         <div class="quick-grid" style="grid-template-columns: 1fr;">
-          {quick_card('Overall score', overall, 'Pulled only from overall_score in agents_data.json.', 'accent-amber')}
+          {quick_card('Call score', call_score, 'Pulled only from call_score in agents_data.json.', 'accent-amber')}
         </div>
         """,
     )
@@ -1212,7 +1212,7 @@ def render_profile(agent: Dict[str, Any]) -> None:
             f"""
             <div class="quick-grid" style="margin:0; grid-template-columns: repeat(2, minmax(0, 1fr));">
               {quick_card('Calls this cycle', agent.get('n_live_calls', '—'), 'Live calls included in the current review cycle.', 'accent-teal')}
-              {quick_card('Overall score', overall_score_value(agent), 'Pulled only from overall_score in your JSON.', 'accent-coral')}
+              {quick_card('Call score', call_score_value(agent), 'Pulled only from call_score in your JSON.', 'accent-coral')}
               {quick_card('RPL', f"₹{num(agent.get('rpl', 0)):.0f}", 'Revenue per lead for this agent.', 'accent-amber')}
               {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of 34", 'Relative performance inside the team.', 'accent-teal')}
             </div>
