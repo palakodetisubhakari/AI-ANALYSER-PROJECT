@@ -334,7 +334,7 @@ def inject_css() -> None:
 
         .quick-grid {{
             display:grid;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
+            grid-template-columns: repeat(4, minmax(0, 1fr));
             gap: 14px;
             margin: 12px 0 18px;
         }}
@@ -851,6 +851,7 @@ def render_quick_grid(agent: Dict[str, Any]) -> None:
         f"""
         <div class="quick-grid">
           {quick_card('Overall score', score_int(agent.get('overall_score', 0)), 'Balanced view of rebuttal compliance and pitch completion.', 'accent-teal')}
+          {quick_card('Call score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team — higher RPL, higher score.', 'accent-amber')}
           {quick_card('Conversation quality', agent.get('conversation_quality', '—'), 'How clearly and consistently the call was handled.', 'accent-coral')}
           {quick_card('Conversion', agent.get('conversion_score', '—'), 'Whether high-intent moments moved toward the plan.', 'accent-amber')}
         </div>

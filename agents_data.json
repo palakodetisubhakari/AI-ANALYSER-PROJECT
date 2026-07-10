@@ -389,7 +389,8 @@
         "date": "2026-07-04",
         "score": 61
       }
-    ]
+    ],
+    "call_score": 100
   },
   "NBTSC400396": {
     "employee_id": "NBTSC400396",
@@ -750,7 +751,8 @@
         "date": "2026-07-02",
         "score": 62
       }
-    ]
+    ],
+    "call_score": 97
   },
   "NBTS26153": {
     "employee_id": "NBTS26153",
@@ -1023,7 +1025,8 @@
       "objection": "No, then what are what are the charges that I have to give.",
       "rebuttal": "8,200 you have to pay mam I will assign you 2 relationship managers mam"
     },
-    "daily_trend": []
+    "daily_trend": [],
+    "call_score": 94
   },
   "NBTS36720": {
     "employee_id": "NBTS36720",
@@ -1253,7 +1256,8 @@
         "date": "2026-07-02",
         "score": 62
       }
-    ]
+    ],
+    "call_score": 91
   },
   "NBTSC401040": {
     "employee_id": "NBTSC401040",
@@ -1645,7 +1649,8 @@
         "date": "2026-07-04",
         "score": 48
       }
-    ]
+    ],
+    "call_score": 88
   },
   "NBTS14577": {
     "employee_id": "NBTS14577",
@@ -1964,7 +1969,8 @@
         "date": "2026-07-04",
         "score": 53
       }
-    ]
+    ],
+    "call_score": 85
   },
   "NBTSC400994": {
     "employee_id": "NBTSC400994",
@@ -2444,7 +2450,8 @@
         "date": "2026-07-03",
         "score": 53
       }
-    ]
+    ],
+    "call_score": 82
   },
   "NBTSC400669": {
     "employee_id": "NBTSC400669",
@@ -2752,7 +2759,8 @@
         "date": "2026-07-02",
         "score": 66
       }
-    ]
+    ],
+    "call_score": 79
   },
   "NBTSC400804": {
     "employee_id": "NBTSC400804",
@@ -3176,7 +3184,8 @@
         "date": "2026-07-03",
         "score": 62
       }
-    ]
+    ],
+    "call_score": 76
   },
   "NBTS33786": {
     "employee_id": "NBTS33786",
@@ -3351,7 +3360,8 @@
         "date": "2026-07-02",
         "score": 55
       }
-    ]
+    ],
+    "call_score": 73
   },
   "NBTS35806": {
     "employee_id": "NBTS35806",
@@ -3639,7 +3649,8 @@
         "date": "2026-07-04",
         "score": 53
       }
-    ]
+    ],
+    "call_score": 70
   },
   "NBTS16898": {
     "employee_id": "NBTS16898",
@@ -3943,7 +3954,8 @@
         "date": "2026-07-03",
         "score": 52
       }
-    ]
+    ],
+    "call_score": 67
   },
   "NBTS27353": {
     "employee_id": "NBTS27353",
@@ -4149,7 +4161,8 @@
         "date": "2026-07-03",
         "score": 66
       }
-    ]
+    ],
+    "call_score": 64
   },
   "NBTS26420": {
     "employee_id": "NBTS26420",
@@ -4513,7 +4526,8 @@
         "date": "2026-07-04",
         "score": 61
       }
-    ]
+    ],
+    "call_score": 61
   },
   "NBTSC400668": {
     "employee_id": "NBTSC400668",
@@ -4899,7 +4913,8 @@
         "date": "2026-07-04",
         "score": 54
       }
-    ]
+    ],
+    "call_score": 58
   },
   "NBTSC400946": {
     "employee_id": "NBTSC400946",
@@ -5351,7 +5366,8 @@
         "date": "2026-07-02",
         "score": 49
       }
-    ]
+    ],
+    "call_score": 55
   },
   "NBTS43779": {
     "employee_id": "NBTS43779",
@@ -5659,7 +5675,8 @@
         "date": "2026-07-02",
         "score": 70
       }
-    ]
+    ],
+    "call_score": 52
   },
   "NBTS24094": {
     "employee_id": "NBTS24094",
@@ -5977,7 +5994,8 @@
         "date": "2026-07-04",
         "score": 67
       }
-    ]
+    ],
+    "call_score": 48
   },
   "NBTSA304976": {
     "employee_id": "NBTSA304976",
@@ -6184,7 +6202,8 @@
       "objection": "I have multiple flats there, so the thing is, I don't need premium subscription because there are like 510 brokers already in the society, and more over people are contacting me day on the daily basis from. My gate app also. So, I don't need NoBroker premium.",
       "rebuttal": "Ok sir, you are getting the query from outside for NoBroker. How much they are charging for you? Sir, so imagine if a broker is fine, even if they are finding you the tenant, sir. Suppose even they they are closing the deal also, sir. OK, still they are for. Charing you 15 thousand sir, it's a 30,000 My half of the rent amount. But we are only working for 4000."
     },
-    "daily_trend": []
+    "daily_trend": [],
+    "call_score": 45
   },
   "NBTS40957": {
     "employee_id": "NBTS40957",
@@ -6397,7 +6416,8 @@
       "objection": "I am getting several calls. I have also mentioned it clearly that I am not interested to upgrade. You want me to unlist my property because I am getting several calls.",
       "rebuttal": "Okay sir, I will update it here, sir. Okay."
     },
-    "daily_trend": []
+    "daily_trend": [],
+    "call_score": 42
   },
   "NBTS42035": {
     "employee_id": "NBTS42035",
@@ -7030,7 +7050,8 @@
       "objection": "But your validity is only for 7 days, ah 45 days.",
       "rebuttal": "45 days ha 45 within a 45 days we will close the deal mam."
     },
-    "daily_trend": []
+    "daily_trend": [],
+    "call_score": 39
   },
   "NBTS15547": {
     "employee_id": "NBTS15547",
@@ -7302,7 +7323,8 @@
         "date": "2026-07-03",
         "score": 57
       }
-    ]
+    ],
+    "call_score": 36
   },
   "NBTSC400614": {
     "employee_id": "NBTSC400614",
@@ -7740,7 +7762,8 @@
         "date": "2026-07-03",
         "score": 53
       }
-    ]
+    ],
+    "call_score": 33
   },
   "NBTS44223": {
     "employee_id": "NBTS44223",
@@ -8042,7 +8065,8 @@
         "date": "2026-07-02",
         "score": 61
       }
-    ]
+    ],
+    "call_score": 30
   },
   "NBTS44026": {
     "employee_id": "NBTS44026",
@@ -8462,7 +8486,8 @@
         "date": "2026-07-03",
         "score": 64
       }
-    ]
+    ],
+    "call_score": 27
   },
   "NBTS27511": {
     "employee_id": "NBTS27511",
@@ -8927,7 +8952,8 @@
         "date": "2026-07-02",
         "score": 45
       }
-    ]
+    ],
+    "call_score": 24
   },
   "NBTS35805": {
     "employee_id": "NBTS35805",
@@ -9163,7 +9189,8 @@
       "objection": "So, ah, is there any guarante? Is there any guaranteed number of tenants that you will be bring.",
       "rebuttal": "Mam, there is no limitation on the leads here. Ok, that's why you are paying to NoBroker to finalise the suitable tenant for the property, right? This is a basically non-refundable plan which I suggested you, ok. If you are looking for 100% guarantee, we do have that guaranteed plan, ok."
     },
-    "daily_trend": []
+    "daily_trend": [],
+    "call_score": 21
   },
   "NBTSC400665": {
     "employee_id": "NBTSC400665",
@@ -9663,7 +9690,8 @@
         "date": "2026-07-03",
         "score": 53
       }
-    ]
+    ],
+    "call_score": 18
   },
   "NBTS42531": {
     "employee_id": "NBTS42531",
@@ -10163,7 +10191,8 @@
         "date": "2026-07-02",
         "score": 61
       }
-    ]
+    ],
+    "call_score": 15
   },
   "NBTS44025": {
     "employee_id": "NBTS44025",
@@ -10609,7 +10638,8 @@
         "date": "2026-07-02",
         "score": 60
       }
-    ]
+    ],
+    "call_score": 12
   },
   "NBTS40448": {
     "employee_id": "NBTS40448",
@@ -10845,7 +10875,8 @@
         "date": "2026-07-03",
         "score": 67
       }
-    ]
+    ],
+    "call_score": 9
   },
   "NBTSA305094": {
     "employee_id": "NBTSA305094",
@@ -11469,7 +11500,8 @@
         "date": "2026-07-03",
         "score": 47
       }
-    ]
+    ],
+    "call_score": 6
   },
   "NBTS44216": {
     "employee_id": "NBTS44216",
@@ -11604,7 +11636,8 @@
       "objection": "Alla nan sadhyakk ondu 10 15 days free agolwa nimde ella free hogebittide na muncheella free irutittalla",
       "rebuttal": "Free ivaga free ide mam but ivaga enaguthe andhre mam ivaga present time alli bandbittu ivaga properties jasthi post agtide mam 3 thousand to 4 thousand properties post agodinda ena agutthe anndre mam interested tenants badhbittu enag kodothare andre mam avru ivaga property shortlist madthare ankoli mam ivaga ivaga ivaga ivat T ondhu disage matra"
     },
-    "daily_trend": []
+    "daily_trend": [],
+    "call_score": 3
   },
   "NBTSA304465": {
     "employee_id": "NBTSA304465",
@@ -12002,6 +12035,7 @@
         "date": "2026-07-03",
         "score": 71
       }
-    ]
+    ],
+    "call_score": 0
   }
 }
