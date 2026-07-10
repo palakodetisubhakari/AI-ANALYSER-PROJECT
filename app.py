@@ -1220,32 +1220,44 @@ def render_profile(agent: Dict[str, Any]) -> None:
 
 
 def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -> None:
-    render_html(
-        f"""
-        <div class="login-shell">
-          <div class="login-hero">
-            <div class="brand-logo">🤝</div>
-            <div class="login-big">{esc(APP_NAME)} — our kamai ka saathi.</div>
-            <div class="login-copy">
-              Private agent view. Focuses on clear strengths, priority coaching moments, and call evidence — without overwhelming you.
-            </div>
-            <div class="hero-pills">
-              <span class="hero-pill">Call-quality review</span>
-              <span class="hero-pill">Feedback-ready</span>
-              <span class="hero-pill">Manager 1:1 friendly</span>
-            </div>
-          </div>
-          <div class="login-card">
-            <div class="login-card-title">View your dashboard</div>
-            <div class="login-card-copy">Enter your name or employee ID. Use your full name if your first name is shared with another agent.</div>
-          </div>
-        </div>
-        """,
-    )
+    st.markdown('<div style="max-width:980px; margin: 54px auto 0;">', unsafe_allow_html=True)
+    hero_col, form_col = st.columns([1.05, 0.95], gap="medium")
 
-    with st.form("login_form", border=False):
-        query = st.text_input("Name or employee ID", placeholder="Example: Noor Fathima or OS1234", label_visibility="collapsed")
-        submitted = st.form_submit_button("Open dashboard", use_container_width=True)
+    with hero_col:
+        render_html(
+            f"""
+            <div class="login-hero" style="height:100%;">
+              <div class="brand-logo">🤝</div>
+              <div class="login-big">{esc(APP_NAME)} — your kamai ka saathi.</div>
+              <div class="login-copy">
+                Private agent view. Focuses on clear strengths, priority coaching moments, and call evidence — without overwhelming you.
+              </div>
+              <div class="hero-pills">
+                <span class="hero-pill">Call-quality review</span>
+                <span class="hero-pill">Feedback-ready</span>
+                <span class="hero-pill">Manager 1:1 friendly</span>
+              </div>
+            </div>
+            """,
+        )
+
+    with form_col:
+        with st.container(border=True):
+            st.markdown(
+                '<div class="login-card-title">View your dashboard</div>'
+                '<div class="login-card-copy">Enter your name or employee ID below. '
+                'Use your full name if your first name is shared with another agent.</div>',
+                unsafe_allow_html=True,
+            )
+            with st.form("login_form", border=False):
+                query = st.text_input(
+                    "Name or employee ID",
+                    placeholder="Example: Noor Fathima or OS1234",
+                    label_visibility="collapsed",
+                )
+                submitted = st.form_submit_button("Open dashboard →", use_container_width=True, type="primary")
+
+    st.markdown('</div>', unsafe_allow_html=True)
 
     if submitted:
         key = query.strip().lower()
