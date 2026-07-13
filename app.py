@@ -820,6 +820,7 @@ def render_hero(agent: Dict[str, Any]) -> None:
                 <span class="hero-pill">{employee_id} · Owner Sales</span>
                 <span class="hero-pill">{calls} calls reviewed</span>
                 <span class="hero-pill">RPL rank #{rpl_rank} of {esc(agent.get('team_size', '—'))}</span>
+                <span class="hero-pill">Data as of {esc(agent.get('data_updated_on', '—'))}</span>
               </div>
             </div>
             <div class="score-tile">
@@ -873,23 +874,6 @@ def render_strengths_card(agent: Dict[str, Any]) -> None:
           <div class="card-title">What is already working</div>
           <div class="card-subtitle">Start the 1:1 here. Reinforce these behaviours before moving to corrections.</div>
           {items}
-        </div>
-        """,
-    )
-
-
-def render_coach_note(agent: Dict[str, Any]) -> None:
-    calls = esc(agent.get("n_live_calls", "—"))
-    render_html(
-        f"""
-        <div class="soft-card">
-          <div class="card-title">How to read this page</div>
-          <div class="card-subtitle">This avoids blame and keeps the discussion specific.</div>
-          <div class="coach-note">
-            <b>Use it as a coaching script:</b> praise one strength, review one call moment, then agree one behaviour for the next cycle.
-            Customer intent and language match are not scored because those are the AI analyser's interpretation — not agent-controlled actions.
-            <br><br><b>{calls}</b> live calls were reviewed in this cycle.
-          </div>
         </div>
         """,
     )
@@ -1098,12 +1082,7 @@ def feedback_widget(key: str, agent_id: str, area_title: str) -> None:
 # ── PAGES ────────────────────────────────────────────────────────────────
 def render_home(agent: Dict[str, Any]) -> None:
     render_quick_grid(agent)
-
-    col1, col2 = st.columns([1.05, .95], gap="medium")
-    with col1:
-        render_strengths_card(agent)
-    with col2:
-        render_coach_note(agent)
+    render_strengths_card(agent)
 
     section_title(
         "Priority coaching moments",
