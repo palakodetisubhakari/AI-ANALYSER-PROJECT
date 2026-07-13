@@ -890,24 +890,6 @@ def render_strengths_card(agent: Dict[str, Any]) -> None:
         """,
     )
 
-
-def render_coach_note(agent: Dict[str, Any]) -> None:
-    calls = esc(agent.get("n_live_calls", "—"))
-    render_html(
-        f"""
-        <div class="soft-card">
-          <div class="card-title">How to read this page</div>
-          <div class="card-subtitle">This avoids blame and keeps the discussion specific.</div>
-          <div class="coach-note">
-            <b>Use it as a coaching script:</b> praise one strength, review one call moment, then agree one behaviour for the next cycle.
-            Customer intent and language match are not scored because those are the AI analyser's interpretation — not agent-controlled actions.
-            <br><br><b>{calls}</b> live calls were reviewed in this cycle.
-          </div>
-        </div>
-        """,
-    )
-
-
 def section_title(title: str, subtitle: str, badge: str = "") -> None:
     badge_html = f'<div class="section-badge">{esc(badge)}</div>' if badge else ""
     render_html(
