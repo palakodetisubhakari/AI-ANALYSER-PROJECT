@@ -56,7 +56,8 @@ st.set_page_config(
 
 
 # ── DATA ─────────────────────────────────────────────────────────────────
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl=60)  # re-reads the file every 60s, so a
+# stale deploy self-heals within a minute instead of needing a manual app reboot
 def load_agents() -> Dict[str, Dict[str, Any]]:
     with open(DATA_FILE, encoding="utf-8") as f:
         return json.load(f)
