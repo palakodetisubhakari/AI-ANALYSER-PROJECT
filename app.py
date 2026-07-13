@@ -1,6 +1,6 @@
 """
 Saathi — Owner Sales Call Quality Companion
-Final Streamlit UI: redesigned layout, new color system, friendlier
+Attractive v3 Streamlit UI: redesigned layout, new color system, friendlier
 coaching cards, compact call evidence, safer HTML escaping, and responsive views.
 
 Reads agents_data.json, shows each agent their own dashboard after login, and
@@ -10,7 +10,6 @@ opens a simple view linking to the feedback sheet.
 
 import html
 import json
-import os
 from datetime import datetime
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -58,10 +57,8 @@ st.set_page_config(
 
 # ── DATA ─────────────────────────────────────────────────────────────────
 @st.cache_data(show_spinner=False)
-def load_agents(data_file: str, file_mtime: float) -> Dict[str, Dict[str, Any]]:
-    # file_mtime is intentionally an argument so Streamlit reloads data when
-    # agents_data.json changes after deployment.
-    with open(data_file, encoding="utf-8") as f:
+def load_agents() -> Dict[str, Dict[str, Any]]:
+    with open(DATA_FILE, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -81,15 +78,6 @@ def num(value: Any, default: float = 0) -> float:
         return float(value)
     except (TypeError, ValueError):
         return default
-
-
-def call_score_value(agent: Dict[str, Any]) -> int:
-    """Display only call_score from agents_data.json.
-
-    Intentionally does not fall back to overall_score, conversation_quality,
-    conversion_score, or any other score-like field.
-    """
-    return score_int(agent.get("call_score", 0))
 
 
 def short_id(value: Any) -> str:
@@ -809,7 +797,7 @@ def topbar() -> None:
 
 
 def render_hero(agent: Dict[str, Any]) -> None:
-    score = call_score_value(agent)
+    score = score_int(agent.get("call_score", 0))
     deg = score * 3.6
     colour = score_colour(score)
     name = esc(agent.get("name", "Agent"))
@@ -830,14 +818,14 @@ def render_hero(agent: Dict[str, Any]) -> None:
               <div class="hero-pills">
                 <span class="hero-pill">{employee_id} · Owner Sales</span>
                 <span class="hero-pill">{calls} calls reviewed</span>
-                <span class="hero-pill">RPL rank #{rpl_rank} of 34</span>
+                <span class="hero-pill">RPL rank #{rpl_rank} of {esc(agent.get('team_size', '—'))}</span>
               </div>
             </div>
             <div class="score-tile">
               <div class="score-ring" style="background: conic-gradient({colour} {deg:.1f}deg, rgba(255,255,255,.18) 0deg);">
                 <div class="score-core">
                   <div class="score-number">{score}</div>
-                  <div class="score-label">call score</div>
+                  <div class="score-label">out of 100</div>
                 </div>
               </div>
               <div class="score-caption">{performance_label(score)}</div>
@@ -860,12 +848,10 @@ def quick_card(label: str, value: Any, help_text: str, accent_class: str) -> str
 
 
 def render_quick_grid(agent: Dict[str, Any]) -> None:
-    call_score = call_score_value(agent)
-
     render_html(
         f"""
         <div class="quick-grid" style="grid-template-columns: 1fr;">
-          {quick_card('Call score', call_score, 'Pulled only from call_score in agents_data.json.', 'accent-amber')}
+          {quick_card('Overall score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team — higher RPL, higher score.', 'accent-amber')}
         </div>
         """,
     )
@@ -889,6 +875,24 @@ def render_strengths_card(agent: Dict[str, Any]) -> None:
         </div>
         """,
     )
+
+
+def render_coach_note(agent: Dict[str, Any]) -> None:
+    calls = esc(agent.get("n_live_calls", "—"))
+    render_html(
+        f"""
+        <div class="soft-card">
+          <div class="card-title">How to read this page</div>
+          <div class="card-subtitle">This avoids blame and keeps the discussion specific.</div>
+          <div class="coach-note">
+            <b>Use it as a coaching script:</b> praise one strength, review one call moment, then agree one behaviour for the next cycle.
+            Customer intent and language match are not scored because those are the AI analyser's interpretation — not agent-controlled actions.
+            <br><br><b>{calls}</b> live calls were reviewed in this cycle.
+          </div>
+        </div>
+        """,
+    )
+
 
 def section_title(title: str, subtitle: str, badge: str = "") -> None:
     badge_html = f'<div class="section-badge">{esc(badge)}</div>' if badge else ""
@@ -1194,9 +1198,9 @@ def render_profile(agent: Dict[str, Any]) -> None:
             f"""
             <div class="quick-grid" style="margin:0; grid-template-columns: repeat(2, minmax(0, 1fr));">
               {quick_card('Calls this cycle', agent.get('n_live_calls', '—'), 'Live calls included in the current review cycle.', 'accent-teal')}
-              {quick_card('Call score', call_score_value(agent), 'Pulled only from call_score in your JSON.', 'accent-coral')}
+              {quick_card('Overall score', score_int(agent.get('call_score', 0)), 'Reflects RPL standing within the team.', 'accent-coral')}
               {quick_card('RPL', f"₹{num(agent.get('rpl', 0)):.0f}", 'Revenue per lead for this agent.', 'accent-amber')}
-              {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of 34", 'Relative performance inside the team.', 'accent-teal')}
+              {quick_card('RPL rank', f"#{esc(agent.get('rpl_rank', '—'))} of {esc(agent.get('team_size', '—'))}", 'Relative performance inside the team.', 'accent-teal')}
             </div>
             """,
         )
@@ -1212,6 +1216,60 @@ def render_profile(agent: Dict[str, Any]) -> None:
         </div>
         """,
     )
+
+
+def render_tool_feedback(agent: Dict[str, Any]) -> None:
+    section_title("Tell us about Saathi itself", "Separate from call feedback — this is about the tool, not any specific coaching point.")
+
+    with st.container(border=True):
+        st.markdown('<div class="card-title">Quick survey</div>', unsafe_allow_html=True)
+        st.markdown(
+            '<div class="card-subtitle">Takes under a minute. Goes straight to the team building this — not shared with your manager individually.</div>',
+            unsafe_allow_html=True,
+        )
+
+        useful = st.radio(
+            "Do you find Saathi useful?",
+            ["Yes, genuinely helpful", "Somewhat useful", "Not really useful yet", "Not sure"],
+            key="tf_useful",
+            index=None,
+        )
+        clarity = st.radio(
+            "Are the coaching points easy to understand?",
+            ["Very clear", "Mostly clear", "Confusing sometimes", "Confusing most of the time"],
+            key="tf_clarity",
+            index=None,
+        )
+        features = st.text_area(
+            "Any features or changes you'd want added?",
+            key="tf_features",
+            placeholder="e.g. more call examples, a way to mark a call as reviewed, reminders before each cycle...",
+            height=90,
+        )
+        other = st.text_area(
+            "Anything else you want to tell us?",
+            key="tf_other",
+            placeholder="Open feedback — good or bad, all of it is useful.",
+            height=90,
+        )
+
+        if st.button("Submit tool feedback", key="tf_submit", type="primary", use_container_width=True):
+            reaction = useful or "Not answered"
+            comment_parts = []
+            if clarity:
+                comment_parts.append(f"Clarity: {clarity}")
+            if features:
+                comment_parts.append(f"Feature request: {features}")
+            if other:
+                comment_parts.append(f"Other: {other}")
+            comment = " | ".join(comment_parts) if comment_parts else "No additional comments"
+
+            if send_feedback(str(agent.get("employee_id", "")), "App Feedback — Saathi tool survey", reaction, comment):
+                st.success("Thank you — this goes straight to the team improving Saathi.")
+                for k in ["tf_useful", "tf_clarity", "tf_features", "tf_other"]:
+                    if k in st.session_state:
+                        del st.session_state[k]
+                st.rerun()
 
 
 def render_login(agents: Dict[str, Dict[str, Any]], directory: Dict[str, str]) -> None:
@@ -1296,7 +1354,7 @@ def main() -> None:
     inject_css()
 
     try:
-        agents = load_agents(DATA_FILE, os.path.getmtime(DATA_FILE))
+        agents = load_agents()
     except FileNotFoundError:
         st.error(f"Could not find {DATA_FILE}. Place it in the same folder as this app.")
         return
@@ -1331,13 +1389,15 @@ def main() -> None:
 
     render_hero(agent)
 
-    tab_home, tab_trends, tab_profile = st.tabs(["Overview", "Trends", "Profile"])
+    tab_home, tab_trends, tab_profile, tab_feedback = st.tabs(["Overview", "Trends", "Profile", "Feedback"])
     with tab_home:
         render_home(agent)
     with tab_trends:
         render_trends(agent)
     with tab_profile:
         render_profile(agent)
+    with tab_feedback:
+        render_tool_feedback(agent)
 
 
 if __name__ == "__main__":
