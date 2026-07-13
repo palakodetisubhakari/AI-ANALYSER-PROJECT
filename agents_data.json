@@ -3,10 +3,10 @@
     "employee_id": "NBTS36720",
     "name": "Jaya priya",
     "n_live_calls": 195,
-    "rpl": 959.27,
-    "rpl_rank": 1,
+    "rpl": 892.0,
+    "rpl_rank": 2,
     "overall_score": 48,
-    "call_score": 89,
+    "call_score": 87,
     "conversation_quality": 46,
     "conversion_score": 50,
     "strengths": [
@@ -265,16 +265,18 @@
       "rebuttal": "Ha. 433 we will do everything. Only fixing the denant is your work, ma'am."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400668": {
     "employee_id": "NBTSC400668",
     "name": "Noor Fathima",
     "n_live_calls": 213,
-    "rpl": 917.14,
-    "rpl_rank": 2,
+    "rpl": 950.0,
+    "rpl_rank": 1,
     "overall_score": 52,
-    "call_score": 87,
+    "call_score": 89,
     "conversation_quality": 71,
     "conversion_score": 33,
     "strengths": [
@@ -654,13 +656,15 @@
         "score": 59
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS16898": {
     "employee_id": "NBTS16898",
     "name": "Nishita Sumant",
     "n_live_calls": 224,
-    "rpl": 764.31,
+    "rpl": 861.0,
     "rpl_rank": 3,
     "overall_score": 22,
     "call_score": 85,
@@ -958,16 +962,18 @@
         "score": 57
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS21671": {
     "employee_id": "NBTS21671",
     "name": "PRAVEENKUMAR",
     "n_live_calls": 217,
-    "rpl": 724.68,
-    "rpl_rank": 4,
+    "rpl": 688.0,
+    "rpl_rank": 6,
     "overall_score": 62,
-    "call_score": 84,
+    "call_score": 80,
     "conversation_quality": 77,
     "conversion_score": 47,
     "strengths": [
@@ -1195,16 +1201,18 @@
         "score": 65
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS44223": {
     "employee_id": "NBTS44223",
     "name": "JAGADEESH S",
     "n_live_calls": 199,
     "rpl": 718.32,
-    "rpl_rank": 5,
+    "rpl_rank": 4,
     "overall_score": 71,
-    "call_score": 82,
+    "call_score": 84,
     "conversation_quality": 63,
     "conversion_score": 79,
     "strengths": [
@@ -1524,16 +1532,18 @@
       "rebuttal": "4,790 idhu service charges sir nanga vandhu enga side la irundh anupurmla Ide premium service a."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS40957": {
     "employee_id": "NBTS40957",
     "name": "Pallem pavani",
     "n_live_calls": 187,
-    "rpl": 625.29,
-    "rpl_rank": 6,
+    "rpl": 600.0,
+    "rpl_rank": 10,
     "overall_score": 14,
-    "call_score": 80,
+    "call_score": 73,
     "conversation_quality": 29,
     "conversion_score": 0,
     "strengths": [
@@ -1863,16 +1873,18 @@
         "score": 59
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS27353": {
     "employee_id": "NBTS27353",
     "name": "Chand basha",
     "n_live_calls": 111,
-    "rpl": 622.66,
-    "rpl_rank": 7,
+    "rpl": 515.0,
+    "rpl_rank": 18,
     "overall_score": 56,
-    "call_score": 78,
+    "call_score": 58,
     "conversation_quality": 34,
     "conversion_score": 77,
     "strengths": [
@@ -2011,16 +2023,18 @@
       "rebuttal": "But edu basic plan e sir kadimeri inda ida alla 3399 inda ninda so nim ondu laksha badige idare kuda navu ide ondu"
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS26153": {
     "employee_id": "NBTS26153",
     "name": "KUMAR GAURAV",
     "n_live_calls": 134,
-    "rpl": 617.61,
-    "rpl_rank": 8,
+    "rpl": 552.0,
+    "rpl_rank": 15,
     "overall_score": 62,
-    "call_score": 76,
+    "call_score": 63,
     "conversation_quality": 57,
     "conversion_score": 66,
     "strengths": [
@@ -2201,16 +2215,18 @@
         "score": 59
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC401040": {
     "employee_id": "NBTSC401040",
     "name": "Swapna k",
     "n_live_calls": 329,
     "rpl": 579.41,
-    "rpl_rank": 9,
+    "rpl_rank": 12,
     "overall_score": 13,
-    "call_score": 74,
+    "call_score": 69,
     "conversation_quality": 9,
     "conversion_score": 17,
     "strengths": [
@@ -2656,16 +2672,18 @@
       "rebuttal": "Okay ma'am, I will mention it here."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS33786": {
     "employee_id": "NBTS33786",
     "name": "Sharanabasava S",
     "n_live_calls": 130,
-    "rpl": 574.94,
-    "rpl_rank": 10,
+    "rpl": 472.0,
+    "rpl_rank": 20,
     "overall_score": 20,
-    "call_score": 73,
+    "call_score": 54,
     "conversation_quality": 3,
     "conversion_score": 36,
     "strengths": [
@@ -2853,13 +2871,15 @@
       "rebuttal": "Ha basically so yeah so rent amount for two BHK in that locality abou 25 thousand the basic the applicable plan the super plan sir where you will get 15% discount on that."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS14577": {
     "employee_id": "NBTS14577",
     "name": "Shaik Samreena",
     "n_live_calls": 223,
-    "rpl": 574.08,
+    "rpl": 593.0,
     "rpl_rank": 11,
     "overall_score": 56,
     "call_score": 71,
@@ -3232,16 +3252,18 @@
         "score": 62
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS26420": {
     "employee_id": "NBTS26420",
     "name": "Jennifer A",
     "n_live_calls": 185,
-    "rpl": 573.99,
-    "rpl_rank": 12,
+    "rpl": 666.0,
+    "rpl_rank": 7,
     "overall_score": 85,
-    "call_score": 69,
+    "call_score": 78,
     "conversation_quality": 80,
     "conversion_score": 90,
     "strengths": [
@@ -3534,13 +3556,15 @@
         "score": 62
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400804": {
     "employee_id": "NBTSC400804",
     "name": "Chandrashekhar",
     "n_live_calls": 335,
-    "rpl": 565.69,
+    "rpl": 576.0,
     "rpl_rank": 13,
     "overall_score": 83,
     "call_score": 67,
@@ -4012,16 +4036,18 @@
         "score": 63
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS44026": {
     "employee_id": "NBTS44026",
     "name": "P.chandana",
     "n_live_calls": 187,
-    "rpl": 563.52,
-    "rpl_rank": 14,
+    "rpl": 691.0,
+    "rpl_rank": 5,
     "overall_score": 62,
-    "call_score": 65,
+    "call_score": 82,
     "conversation_quality": 74,
     "conversion_score": 49,
     "strengths": [
@@ -4226,16 +4252,18 @@
         "score": 56
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400994": {
     "employee_id": "NBTSC400994",
     "name": "Prajwal P R",
     "n_live_calls": 320,
-    "rpl": 552.56,
-    "rpl_rank": 15,
+    "rpl": 406.0,
+    "rpl_rank": 23,
     "overall_score": 66,
-    "call_score": 63,
+    "call_score": 49,
     "conversation_quality": 54,
     "conversion_score": 79,
     "strengths": [
@@ -4790,16 +4818,18 @@
         "score": 50
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400669": {
     "employee_id": "NBTSC400669",
     "name": "Vijay Pratap Singh",
     "n_live_calls": 294,
-    "rpl": 541.86,
-    "rpl_rank": 16,
+    "rpl": 544.0,
+    "rpl_rank": 17,
     "overall_score": 16,
-    "call_score": 62,
+    "call_score": 60,
     "conversation_quality": 14,
     "conversion_score": 17,
     "strengths": [
@@ -5288,16 +5318,18 @@
         "score": 46
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS35806": {
     "employee_id": "NBTS35806",
     "name": "Priya K",
     "n_live_calls": 197,
-    "rpl": 523.39,
-    "rpl_rank": 17,
+    "rpl": 649.0,
+    "rpl_rank": 9,
     "overall_score": 48,
-    "call_score": 60,
+    "call_score": 74,
     "conversation_quality": 23,
     "conversion_score": 73,
     "strengths": [
@@ -5593,16 +5625,18 @@
       "rebuttal": "You have this experience, but now it is not like that right. Every time there is a service. That will not be same."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS24094": {
     "employee_id": "NBTS24094",
     "name": "Divya Ram Jadhav",
     "n_live_calls": 203,
-    "rpl": 471.46,
-    "rpl_rank": 18,
+    "rpl": 663.0,
+    "rpl_rank": 8,
     "overall_score": 92,
-    "call_score": 58,
+    "call_score": 76,
     "conversation_quality": 89,
     "conversion_score": 94,
     "strengths": [
@@ -5826,16 +5860,18 @@
         "score": 48
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS40448": {
     "employee_id": "NBTS40448",
     "name": "SUNIL KUMARCH",
     "n_live_calls": 198,
-    "rpl": 458.57,
-    "rpl_rank": 19,
+    "rpl": 417.0,
+    "rpl_rank": 22,
     "overall_score": 52,
-    "call_score": 56,
+    "call_score": 51,
     "conversation_quality": 26,
     "conversion_score": 77,
     "strengths": [
@@ -6114,16 +6150,18 @@
         "score": 60
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400946": {
     "employee_id": "NBTSC400946",
     "name": "Bhavitha A",
     "n_live_calls": 318,
-    "rpl": 447.89,
-    "rpl_rank": 20,
+    "rpl": 548.0,
+    "rpl_rank": 16,
     "overall_score": 54,
-    "call_score": 54,
+    "call_score": 62,
     "conversation_quality": 40,
     "conversion_score": 69,
     "strengths": [
@@ -6596,13 +6634,15 @@
         "score": 54
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS27511": {
     "employee_id": "NBTS27511",
     "name": "Abhishek K",
     "n_live_calls": 190,
-    "rpl": 432.82,
+    "rpl": 452.0,
     "rpl_rank": 21,
     "overall_score": 48,
     "call_score": 52,
@@ -6950,16 +6990,18 @@
         "score": 50
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS15547": {
     "employee_id": "NBTS15547",
     "name": "Syed Ibrahim",
     "n_live_calls": 117,
-    "rpl": 419.47,
-    "rpl_rank": 22,
+    "rpl": 363.0,
+    "rpl_rank": 25,
     "overall_score": 94,
-    "call_score": 51,
+    "call_score": 45,
     "conversation_quality": 100,
     "conversion_score": 89,
     "strengths": [
@@ -7111,16 +7153,18 @@
       "rebuttal": "Ok, but free listing mein hamare pass koi enquiryya interactions nahi aata, sir, but being free listing pe wait karenge. So aap day by day interactions wagera loss karte rahenge, right uske related agar aap services."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS35805": {
     "employee_id": "NBTS35805",
     "name": "BS Bhagyalakshmi",
     "n_live_calls": 193,
-    "rpl": 411.29,
-    "rpl_rank": 23,
+    "rpl": 558.0,
+    "rpl_rank": 14,
     "overall_score": 86,
-    "call_score": 49,
+    "call_score": 65,
     "conversation_quality": 91,
     "conversion_score": 81,
     "strengths": [
@@ -7358,16 +7402,18 @@
         "score": 62
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSA304976": {
     "employee_id": "NBTSA304976",
     "name": "Anshika Dubey",
     "n_live_calls": 133,
     "rpl": 334.79,
-    "rpl_rank": 24,
+    "rpl_rank": 28,
     "overall_score": 79,
-    "call_score": 47,
+    "call_score": 40,
     "conversation_quality": 97,
     "conversion_score": 61,
     "strengths": [
@@ -7567,16 +7613,18 @@
       "rebuttal": "Ah sir, kam amount ho sakta hain sir, lekin uss kam amount mein sir aapko phir vo jo dikhate hain na, field matlab jo."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS44216": {
     "employee_id": "NBTS44216",
     "name": "Srinivasan N",
     "n_live_calls": 188,
     "rpl": 331.09,
-    "rpl_rank": 25,
+    "rpl_rank": 29,
     "overall_score": 20,
-    "call_score": 45,
+    "call_score": 38,
     "conversation_quality": 31,
     "conversion_score": 9,
     "strengths": [
@@ -7896,16 +7944,18 @@
       "rebuttal": "Sir, in free listing, you will be having minimum interaction from the tenant side, sir. Because intergasing, what will happen? There are many properties posting in our NoBroker website hardly 4,500 properties will be posted in one day. Sir, what will happen on that time? Your property will automatically. getting into down down pages, ma'am."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS42531": {
     "employee_id": "NBTS42531",
     "name": "Suthikshan",
     "n_live_calls": 209,
-    "rpl": 328.57,
-    "rpl_rank": 26,
+    "rpl": 294.0,
+    "rpl_rank": 30,
     "overall_score": 68,
-    "call_score": 43,
+    "call_score": 36,
     "conversation_quality": 80,
     "conversion_score": 56,
     "strengths": [
@@ -8177,16 +8227,18 @@
       "rebuttal": "I will tell you, sir. I will tell you basically in that. Ah, free listing what happened? Mean day by day, many customers, adding their properties in NoBroker website. So, your property automatically get pushed down so that you should not enough more visibility from the potential tenants right. And we are also not getting any access to actively working on it in the free listing property. If any tenants' showing, they're interested, mean they will be directly reach out to you, but there are some limitation is there. Tenant can able to see only 9 owner contacts only. After there, they will go out. In that paid services in the sense. We will provide the tenants to you. They are also already taken a services from our side. You going to take a services from our side, but after like, before, they are taking a services. Like, we will provide the tenants to you na?"
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400614": {
     "employee_id": "NBTSC400614",
     "name": "Ashfak singanamala",
     "n_live_calls": 258,
-    "rpl": 327.34,
-    "rpl_rank": 27,
+    "rpl": 366.0,
+    "rpl_rank": 24,
     "overall_score": 58,
-    "call_score": 41,
+    "call_score": 47,
     "conversation_quality": 66,
     "conversion_score": 50,
     "strengths": [
@@ -8511,16 +8563,18 @@
         "score": 67
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400396": {
     "employee_id": "NBTSC400396",
     "name": "Abhinethri CT",
     "n_live_calls": 224,
-    "rpl": 322.15,
-    "rpl_rank": 28,
+    "rpl": 343.0,
+    "rpl_rank": 26,
     "overall_score": 28,
-    "call_score": 40,
+    "call_score": 43,
     "conversation_quality": 6,
     "conversion_score": 49,
     "strengths": [
@@ -8906,16 +8960,18 @@
         "score": 48
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS42035": {
     "employee_id": "NBTS42035",
     "name": "Bhoomika",
     "n_live_calls": 352,
-    "rpl": 311.6,
-    "rpl_rank": 29,
+    "rpl": 512.0,
+    "rpl_rank": 19,
     "overall_score": 15,
-    "call_score": 38,
+    "call_score": 56,
     "conversation_quality": 11,
     "conversion_score": 19,
     "strengths": [
@@ -9534,16 +9590,18 @@
         "score": 44
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS44025": {
     "employee_id": "NBTS44025",
     "name": "B. poornima",
     "n_live_calls": 346,
-    "rpl": 281.71,
-    "rpl_rank": 30,
+    "rpl": 339.0,
+    "rpl_rank": 27,
     "overall_score": 24,
-    "call_score": 36,
+    "call_score": 41,
     "conversation_quality": 20,
     "conversion_score": 29,
     "strengths": [
@@ -10093,16 +10151,18 @@
         "score": 60
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC400665": {
     "employee_id": "NBTSC400665",
     "name": "Gandikota Tejrajsingh",
     "n_live_calls": 319,
-    "rpl": 255.48,
-    "rpl_rank": 31,
+    "rpl": 243.0,
+    "rpl_rank": 32,
     "overall_score": 51,
-    "call_score": 34,
+    "call_score": 32,
     "conversation_quality": 69,
     "conversion_score": 33,
     "strengths": [
@@ -10566,16 +10626,18 @@
       "rebuttal": "Lekin free listing mein 2 interaction kam rahega mam."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTS43779": {
     "employee_id": "NBTS43779",
     "name": "Biswajit Behera",
     "n_live_calls": 152,
-    "rpl": 226.39,
-    "rpl_rank": 32,
+    "rpl": 250.0,
+    "rpl_rank": 31,
     "overall_score": 26,
-    "call_score": 32,
+    "call_score": 34,
     "conversation_quality": 49,
     "conversion_score": 4,
     "strengths": [
@@ -10859,16 +10921,18 @@
       "rebuttal": "No, no, no, the thing is that our service charges fix for any rental range if you rent is 10 thousa 30,000. The service charges will be the same if you rent is 1 lakh also."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSA305094": {
     "employee_id": "NBTSA305094",
     "name": "Amrin Sowdagar",
     "n_live_calls": 186,
     "rpl": 186.76,
-    "rpl_rank": 33,
+    "rpl_rank": 34,
     "overall_score": 0,
-    "call_score": 30,
+    "call_score": 29,
     "conversation_quality": 0,
     "conversion_score": 1,
     "strengths": [
@@ -11329,16 +11393,18 @@
       "rebuttal": "Ha sir, aap property dikhane ke liye available hain na sir? Ha theek hain tho dekhiye sir aap relationship manager ke 7 jana chate tho aapka k matlab refund kar dete sir ham paisa vapas kar dete hain matlab 60 days ke andar ek bhi tenant hamka dhoondka nahi dete hain tho vapas kardete"
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSA304465": {
     "employee_id": "NBTSA304465",
     "name": "Priya",
     "n_live_calls": 236,
-    "rpl": 144.86,
-    "rpl_rank": 34,
+    "rpl": 218.0,
+    "rpl_rank": 33,
     "overall_score": 72,
-    "call_score": 29,
+    "call_score": 30,
     "conversation_quality": 94,
     "conversion_score": 50,
     "strengths": [
@@ -11723,7 +11789,9 @@
         "score": 63
       }
     ],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "latest_update",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSA305152": {
     "employee_id": "NBTSA305152",
@@ -11794,7 +11862,9 @@
       "rebuttal": "Free nahi free mein bhi aajate sir aisa kuch nahi but price jata leta hain sir aapko sabse kam wala plan chahiye tho mein directly bata sakta hun do hazaar theen sau saath rupaye ek plan hain."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   },
   "NBTSC401067": {
     "employee_id": "NBTSC401067",
@@ -12174,6 +12244,8 @@
       "rebuttal": "Ah, may I know the reason, sir, because enquiries are going good. Okay, understood sir, but if you go with the service means, we can easily rent out this sir."
     },
     "daily_trend": [],
-    "team_size": 36
+    "team_size": 36,
+    "rpl_source": "carried_forward",
+    "data_updated_on": "2026-07-13"
   }
 }
