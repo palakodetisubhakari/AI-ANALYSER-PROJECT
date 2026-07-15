@@ -267,7 +267,80 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "2da3cc9c-61b0-428b-94e8-c965456c1b40",
+        "user_id": "8a9f829f6feb7a21016feec6a08b03f6",
+        "signal": "what is the super relax",
+        "reason": "Owner asked about plan details, price, and confirmed payment after initial hesitation.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "3452fc21-aa25-44bb-9299-2d0b91d350f3",
+        "user_id": "ff80818168041f1001680460d50a1e6b",
+        "signal": "I don't mind paying",
+        "reason": "Owner wants listing active, willing to pay, and discusses plan details and activation.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "8d131998-782b-4fe8-a180-30ac20b78b7f",
+        "user_id": "8a9fcf82834f68e901834ffd1f320e91",
+        "signal": "Yes, correct, yes.",
+        "reason": "Owner explicitly stated they would proceed with the plan after address correction and asked about payment and plan details.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "cef51867-505e-4d71-9cc4-d1dc8ba6fdcc",
+        "user_id": "8aa9bc1e9ee83de5019ee8823eb81553",
+        "signal": "It is necessary to go with the plan.",
+        "reason": "Owner asks about plan necessity, price, guarantee, discount, and payment timing, indicating commercial interest.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "d91c07a2-f151-4616-af04-90066fffd7f4",
+        "user_id": "8a9f93827a46812e017a4714593a522f",
+        "signal": "direct neevu enadru without commissions madoda andre heli heltini",
+        "reason": "Owner explicitly stated they need tenants and are looking for a no-commission option.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "dcee2b0d-9439-4fde-979c-c065cffd95e4",
+        "user_id": "ff80818157be6a9c0157c37ce94e3088",
+        "signal": "Adha adu masam irukulingla Padi masam extend anchina enaku velof thane adhudha nanu kekure",
+        "reason": "Owner asks about plan validity, extension, and assurance for tenant arrival.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "f492eb20-12d6-4885-892a-e49f4cef5e67",
+        "user_id": "ff80818153ccd7a70153d1070dca245a",
+        "signal": "And you are offering some discount na on this price.",
+        "reason": "Owner asked about discount, payment, terms, and confirmed payment. Property is vacant.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "363197e1-b2f2-48da-ba98-c14cb6efc07f",
+        "user_id": "8a9fb182786f4a4001786f967db7118a",
+        "signal": "what is the amount for pay me",
+        "reason": "Owner asked about amount to pay and plan details, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "424c38f0-1d47-4f66-9bad-17bd9f88fe0e",
+        "user_id": "8a9fc1827e5c8cd5017e5cec14012d14",
+        "signal": "How much passages",
+        "reason": "Owner asked about package costs and details, showing commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "954c346e-f15c-415d-99c7-1b1f0a3c23b9",
+        "user_id": "8aa9bb3c9d1ec347019d1f6a6a004dd5",
+        "signal": "Ah a randam en achiventanu",
+        "reason": "Owner asked about plan details and expressed interest in activating it for better responses and guaranteed service.",
+        "date": "2026-07-01"
+      }
+    ],
+    "high_intent_leads_total": 10
   },
   "NBTSC400668": {
     "employee_id": "NBTSC400668",
@@ -658,7 +731,185 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "0bfc5899-b930-4c6a-ade2-8d718ad209fa",
+        "user_id": "8a9f97827a1a5249017a1aa14c6721d7",
+        "signal": "main dekhta hu",
+        "reason": "Owner asks about plan cost, discount, and how it works on the app, and mentions checking with society members.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "1c5cf200-dc83-4113-ae64-913aa2d96cfb",
+        "user_id": "8a9fe08389e785dc0189e7da29081783",
+        "signal": "payment is done",
+        "reason": "Owner confirmed payment and asked about previous interested parties showing interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "2cd59447-47bc-4a29-87f9-a0a4bfa36892",
+        "user_id": "8a9ffb8287b5f0f40187b658558712d3",
+        "signal": "Ok, I will discuss with my wife",
+        "reason": "Owner asked about plan details, cost, and discount, and agreed to discuss with wife for confirmation.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "69e95d1e-627e-4602-a0c1-6f6faf74cb92",
+        "user_id": "8a9f81887d9fd13a017da2c63a202e8b",
+        "signal": "I thought of again requesting from NoBroker.",
+        "reason": "Owner wants to list a vacant 1 BHK and asks about the process and plan.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "6dbb7359-4b94-4bf5-a7a1-0cae10d2b701",
+        "user_id": "8a9f9343752b13da01752b17c5cb015f",
+        "signal": "Pay madode ida",
+        "reason": "Owner asked about plan, confirmed payment, and initiated payment process for two properties.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "824f38ed-d1c9-4b77-a0be-766bec41b491",
+        "user_id": "ff808181611da17a01611e12c50e398d",
+        "signal": "Nahi aisa nahi kiya main contact",
+        "reason": "Owner confirmed property availability and asked about the plan details.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "85d370d4-4687-4325-8996-b2e687f84cd9",
+        "user_id": "8a9fb6827d0382cc017d03e8ac794665",
+        "signal": "I will make the payment",
+        "reason": "Owner inquired about plans, pricing, discounts, and validity, and agreed to make payment.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "88c08b66-1022-4ed3-81a2-00f1b035106d",
+        "user_id": "8a9fbf828193e17201819460f83d4fb7",
+        "signal": "Ismein guarantee kitna ismein guarantee kitna rehta hai?",
+        "reason": "Owner asked about plans, refundable options, pricing, discounts, and guarantee. Also asked for a callback with a link.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "b5ce6305-cd93-47bc-8237-85fb1d87c367",
+        "user_id": "8a9f880b8f3db18e018f3dfee9f22643",
+        "signal": "4,000 10 rupees kitna bataya aapne",
+        "reason": "Owner asked about plan cost, validity, and how to proceed, indicating commercial interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "d4cd00b3-ebfc-41a4-b81b-548336a5d4b0",
+        "user_id": "ff80818165924b0f016592eb74b607c5",
+        "signal": "what is this plan offers",
+        "reason": "Owner confirmed property availability and asked for plan details and differences from default plan.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "eedf3e56-cf5a-4546-9989-7fbf064eea88",
+        "user_id": "8a9ffb848a993057018a9947b8d50d9f",
+        "signal": "send me the link",
+        "reason": "Owner asks about final price, including GST, and requests a payment link to proceed.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "26599462-fe62-4b6f-be82-2486950e2b92",
+        "user_id": "8a9f9d8279ff0b780179ff52208a2735",
+        "signal": "Kuch package lena padtaha kya uske liye?",
+        "reason": "Owner asked about package cost, plan validity, and refund policy, indicating commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "480e38a7-55ff-46fb-8c8e-d68c0780355e",
+        "user_id": "8a9f911a73bebbdf0173bf174bdf29c4",
+        "signal": "What is the discount?",
+        "reason": "Owner actively inquired about pricing, discounts, payment terms, and plan details, showing strong commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "55ab9e08-9999-4ef8-a8e1-89600f4ff23c",
+        "user_id": "ff8081816ce328ef016ce4222d9a2f26",
+        "signal": "this weekend I will do the subscription",
+        "reason": "Owner stated they will do subscription this weekend and asked about discount and managers.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "85af30a4-4af6-4229-bdcd-efe37aceaad7",
+        "user_id": "8aa9bb609ef7b085019ef875ff025728",
+        "signal": "can you give me a discount",
+        "reason": "Owner asked about discounts, plan details, payment, and confirmed purchase after clarification.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "91d3e471-f1c8-4885-90b1-4404b2ed5748",
+        "user_id": "8a9fc782826d95ae01826dfec4ef4ab4",
+        "signal": "Ha ok mam.",
+        "reason": "Owner asked about lease amount, plan details, and confirmed activation.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "a47f0da1-2620-47be-bd2a-d63d0101e780",
+        "user_id": "ff80818157a380eb0157a3cb63960c8a",
+        "signal": "I want to take that subscription",
+        "reason": "Owner explicitly stated intent to buy premium subscription, asked about discount, and requested the payment link.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "be482af8-c2e2-4688-9c93-ea8fb07d7441",
+        "user_id": "ff8081816f17cda0016f194f16d5133d",
+        "signal": "12 1 baje tak main kara deti hun",
+        "reason": "Owner asks about payment, amount, and confirms they will make the payment within a specific time.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "f68ba280-24b3-43c5-8d8a-10decc4f9a13",
+        "user_id": "8a9f90836f999220016fa2f7d8017237",
+        "signal": "then I will do that fine",
+        "reason": "Owner asked about payment, how to proceed, and confirmed they will do the payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "078de820-f27a-4114-9c2d-d8561538a9ff",
+        "user_id": "8a9ff68384d2536e0184de56938b12a2",
+        "signal": "Looking for something like that.",
+        "reason": "Owner asked about plan details and expressed interest in closing the deal.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "1200c118-a24a-4bbd-89a9-9c5ad72eddd0",
+        "user_id": "ff8081814f65c3e0014f6849dc0b06ca",
+        "signal": "I am ready to activate it.",
+        "reason": "Owner agreed to activate service, asked about payment, and confirmed payment.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "2bce45c5-f0d5-4e4a-8fe8-b9b4fbe284ca",
+        "user_id": "8a9f8ac38e6e6a7b018e6e94a0ed0de7",
+        "signal": "I am paying it.",
+        "reason": "Owner confirms payment and asks about RM details, showing clear intent to proceed with service.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "4ea4e688-8e2a-43b3-afa8-ce25f25eafc0",
+        "user_id": "8a9fe68285afbbf30185b024e27347c0",
+        "signal": "Vohi leni leni wa la mein 6,000 dalke",
+        "reason": "Owner asked about plan cost, discount, and confirmed they want the 6000 plan.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "8e7842ec-7906-4f4d-8891-3a0905a512e3",
+        "user_id": "8a9f911a73bebbdf0173bf174bdf29c4",
+        "signal": "I will close it",
+        "reason": "Owner wants to close by a specific date, asks for best pricing, and confirms payment timeline.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "cbd095da-5589-452b-9ba3-95d64995f844",
+        "user_id": "8a9fab8276842697017684c93aed3925",
+        "signal": "Koncham faster ga chudandi",
+        "reason": "Owner wants faster tenant search, extension due to travel, and complains about past service.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 25
   },
   "NBTS16898": {
     "employee_id": "NBTS16898",
@@ -964,7 +1215,122 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "2c8ec5af-4b15-43f3-9bd6-b2002b9dc659",
+        "user_id": "ff8081816d4461c2016d44b0c4552d8b",
+        "signal": "Uske charges denge.",
+        "reason": "Owner asked about charges, plan details, and confirmed availability for renting.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "90764c50-f4b6-4d9c-a205-78e9a0673cc2",
+        "user_id": "8a9fbc827ccccb7c017ccf85265d7560",
+        "signal": "What was the problem of that super relax",
+        "reason": "Owner asks about plan details, payment, and expresses specific tenant preferences, indicating strong commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "b7e6e7c0-bd8d-477c-bb65-1d747dc93852",
+        "user_id": "8a9f8b438d0ae606018d0b81210b2d9e",
+        "signal": "koi bhi response nahi hain",
+        "reason": "Owner explicitly stated property is available and has received no response, indicating a need for renting help.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "ba895289-8a6f-498b-89e0-7574cf75db62",
+        "user_id": "ff80818158ca61f90158ce52e5804beb",
+        "signal": "what is the package you have",
+        "reason": "Owner asked about package, cost, and how the plan works, showing clear commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "20ff4756-77d3-460f-888b-f404c5f285cf",
+        "user_id": "ff8081815fdc7421015fdecb05661ec6",
+        "signal": "Change karne ka 1 BHK karne ka",
+        "reason": "Owner explicitly wants to change property type from 1 RK to 1 BHK and asks for a callback to discuss.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "3a1c7093-0a17-467b-8b56-26accea936ee",
+        "user_id": "ff808181624c8abe01624caade120a99",
+        "signal": "what all things are included",
+        "reason": "Owner asked about plan inclusions, photo shoot, agent access, tenant timeline, and payment, indicating strong commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "50373ffa-ac0e-4905-abcf-42b94d156423",
+        "user_id": "8a9f85838d3e6563018d3f7eb8061603",
+        "signal": "would like to leven to another",
+        "reason": "Owner inquires about plan details, upgradation costs, and asks for a callback to discuss with husband.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "7c7c8bfc-7803-495a-8dcb-c1a8b095962f",
+        "user_id": "8a9fc6838a217608018a21a157ab2719",
+        "signal": "unka charges wagera aapko hote hain na?",
+        "reason": "Owner asked about charges, plan details, and payment, indicating commercial interest. Property is also vacant.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b5d43476-b120-4d2d-9889-3afc1f3ba68c",
+        "user_id": "8aa98d099cdb475a019cdc039b505ff4",
+        "signal": "what is it guarantee",
+        "reason": "Owner asked about money back policy, rent expectation, and how the plan works, indicating commercial interest.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "c8365347-00f4-4c42-bd64-a9a5a8c30dda",
+        "user_id": "ff808181578a793d01578a89f66f0371",
+        "signal": "only 1 is active rest all is occupied only 1 House is vacant",
+        "reason": "Owner explicitly stated property is vacant and needs attention on the website to list it.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "105866ec-9c77-4252-9fe2-d7f6696fea6e",
+        "user_id": "ff8081816e59267d016e597292993ed8",
+        "signal": "Tho activate nahi ho raha hain",
+        "reason": "Owner asks about activation, response quality, and how to get the property active, indicating commercial interest.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "211fd8d7-111c-42c9-a194-7959f706cd6f",
+        "user_id": "ff8081815e5b632a015e5bb8476842c8",
+        "signal": "So, what can I do for that?",
+        "reason": "Owner asked about what they can do for promotion and how the plan works.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "713013fd-1b92-45c2-9457-9597a9d5eb50",
+        "user_id": "8a9f9a827849f45c01784a2369841447",
+        "signal": "Ha liya hua hain",
+        "reason": "Owner confirmed property sale, asked about plan details, and stated they already have a plan.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "7d07369c-dd20-49b8-b09c-9c4a8a15ad36",
+        "user_id": "8a9f928474c49acc0174c526919331dd",
+        "signal": "plan option vagera check karo the na",
+        "reason": "Owner asked about plan options, price, and confirmed property availability for showing.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "9d6038b8-8f08-4098-9332-d1b00fac6640",
+        "user_id": "8a9f81827d516698017d51b6a32a336d",
+        "signal": "What is the guarantee",
+        "reason": "Owner inquired about plan details, guarantees, and refunds, and asked for callback to decide.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "bc1fcd6e-a876-4e4d-b915-a81ea71c00b5",
+        "user_id": "8a9f8bc392226a47019222ad89f015f4",
+        "signal": "aapka payment link bhejwa dijiye na",
+        "reason": "Owner directly asks for payment link and discusses commission structure, indicating strong intent to proceed.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 16
   },
   "NBTS21671": {
     "employee_id": "NBTS21671",
@@ -1203,7 +1569,129 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "0a10c63d-724a-474e-af2e-e9366fa1a510",
+        "user_id": "8a9f9392747c079501747c937ff2479c",
+        "signal": "Can you send me the payment structure.",
+        "reason": "Owner asked about payment structure, premium cost, and requested details via WhatsApp/email.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "a376001d-4142-427b-b111-c7dbb9dce7c8",
+        "user_id": "8a9fb0827ba1750c017ba216ced03f43",
+        "signal": "Not the charges, you are making charges na?",
+        "reason": "Owner asked about charges, plan, and price, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "bb0a01be-e11e-4c17-af9f-d448a5337b72",
+        "user_id": "8a9f8f03914189c30191419a72bb06fe",
+        "signal": "what are the charges",
+        "reason": "Owner asked about charges, plan details, and requested details for a specific amount.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "de436962-be9e-4609-b3fe-91383b740ad4",
+        "user_id": "ff8081816ef48c30016efe13f045051f",
+        "signal": "payment kar dunga",
+        "reason": "Owner asked about charges, plan validity, and agreed to a callback for payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "0af8fa11-f3f5-4f50-a6cd-39980753d75d",
+        "user_id": "8a9fcf828611c707018611edc82d1912",
+        "signal": "I wanted to take a plan.",
+        "reason": "Owner wants to convert tenant plan to owner plan, needs property shown, and specifies tenant type.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "1a067b26-eb14-453f-a917-faf458897c26",
+        "user_id": "8a9fb6827e9532f1017e95b783b06902",
+        "signal": "how much charges",
+        "reason": "Owner asked about charges, how much charges, and discussed plan cost after discount.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "3680f7a1-954e-4b22-9282-7d0593058036",
+        "user_id": "8aa9b8109a9a7f25019a9aeadc103480",
+        "signal": "Isko karvavu",
+        "reason": "Owner asked about paid services and how to rent out the property.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "6b8a85a1-6ea4-4ac0-9faa-dbef6f33040b",
+        "user_id": "ff808181620b1f3701620c22075c3315",
+        "signal": "how much is the percentage",
+        "reason": "Owner asks about plan details, payment, refund, and tenant process, showing clear commercial interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "03400939-9182-4a3d-92a2-8a2957e804a4",
+        "user_id": "8aa99a7c9ea0243a019ea0ecd78660f1",
+        "signal": "What will be the service charge for that.",
+        "reason": "Owner asked about service charges, priority, payment, refund, and how the plan works.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "3ed549fb-a50d-4198-8913-c0820a36a1f4",
+        "user_id": "ff8081814e5cc5af014e61f7d8bc2bd1",
+        "signal": "buying the plan",
+        "reason": "Owner is asking about plan details, payment timing, and expresses need for tenants after a specific period.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "6b0d586b-df82-4fc5-96c2-93d2787c0c32",
+        "user_id": "ff808181620b1f3701620c22075c3315",
+        "signal": "Ok, money back policy within 2 months.",
+        "reason": "Owner asked about plan details, refund conditions, and payment, and agreed to proceed with the money-back policy.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "81cec0c6-7983-49fa-a43a-09bf5131c6bb",
+        "user_id": "8a9fc7448d5ae23e018d5e520d7830d3",
+        "signal": "I have paid it.",
+        "reason": "Owner asked about plan details, pricing, discounts, rental agreement, and confirmed payment.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "8cc9f416-338a-4914-8de9-64a227c77b61",
+        "user_id": "ff808181620b1f3701620c22075c3315",
+        "signal": "And payment link also you send.",
+        "reason": "Owner asked for payment link and confirmed they will initiate payment and check from today.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "9df4aab9-c6e1-4c1d-b439-3790c43bfac6",
+        "user_id": "ff808181620144ef0162042361aa4422",
+        "signal": "lowest final per month charges",
+        "reason": "Owner directly asked about lowest final charges, indicating commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "a07983cc-d053-4eae-9e9c-b7b94ad57a07",
+        "user_id": "8a9f8b4393bbd3b40193bbe860630348",
+        "signal": "what is the guarantee",
+        "reason": "Owner inquired about plan validity, guarantee, and requested email with details and best price.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "ac55ce11-ff56-47b3-8ed3-81558bddca98",
+        "user_id": "8a9fe28489f324a70189f3c8f2b00435",
+        "signal": "I have taken that already",
+        "reason": "Owner confirmed they have already taken the money-back guaranteed service.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "d250bfcb-62a8-44a2-b580-a1cfb7c68884",
+        "user_id": "8a9f98827c3628d3017c36691c342525",
+        "signal": "I would like to go for the service.",
+        "reason": "Owner actively asked about plans, payment, and agreed to purchase the Super Relax plan.",
+        "date": "2026-07-07"
+      }
+    ],
+    "high_intent_leads_total": 17
   },
   "NBTS44223": {
     "employee_id": "NBTS44223",
@@ -1534,7 +2022,73 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "0f430aa5-1582-48c8-9a40-27729fc2ee9f",
+        "user_id": "8a9f91e673a921c60173abbd2d7f61eb",
+        "signal": "Theek hain we can go",
+        "reason": "Owner inquired about plan costs, services, and agreed to start from Monday.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "2487378e-86d4-49ed-bc42-4c9ecb7efc94",
+        "user_id": "ff808181565ed10b01566502976f671c",
+        "signal": "nenga apply pannidungala",
+        "reason": "Owner explicitly asked for NoBroker to find tenants and mentioned paying for services.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "53b4fb8c-0cfb-43df-80b4-fa911704ee8a",
+        "user_id": "ff80818160167275016016b24c6022be",
+        "signal": "Can you WhatsApp me this plan",
+        "reason": "Owner inquired about both plans, their costs, and asked for details to be WhatsApped.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "7a3de5cd-81dc-4c59-bf10-08217ec842ce",
+        "user_id": "8aa9d5479dd2261b019dd2d5cb7e4e64",
+        "signal": "4,000 10 rupees charges hain",
+        "reason": "Owner actively discussed plan details, pricing, validity, and asked about what happens if property is not rented out within the timeframe.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "b7bc4ae3-06a5-4a16-856a-834b9b67f02c",
+        "user_id": "8a9fd1828132ad4d01813321188b61cd",
+        "signal": "Abh bahut hain.",
+        "reason": "Owner wants to rent out, asks about premium service cost, and property is available.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "bb56a2b3-373b-441d-b832-16440db3c72f",
+        "user_id": "8a9faf8278abcd520178ac30f2e51fbd",
+        "signal": "Ok sure sure sure ok",
+        "reason": "Owner discussed rent, deposit, negotiation, tenant preference, maintenance, and asked about service details and callback timing.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "d71d1a62-cabe-4a05-b6c4-5844c0285972",
+        "user_id": "8aa9b5719f20e37d019f2137d0cf2141",
+        "signal": "Enna kekuringana serilingle",
+        "reason": "Owner asked about negotiation, confirmed family preference, and agreed to a callback for discussion.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "fd32569d-283f-4f8d-8778-a1bea07acfde",
+        "user_id": "ff8081815df539bc015dfa084bac6b52",
+        "signal": "what is the amount",
+        "reason": "Owner asked detailed questions about pricing, plans, discounts, and refund conditions, indicating strong commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "77387ec2-9034-45b7-a49a-a4a51b6b2a3c",
+        "user_id": "ff808181565ed10b01566502976f671c",
+        "signal": "ungaluku pay panni viture",
+        "reason": "Owner asked about plan cost, duration, and requested to pay after an hour.",
+        "date": "2026-07-05"
+      }
+    ],
+    "high_intent_leads_total": 9
   },
   "NBTS40957": {
     "employee_id": "NBTS40957",
@@ -1875,7 +2429,101 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "285a4603-85c5-4cd1-b396-feb62610b6a3",
+        "user_id": "8aa9ae8d9cc3aca3019cc3d5230a0a59",
+        "signal": "Aapka offer kya hai?",
+        "reason": "Owner asked about the offer and plan details, indicating commercial interest.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "74243fb3-cd36-475e-bdbb-011a295c2e04",
+        "user_id": "8a9fa98277aa4e830177aa7a41c212e5",
+        "signal": "You send me the link.",
+        "reason": "Owner asked for payment link and expressed intent to pay for a plan.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "a21ceba1-8184-497d-b655-04aa3e994e2b",
+        "user_id": "ff808181690f5b9401690fb680142abf",
+        "signal": "what is the amount",
+        "reason": "Owner asks about payment, discount, plan details, and how to proceed.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "eb5c117e-2989-4db1-8199-b994492baf3d",
+        "user_id": "ff8081816e88efae016e890f85cf15bb",
+        "signal": "Okay, what is the charges?",
+        "reason": "Owner asked about plan charges, compared plans, and agreed to consider after a week if no calls received.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "ebdc707c-2c96-44b5-b349-4085bf8deef5",
+        "user_id": "ff8081814f3a5d61014f3af4ae600496",
+        "signal": "how exactly it works",
+        "reason": "Owner asked detailed questions about plan mechanics, refund process, and activation, indicating strong commercial interest.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "532d2072-0dff-46ed-82d0-1bb5acbf85b8",
+        "user_id": "8a9f849270774b0b01707a4d699801af",
+        "signal": "Sommarku sommarku",
+        "reason": "Owner asked about payment, guarantee, and activation process, and agreed to receive a payment link.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "63e13cf7-ea30-4000-abf3-f3169ae09291",
+        "user_id": "8a9fb9827d4b9b8d017d4bf01a542f5d",
+        "signal": "what's charges?",
+        "reason": "Owner asked about charges, different plans, discounts, and guarantees, indicating commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "90e33b66-9dfa-4de0-b2d6-c42fd2cc35fa",
+        "user_id": "ff808181514866a70151487ddab9014e",
+        "signal": "I am going for that plan",
+        "reason": "Owner agreed to plan, asked about cost, and confirmed payment timing.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "cbd1115f-b903-4eb5-980f-c8b2b76ad486",
+        "user_id": "8a9f8c618e6942bd018e698bbf071aae",
+        "signal": "will do the payment for that",
+        "reason": "Owner asked for terms, conditions, rent agreement support, payment link, and confirmed payment after discount.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "27cbf13a-76e1-4083-96e7-9bd763b2488c",
+        "user_id": "8aa9a9369f260a16019f263434740c76",
+        "signal": "Apne charges kya hain?",
+        "reason": "Owner asked about charges, plan details, and callback time after hearing about services.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "53e20e7a-34a2-4ee2-b8cc-c5c9eceaa190",
+        "user_id": "8a9fa3828711c97d01871200fa97185a",
+        "signal": "waiting for a refund",
+        "reason": "Owner is actively pursuing a refund based on a previous plan's guarantee due to no tenant being finalized.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "909f8111-3f71-4b84-a943-2d01ede4a2d1",
+        "user_id": "8a9f81867099e55001709a4957cf362f",
+        "signal": "I have done the payment.",
+        "reason": "Owner confirmed payment, asked about activation, and inquired about manager's role in property visits.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "bd96960e-429d-4b04-b2cc-faaa9d7b5d81",
+        "user_id": "ff8081814c7f53ed014c7fb495fa017d",
+        "signal": "what is this service",
+        "reason": "Owner immediately asked about service details and charges after agent mentioned limitations of free listing and offered paid services.",
+        "date": "2026-07-11"
+      }
+    ],
+    "high_intent_leads_total": 13
   },
   "NBTS27353": {
     "employee_id": "NBTS27353",
@@ -2025,7 +2673,94 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "23edaf37-cc9c-47a5-9ffa-7ed527161de9",
+        "user_id": "8a9fbf828384321e018384d626685672",
+        "signal": "Ki hamari property mein agar kisi ko interest hain.",
+        "reason": "Owner asked about how to contact interested tenants, benefits of the service, and inquired about plan details and pricing.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "32cfae1f-4525-48b6-a024-bee63cb6bd8c",
+        "user_id": "ff8081816e8c834f016e91885ce24d32",
+        "signal": "only at is after August 15th",
+        "reason": "Owner confirms previous interaction and states a condition for payment, indicating continued interest in the plan.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "91fdf827-f0ca-4dbc-b243-944435569f81",
+        "user_id": "ff80818156f550760156f8ca67a32e90",
+        "signal": "Ok then probably we mayre going for the basic 1",
+        "reason": "Owner actively inquired about plans, pricing, and refund policy, and confirmed intent to proceed with a basic plan.",
+        "date": "2026-07-05"
+      },
+      {
+        "cdr_id": "9ab1e16f-aa6b-4b29-9579-72ec0a640b66",
+        "user_id": "8a9f8ec38e419237018e41fc0f8e5b04",
+        "signal": "Tappu kunda sir tappukunda",
+        "reason": "Owner asked about services and confirmed interest in premium plans.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b89834fe-bd5c-4501-a587-2932eed7b27c",
+        "user_id": "8a9fe682832ab7d801832b5c0cc80b33",
+        "signal": "I have already paid it.",
+        "reason": "Owner confirms payment, asks about shortlisted customer, and discusses property handover timeline.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "3d84841d-c2d1-4ebe-9d7e-b689cbe6cf1b",
+        "user_id": "8a9fad839436907e019436dfb54a1f4d",
+        "signal": "confirm milega tho theek hain",
+        "reason": "Owner asked about payment, guarantee, and how to proceed, and agreed to pay.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "98ba8320-28de-4a63-bb16-fa7615c796fa",
+        "user_id": "ff8081815a473e4e015a4795cc166da2",
+        "signal": "NoBroker helps in getting a tenants",
+        "reason": "Owner explicitly stated they were told NoBroker helps in getting tenants and confirmed it's the agent's job.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "0207ecd6-4fcf-41e6-a0b5-7997ba3281e6",
+        "user_id": "ff8081816ba9cc2a016bac2acbdd6825",
+        "signal": "Aur ok andre nanu nimma hatra idun madkoltini",
+        "reason": "Owner asked about plans, pricing, and agreed to a callback for subscription.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "56f2e534-99fd-4887-bab1-d7a80653efb2",
+        "user_id": "8a9fb0827bf47fc0017bf771b4936a99",
+        "signal": "Elline the tenant for the rented house.",
+        "reason": "Owner explicitly stated need for a tenant and engaged in discussion about previous contact and services.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "7376421c-cb78-455b-8954-a02f00d8f4fb",
+        "user_id": "8aa9b9fa9d96c4b9019d998213c57c06",
+        "signal": "please check me with the discount",
+        "reason": "Owner actively inquired about discounts, payment, and plan details, and negotiated rent and advance. Property is vacant.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "9b311242-3837-496b-a49a-51b8740fd42c",
+        "user_id": "ff8081816c47decb016c48391c1d63f9",
+        "signal": "Nodona iri nam magalu illa horgade hogidale bandmele keltini",
+        "reason": "Owner confirmed property is available, asked about premium plans, and expressed interest in renting it out quickly.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "c7f1457d-499f-4fe8-b3ce-fcfa377e731c",
+        "user_id": "8a9fe682832ab7d801832b5c0cc80b33",
+        "signal": "I want to take up that premium plan.",
+        "reason": "Owner explicitly stated intent to purchase premium plan and asked about payment and discount.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 12
   },
   "NBTS26153": {
     "employee_id": "NBTS26153",
@@ -2217,7 +2952,73 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "48181fdd-9025-4ad6-a69b-79d21c82fe23",
+        "user_id": "8a9f8f926f8f9a50016f93a652e95cdf",
+        "signal": "how much you are telling",
+        "reason": "Owner inquired about plan price, confirmed property details, and asked about proceeding with payment.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "6c2be58f-9332-407d-a075-e7db131ff14c",
+        "user_id": "ff8081816e96ba2a016e9bbf9f9f2283",
+        "signal": "Is there any 100% curity",
+        "reason": "Owner inquired about plan details, refund, and validity, and asked for a callback.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "2cb9910d-88cd-451a-9030-6caa9112277b",
+        "user_id": "ff8081816e6390dd016e6400135c478b",
+        "signal": "Yeah, they can take the key from there.",
+        "reason": "Owner confirmed property is available and asked about tenant showing, indicating readiness to rent.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "7c89111b-a482-4e1e-ad76-638075c1eed2",
+        "user_id": "ff8081816aaa98ff016aabab06fa0d19",
+        "signal": "Are y ismein kuch kam nahi hain",
+        "reason": "Owner inquired about plan details, pricing, and differences between plans, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "a0fb5fae-0bbb-4f62-b5a4-f27403cc2232",
+        "user_id": "8a9f924392f220110192f24e19f30b45",
+        "signal": "I will subscribe.",
+        "reason": "Owner asked about plan details, pricing, differences between plans, and confirmed they will subscribe today.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "ceb153a3-f19d-4ff9-aa44-557483755747",
+        "user_id": "8a9fff8288e17cca0188e1cbded4350b",
+        "signal": "Nahi negotiate kar le",
+        "reason": "Owner asked about negotiation and mentioned having already taken a plan.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "40502672-a4e9-4325-ab6d-755ebae94365",
+        "user_id": "8a9fa9839483d03d019484029310115d",
+        "signal": "I want to sell or otherwise on the rent",
+        "reason": "Owner explicitly stated 'I want to sell or otherwise on the rent' and engaged with plan details.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "5d1b8f74-e710-48d7-b88b-d03f07dfd97f",
+        "user_id": "ff8081815034781f0150362971360200",
+        "signal": "tho aap mujhe batao ki maeinga paid le leta hun tho mujhe kaise pata ki koi contact karega",
+        "reason": "Owner asked about paid plans, how to know if contacts will be made, and inquired about the purchase process.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "7e820e63-3ede-43dd-9896-615b9fc90acf",
+        "user_id": "8a9f8b7d72999a0901729c8a3a7d660a",
+        "signal": "Plan kya hain aapka?",
+        "reason": "Owner asked about plan details, cost, payment, and agreed to pay tomorrow.",
+        "date": "2026-07-08"
+      }
+    ],
+    "high_intent_leads_total": 9
   },
   "NBTSC401040": {
     "employee_id": "NBTSC401040",
@@ -2674,7 +3475,115 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "2d096f13-294d-4761-b267-32d98338ac7a",
+        "user_id": "8a9f8cab6f56f2db016f57ba3bd819b1",
+        "signal": "Ha, yes, Madam.",
+        "reason": "Owner confirmed interest in premium services and asked about cost.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "396f81ad-7f49-4531-b4cf-66dbd7453214",
+        "user_id": "8a9f8cc38caacf82018caafd5b7a1f68",
+        "signal": "What are the premium work services?",
+        "reason": "Owner actively inquired about premium services, benefits, and prices, and discussed negotiation and property status.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "5f4fd6ed-4c92-40c7-88e9-5b7e55a5195a",
+        "user_id": "ff80818153f094500153f4b0040327c5",
+        "signal": "share me the link I would get the payment processing done",
+        "reason": "Owner asked for payment link and details of package benefits to process payment.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "7129fd12-f30b-4c25-b7c6-7b25a7434e1c",
+        "user_id": "8a9f93177597390101759786c49829ff",
+        "signal": "Membership kitne ka hota hain?",
+        "reason": "Owner asked about how they would know about interested tenants and inquired about membership plan costs and details.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "91b6a1c6-fb1b-4cd2-a831-c0740286c507",
+        "user_id": "8a9fb2827aa8fa86017aa90fde5e0b62",
+        "signal": "September 1st week khali hoga.",
+        "reason": "Owner asked about property availability for a specific date and mentioned previous tenant status.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "b336ea62-be6d-4d86-88b2-f26080646e25",
+        "user_id": "8aa9990e9f45cc0d019f473597f46c8c",
+        "signal": "And I will purchase training, okay?",
+        "reason": "Owner wants property activated and is willing to pay for premium services after activation.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b8d2334d-f995-410b-88ae-204366d8a639",
+        "user_id": "ff80818167d609320167d6ba00cf40fc",
+        "signal": "Will it work for me or not?",
+        "reason": "Owner asked about plan cost, discounts, and if it would work, then agreed to proceed and pay.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "e7d03bb9-4996-41e5-b3c3-fbcf3911d0c6",
+        "user_id": "8aa9c4c99d8ae8c7019d8bd3b7b00088",
+        "signal": "how much arges of this",
+        "reason": "Owner asked about charges, price negotiation, and requested an update after hearing about the plan.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "27c9a046-469e-44c5-a4c2-792a6e133fc7",
+        "user_id": "ff80818151e2b20e0151e34a055d08d2",
+        "signal": "I am not getting any call.",
+        "reason": "Owner is actively complaining about lack of leads and asking for messages, indicating a need for better service.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "664915c1-e186-4a8c-b35a-d9baf0424eeb",
+        "user_id": "ff8081815e70e6d9015e71e120156d61",
+        "signal": "how much is the subscription cost?",
+        "reason": "Owner asked about subscription cost, plan details, and callback time for discussion.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "7fdba51c-049c-49af-b1cc-b08aa07306cf",
+        "user_id": "ff8081815bb9ae79015bbead85231ac6",
+        "signal": "How much is the premium charges?",
+        "reason": "Owner inquired about premium charges, package details, and rent agreement costs, showing clear commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "da791982-83e5-4682-813c-1de030ef3649",
+        "user_id": "ff8081814f0cbec0014f1c003f8a41ae",
+        "signal": "How much do you charge",
+        "reason": "Owner inquired about pricing, plan details, and end-to-end service for renting out the property.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "e71b16fa-d5e9-47dd-a415-4a3274a1e422",
+        "user_id": "8aa99de79c5260af019c551f1adf6138",
+        "signal": "September 1 is allowed",
+        "reason": "Owner confirmed property availability and provided a specific date for tenant vacating, indicating readiness to rent.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "84befa15-8059-4043-9e4f-84461cf3376d",
+        "user_id": "8a9f828b6f8f9c1d016f93818ec8568e",
+        "signal": "Evaru raledame ekku response ledu.",
+        "reason": "Owner expressed need for tenants and dissatisfaction with current listing performance.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "b1771c01-d693-428b-a0e8-a747a1440836",
+        "user_id": "ff80818154ec8d790154f213feb549c3",
+        "signal": "I am interested.",
+        "reason": "Owner expressed interest in the plan, asked about inclusions, and agreed to proceed with payment after receiving the link.",
+        "date": "2026-07-07"
+      }
+    ],
+    "high_intent_leads_total": 15
   },
   "NBTS33786": {
     "employee_id": "NBTS33786",
@@ -2873,7 +3782,87 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "3d16c72d-2c50-4df0-beac-13adfb4fe7e8",
+        "user_id": "ff8081816878986b0168793e3bc23531",
+        "signal": "Khali ide. Yaru bandilla ma",
+        "reason": "Owner confirmed property is vacant and stated no one has come yet, indicating a need for tenants.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "96c3d989-fd0f-4669-86a0-6da00ce5ba29",
+        "user_id": "8a9fc5827f63d5fe017f63f8c15f12d3",
+        "signal": "estu ola estu divs holgade mad kodtiri",
+        "reason": "Owner asked about timeline for renting and expressed a need for quick closure within 10 days.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "b76f7250-3ce0-442e-a24d-20da1646f19c",
+        "user_id": "8aa998419f3ca1ad019f3cfefe203643",
+        "signal": "Phir baad mein hum palan bhi uska purchase kar lenge",
+        "reason": "Owner wants to wait a week and then purchase a plan if no tenant is found.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "e4dbacf0-b304-49ec-b942-5c794c48e5de",
+        "user_id": "ff8081816007b6ca016007b7b92d0034",
+        "signal": "Kya charges lagte uske liye aa?",
+        "reason": "Owner inquired about charges for paid listing and mentioned a negotiation is ongoing.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "f286a53b-014d-4297-bb14-bea4c5a84489",
+        "user_id": "8a9f8606703dc31501703eec91c47f48",
+        "signal": "I will pay after that.",
+        "reason": "Owner expressed clear interest in prime membership and stated they will pay after pending work is done.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "fcc9dc4a-d9e5-486e-9c93-2340d9e06309",
+        "user_id": "8a9f86f9717c560c01717c6d1ecc04fb",
+        "signal": "I would like to go for a refundable thing",
+        "reason": "Owner asks about refundable plans, discusses rent reduction to fit plan, and inquires about plan applicability.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "01f584cf-4fb5-49db-b6ab-8c12fc70422a",
+        "user_id": "8a9fc70392956dc00192957724f301b1",
+        "signal": "I am definitely going to take a premium service only",
+        "reason": "Owner explicitly asks about paid plans, compares options, and states intent to take premium service by the time current tenant vacates.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "0226e91a-ce9d-491f-95d6-264cfbed3fd2",
+        "user_id": "8a9fb08276dbab330176dbfe0e95201f",
+        "signal": "Usmein aap kya charge karte hain?",
+        "reason": "Owner inquired about charges, refund policy, and asked for a written proposal for services.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "99f1d795-5397-4422-a7b4-798c6019d4d6",
+        "user_id": "8a9f8606703dc31501703eec91c47f48",
+        "signal": "premium amount I am ready to pay",
+        "reason": "Owner asked about premium amount, payment, and agreed to pay after clarifying terms.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "9fb29115-4a65-4659-aa15-df8d5fe62f9c",
+        "user_id": "8a9f94c38f6075ef018f609c17e1095b",
+        "signal": "plan wagera sell out karne",
+        "reason": "Owner directly asked about selling a plan after agent's pitch.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "9631f487-8489-4e99-8f9e-7de33563ba05",
+        "user_id": "8a9fa1c1785a0b3301785a129dc201e6",
+        "signal": "Ha tho chahiye na mereko rent out karne ka ayiye na",
+        "reason": "Owner explicitly stated they need to rent out the property and asked about available tenants.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 11
   },
   "NBTS14577": {
     "employee_id": "NBTS14577",
@@ -3254,7 +4243,157 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "56bb87ba-7161-49cb-b70b-770a3a99d606",
+        "user_id": "8a9f0b8286d020230186d09a387554e1",
+        "signal": "does it come with some asurity",
+        "reason": "Owner inquired about guarantee, money back, and services for the refundable plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "616e52a6-12bb-4676-93d8-f3d224e351da",
+        "user_id": "ff808181699438da01699496aa2a1a1e",
+        "signal": "Please arrange something that at least my house should. Rented a soon madam",
+        "reason": "Owner expresses strong dissatisfaction with previous service, demands resolution, and explicitly asks for help to rent the house within a week.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "820d7526-45fa-41d5-8327-01e18317a5c8",
+        "user_id": "8a9fa9839a255d85019a25a6eae31b96",
+        "signal": "Ye kan kitne ka aapka?",
+        "reason": "Owner actively asks about plan cost, duration, what's included, and payment options, and agrees to proceed.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "1859f9a8-85c0-4e9e-b63e-719eecb68a0e",
+        "user_id": "8a9f879e982d83f001982dace45e0af5",
+        "signal": "What is the other plan",
+        "reason": "Owner actively seeks plan details, asks about discounts, and wants to deal directly with tenants.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "32541272-8c0b-4111-b39d-632dc8ffe29b",
+        "user_id": "ff808181631568f501631a9d79e148dc",
+        "signal": "will refund the money",
+        "reason": "Owner asked about refund, payment conditions, and plan details, indicating strong commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "326b48e9-9427-4204-8e99-63ec2d1db00c",
+        "user_id": "8aa9a7179f474c5c019f4768e95c0b48",
+        "signal": "it is fresh and clean",
+        "reason": "Owner is actively seeking tenants, has a vacant property, and is discussing previous negative experiences with brokers.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "3709a61a-f47d-4d5d-9636-c4cc9c2c45ab",
+        "user_id": "ff8081816a5d4c20016a5f6fa2b100a0",
+        "signal": "will get the money back",
+        "reason": "Owner asked about money back plan, discounts, and rental agreement process, indicating strong commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "57958e23-23a6-445d-a483-11647434520e",
+        "user_id": "ff8081815d357374015d367783ba38c5",
+        "signal": "Yeah, got it.",
+        "reason": "Owner asked about service charges, plan details, pricing, and payment options, and expressed intent to go with a plan.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "7a05774e-e217-4a11-b7c4-893ec4a56c80",
+        "user_id": "ff8081816a5d4c20016a5f6fa2b100a0",
+        "signal": "I will make the payment",
+        "reason": "Owner confirmed payment, asked about plan duration and benefits, and inquired about tenant updates.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "ae1a150b-1bf6-4ae5-a0d4-39f7522f5273",
+        "user_id": "8aa9a46a9f0ba4f2019f0bdf3f4a0265",
+        "signal": "Send me the link.",
+        "reason": "Owner asked about payment, plan details, and requested a link to pay, indicating strong commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "b94fae90-2777-4581-87ea-ac862f1f0175",
+        "user_id": "8aa9d01f9dd22624019dd29b49632ccf",
+        "signal": "Kadadu rent house",
+        "reason": "Owner explicitly stated they want to rent out the house and asked what is needed, showing clear commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c8e2c7fe-add6-4629-9c2c-6f80a9252ea2",
+        "user_id": "ff80818159e932990159e9720f2c1410",
+        "signal": "I am interested in selling it only.",
+        "reason": "Owner explicitly stated interest in selling the property and asked to discuss selling options.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "c9f2e975-f53d-4763-9722-4ba4839065fe",
+        "user_id": "ff8081816dc955f5016dca1a710d0149",
+        "signal": "I will pay the 4,700",
+        "reason": "Owner asked about service charges, plan details, and confirmed payment intent for genuine tenants.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "f0a1d153-8966-402a-9e47-d394de601d22",
+        "user_id": "ff808181565ed10b0156691aa9ec39a8",
+        "signal": "Is there any plan",
+        "reason": "Owner asked about plans, mentioned previous plans, and asked for offers/messages.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "f2e1cb78-c8ab-4a7b-965a-6e5e1fc29b54",
+        "user_id": "8a9fb8cb88090393018809781c51445e",
+        "signal": "manager assign hue tho",
+        "reason": "Owner is actively seeking to share rent agreement and connect with manager for a plan they previously purchased.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "0dd260b8-a5f8-4969-a7a5-6a4539dc7881",
+        "user_id": "8a9fb3827a5360ca017a53deb5ed69cc",
+        "signal": "hame pay out kya karna hoga",
+        "reason": "Owner asked about payment, plan details, and agreed to start services after confirming with broker.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "4941b9a0-c538-45ac-92c3-71a5f542d0c1",
+        "user_id": "8a9f85c38e7bb85b018e7bd1b07d071e",
+        "signal": "Can you tell me both, please.",
+        "reason": "Owner is actively asking about plans, pricing, refund, and process, indicating strong commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "73f7a2cd-6562-4a8f-8fd6-c2c3ced868a5",
+        "user_id": "ff8081814df7f8f6014dfab82b04097b",
+        "signal": "what is that service charge?",
+        "reason": "Owner inquired about plans, pricing, guarantee, and refund, and asked for time to think and call back.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "9d20b78a-3d2e-4efc-8a04-a4a6f13d7082",
+        "user_id": "8a9fac827ebfaf2d017ec04709914068",
+        "signal": "Can you explain the package?",
+        "reason": "Owner asked about package details, time, and other options, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "c4b58639-ac4d-4893-89ab-70b652897abf",
+        "user_id": "8aa9bc2a9b492998019b498d80681578",
+        "signal": "mujhe 14 chahiye",
+        "reason": "Owner explicitly stated they need to rent out the property quickly and asked about property visibility and number inclusion.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "c9a089a8-2cc6-4fa7-8fbc-e013411b0f97",
+        "user_id": "8a9fd08281aeeabc0181af06fb46116c",
+        "signal": "I need to post a property",
+        "reason": "Owner explicitly stated 'I need to post a property for a lease' and asked how to list it.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 21
   },
   "NBTS26420": {
     "employee_id": "NBTS26420",
@@ -3558,7 +4697,206 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "01873467-39c4-4910-8eea-71dff20cbd51",
+        "user_id": "8aa9a4af9f233ff2019f239326611c9b",
+        "signal": "Theek hain, theek hain.",
+        "reason": "Owner asks about services, availability, and agrees to proceed with activation.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "599d17be-f09c-488a-8066-84c94d012fd6",
+        "user_id": "8a9f02848a8c5941018a8d34b5e10360",
+        "signal": "I should be a premium customer",
+        "reason": "Owner asked about premium customer status and cost, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "85751700-fd5f-4dfc-9b8b-1f6d17ab47eb",
+        "user_id": "8aa99f5f9dfb58d9019dfbfa246947ea",
+        "signal": "What is the price?",
+        "reason": "Owner asked about price and plan details, and agreed to proceed.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "8ecde89b-98bd-4801-9c5f-e66f3cfcb7ef",
+        "user_id": "8a9fac857ce4309f017ce43356750036",
+        "signal": "Kaunsa plan lena padega?",
+        "reason": "Owner asked about plan details and how to proceed with services.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "a170fd53-9102-496f-90eb-6a8814248c20",
+        "user_id": "8aa9b5ac9f1c9913019f1cce51961ad8",
+        "signal": "How much would be the costing.",
+        "reason": "Owner asked about costing, how many days to get a tenant, and the final pricing.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "b2c6f66b-a413-4a51-8074-c2bb93694215",
+        "user_id": "8aa9b18e9ee918e8019eea397b580b9c",
+        "signal": "plan ka link bhej dijiye",
+        "reason": "Owner asked for plan links to read and compare, indicating commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c050af9e-61d0-4fd9-8dfa-dd49ec5eeb8d",
+        "user_id": "8a9f85c38fdf0f4d018fdf7bbf2e16d1",
+        "signal": "How much is the package cost?",
+        "reason": "Owner asked about package cost and requested a callback to confirm, indicating commercial interest.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "d16028f6-51ea-4fa4-b697-524133a5c558",
+        "user_id": "8a9fff8389daa65d0189db1434143359",
+        "signal": "Agar suppose do mahine mein hamare tenant log aaya nahi tabke refund karenge hamara amount kya",
+        "reason": "Owner repeatedly asks about price, refund policy, and potential loss of money if tenant is not found.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "dbd0d1a6-557d-4aa5-aa5d-3d61ba0e9511",
+        "user_id": "8a9f9a827c98a6a1017c9934ea6f4f87",
+        "signal": "After that, I will purchase.",
+        "reason": "Owner agreed to purchase after 2-3 days and asked for a callback.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "f84e3a62-2eda-4be0-b9c7-a5f72c3dcefd",
+        "user_id": "8a9fbb827f8bbf97017f8bfe3bf41d1f",
+        "signal": "what is the exact price",
+        "reason": "Owner asked about price, plan, and callback time for payment.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "03edcbb6-67de-428d-9616-3dbcc6de9bea",
+        "user_id": "8a9fb1838c003d17018c0049a9df0497",
+        "signal": "What price I need to pay?",
+        "reason": "Owner repeatedly asks about price, discounts, and payment, expresses willingness to pay if feasible, and seeks a specific amount.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "12c27fb7-d049-4de4-a4a5-fcea4ecd27f5",
+        "user_id": "ff808181566e217301566e64a113060e",
+        "signal": "I would like to go with that 4000 only",
+        "reason": "Owner asked about price, plan details, duration, and confirmed they want to proceed with the 4000 rupees plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "5e90c658-d362-4585-a150-afeb54985fe8",
+        "user_id": "8aa9970d9cc08fb0019cc0bfb4db01b2",
+        "signal": "I am I am actually ah",
+        "reason": "Owner asks about plan, price, and confirms payment for Super Relax plan.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "836c786d-03b6-49c2-a188-8ccaefeb8210",
+        "user_id": "8a9f92838ffaf474018ffb4cd37b15bd",
+        "signal": "If that is not possible then I will take that premium",
+        "reason": "Owner expressed conditional interest in a premium plan if current tenant situation doesn't resolve.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "99294711-7360-42a2-abc3-29c84354a915",
+        "user_id": "ff808181594aa267015954ceb3b978bf",
+        "signal": "Where can I see",
+        "reason": "Owner asked about subscription details and where to see them.",
+        "date": "2026-07-05"
+      },
+      {
+        "cdr_id": "a7e19759-c171-4e38-a458-ff00b72f7efd",
+        "user_id": "8aa9b1799f045f84019f04975e410d36",
+        "signal": "I will moke the payment",
+        "reason": "Owner asks about plan details, payment, activation, documentation help, and expresses intent to pay and start.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "bda58dc0-0c70-4587-8851-327a82df22c3",
+        "user_id": "8a9f84438db9fe1f018dbb02823f1c6b",
+        "signal": "Ah, link also for the payment na?",
+        "reason": "Owner asks about active payment link and confirms receiving it, indicating readiness to proceed.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "c9743f0d-694b-4ded-b23f-f46d99aee45b",
+        "user_id": "8a9fc08287d7bb350187d7e0c14612db",
+        "signal": "Theek hain kara dungi",
+        "reason": "Owner confirmed property is available, has no tenant, and agreed to proceed with services after agent's pitch.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "ca06b911-f7fe-41d9-8e6a-785ed612fd06",
+        "user_id": "8a9f912874021527017405353ee10259",
+        "signal": "The 1 is ok 2359.",
+        "reason": "Owner confirmed plan choice, asked about validity, and completed payment after agent explained plan benefits.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "caf150b9-3e64-4e32-9fe4-0fed008a622c",
+        "user_id": "ff8081816cba7ddf016cbb0b943b10d7",
+        "signal": "Ok, I want. See, this 100% guarantee, what is that means?",
+        "reason": "Owner inquired about tenant acquisition, plan details, cost, and ultimately agreed to pay for the 'Relax' plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "eb234080-6162-4fd3-a8df-9214f2ae0ac8",
+        "user_id": "ff8081815c102ccd015c10546afa05cf",
+        "signal": "accha kya karna padega uske liye",
+        "reason": "Owner asked about services, price, and how to proceed for renting out the property.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "0d24f65f-58a8-4f25-a962-b6382089c469",
+        "user_id": "ff8081814d42cfff014d460dce240949",
+        "signal": "what is your price?",
+        "reason": "Owner asked about price, plan details, and requested callback for finalization.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "2d18556b-fc70-4046-8561-165a0827260d",
+        "user_id": "8a9fa130776c9b2101776cb5dcf307fe",
+        "signal": "Tomorrow morning I will make the payment",
+        "reason": "Owner confirmed payment for tomorrow and discussed process after payment.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "8184c6af-857c-4d2f-8714-96d6765fd5ad",
+        "user_id": "ff8081816cb5425b016cb5618f690894",
+        "signal": "Can you tell me the price",
+        "reason": "Owner asked about price, plan validity, and guarantee, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "8906a75c-2703-46de-be0d-a135cf040ef9",
+        "user_id": "ff8081814e8ddb72014e9032cc8406e5",
+        "signal": "What we have to do.",
+        "reason": "Owner asked about plan details, payment, and how to proceed after hearing about the plan and its benefits.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "8b76f4ee-61c7-46ea-bb01-4a79b5756586",
+        "user_id": "ff80818169e359ea0169e35ca1b300d7",
+        "signal": "Yeah, ok, ok, hmm, what is the other plans.",
+        "reason": "Owner asked about plans, price, and payment methods, and agreed to activate the plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "8f63a05b-6f82-40de-b95f-633e44365f1e",
+        "user_id": "8a9fad838c2d7ba0018c2ddcb7091e6c",
+        "signal": "Of course, we are interested.",
+        "reason": "Owner confirmed interest in renting and stated they have paid services, indicating commercial interest. Owner also expressed frustration with current lack of responses.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "cc48b50a-e9d9-4b75-b497-8fc6be55ae21",
+        "user_id": "8a9fab827ed2ffea017ed325af040dec",
+        "signal": "How I any amount should be paid",
+        "reason": "Owner asked about payment and cost after agent explained the service.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 28
   },
   "NBTSC400804": {
     "employee_id": "NBTSC400804",
@@ -4038,7 +5376,136 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "48852815-7449-40dd-9ca9-8e203024659f",
+        "user_id": "ff80818162a582350162a868ce6f6be4",
+        "signal": "subscribe karna hain",
+        "reason": "Owner explicitly stated they want to subscribe and will make the payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "93fee1ac-b5cf-4169-802e-e0e3317488a7",
+        "user_id": "ff80818169a9e8dc0169aa90e2c454d8",
+        "signal": "Ok. And how will I have to make the payment.",
+        "reason": "Owner inquired about charges, payment methods, and confirmed they would make the payment via the app.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "eb54dd22-31bd-45c3-8f40-a5d65037d090",
+        "user_id": "ff80818152dde4f40152de1d73f501c5",
+        "signal": "we will go ahead and photographs are also I have received the photographs on WhatsApp.",
+        "reason": "Owner explicitly stated they will go ahead, make payment, and confirmed details for the plan.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "fe10ff66-5220-49a3-a3d9-7a47cd7e6683",
+        "user_id": "ff8081814ee47e27014ee8579dcd116e",
+        "signal": "Can you just guide me to take 1 plan.",
+        "reason": "Owner asked about plans, confirmed price, and requested payment link and activation details.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "044dcd74-449c-446c-8f99-14aae3977783",
+        "user_id": "8a9fb2827a8e95f6017a8eaae87807b9",
+        "signal": "Di fix rate ah",
+        "reason": "Owner asks about plan price, discount, and fixed rate, indicating commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "218a9429-a88a-4bb5-9288-e942961659b2",
+        "user_id": "8a9fad6681493465018149aa065f3181",
+        "signal": "Ok sir chestanu 10",
+        "reason": "Owner asks about plan details, price, and confirms they will proceed with payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "3ce174ba-7678-43bd-812a-91f42b0bc54e",
+        "user_id": "8a9fb78599a505b10199a524e499092e",
+        "signal": "mari oka vela ka motaniki kavali ante oka 16 5 ki istam anthe",
+        "reason": "Owner inquired about rental amount negotiation and mentioned previous payment for services, indicating commercial interest.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "7a8e75e1-0dc1-402c-be14-289a70b2e9d3",
+        "user_id": "ff8081816cc25b4b016cc34737ff0684",
+        "signal": "4000 package katti",
+        "reason": "Owner inquired about plan details, cost, agreement, and tenant arrangement, and discussed property status and renovation timeline.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "9659d3ed-8947-4dfe-813f-bb89d789cadd",
+        "user_id": "8a9fc5827f63d5fe017f63f8c15f12d3",
+        "signal": "Nimm kade indha agtade na kade inda bottu yavago plan nimm inda ne tagolo no",
+        "reason": "Owner confirmed property availability and asked about plan details and how it works.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "977fa516-73b8-471e-9b0e-33d199cebc68",
+        "user_id": "ff8081816da13380016da19fdd6d359b",
+        "signal": "Can I use that link and pay the money?",
+        "reason": "Owner asked about using the payment link, activation time, and property photographs, indicating clear intent to proceed.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "9ff9d3fa-076d-4628-b080-b1cec296759d",
+        "user_id": "ff8081814ca86486014cae2d97f414ce",
+        "signal": "send me the link ok",
+        "reason": "Owner asked about plan activation, payment link, and discount, indicating commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c4a68c25-9f2b-4172-ac44-8ca0ee123f7e",
+        "user_id": "ff808181677dc4a001677de5e5880767",
+        "signal": "send me a document",
+        "reason": "Owner explicitly asked for a single point of contact, payment details via email/WhatsApp, and a callback for payment. Property is available.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "d2e982a8-312c-49e5-ae1f-0dd1b4ad16d7",
+        "user_id": "8aa9ceec9e151848019e15f642b95f9a",
+        "signal": "What is the premium amount",
+        "reason": "Owner inquired about premium services, pricing, refundability, validity, and guarantee of tenant within a timeframe.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "07d52d66-e8a6-4e1d-9c9f-3a65363b53b9",
+        "user_id": "ff8081816ec15144016ec572f56058be",
+        "signal": "I want my property to be number 1",
+        "reason": "Owner inquired about plan details, discounts, and property listing priority, and agreed to make payment.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "4eada7f2-4046-447e-83be-c345d537f5df",
+        "user_id": "8a9f84827aaae916017aaafb4a440788",
+        "signal": "money guarantee idea",
+        "reason": "Owner inquired about pricing, duration, money-back guarantee, and refund conditions for premium plans.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "71ac56dc-8704-445d-9469-fa8db8c38305",
+        "user_id": "8a9fb2827a8e95f6017a8eaae87807b9",
+        "signal": "Enta undhi",
+        "reason": "Owner asked about plan cost, validity, payment, and activation timing.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "93430e2a-7a1e-4b26-80f4-1aa305667be0",
+        "user_id": "ff80818153454433015345c632800da5",
+        "signal": "how soon do you think this can be rented out",
+        "reason": "Owner asked about rental timeline, plan cost, duration, and representative handling, and agreed to proceed.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c0ce2044-f831-4f15-ad41-b45a5ac53b6f",
+        "user_id": "8aa9a9e39eee3f7b019eeedab9d74e19",
+        "signal": "kada andi ippudu chances entha",
+        "reason": "Owner asked about chances of renting within 45 days, market conditions, and if the amount can be reduced.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 18
   },
   "NBTS44026": {
     "employee_id": "NBTS44026",
@@ -4254,7 +5721,143 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "2574422c-16db-4975-aaf0-6a015f9aa3cc",
+        "user_id": "8a9fb81d888b026501888b6ca17b4433",
+        "signal": "what are the charges",
+        "reason": "Owner explicitly asks about premium subscription charges and details of 'no call assistant plan'.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "2ef7357e-2e7f-48e2-a707-e9f42e7647d6",
+        "user_id": "ff808181536583ba01536e4e59a25f32",
+        "signal": "Super Relax is 5899 only now.",
+        "reason": "Owner explicitly asked for the Super Relax link, inquired about pricing and GST, and requested a GST bill with their GST number.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "96eeb17b-d07e-4ea7-9d27-d1462485fbce",
+        "user_id": "8a9fbc8282338636018233bb359c2820",
+        "signal": "Nan avr hatra helidini process madtini.",
+        "reason": "Owner confirmed property details, asked about payment, and agreed to receive a payment link.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "ac42888b-e5c2-4081-8a25-3398588b823d",
+        "user_id": "8aa9b62c9b06366f019b0670e3210b72",
+        "signal": "mein aapka plan le lunga",
+        "reason": "Owner asked about plan cost, discounts, and confirmed they will take the plan and pay by the 4th.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "b7148470-1cdb-4b6f-bd65-a06833a866e2",
+        "user_id": "8a9f8982794c136401794c3f0b04115b",
+        "signal": "Ok 4,77,000 ok alright alright ah yeah I will proceed with",
+        "reason": "Owner asks about plan details, pricing, discounts, and payment process, and expresses intent to proceed with a plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "c9d12100-1377-48be-b709-27449aece4d6",
+        "user_id": "ff8081816b324cb8016b359aaea30157",
+        "signal": "any pay back skim is there",
+        "reason": "Owner asks about money back plan, cost, and how it works, indicating commercial interest.",
+        "date": "2026-07-05"
+      },
+      {
+        "cdr_id": "d79d06be-93b7-4f4b-90e3-f1b0cb9e6667",
+        "user_id": "8a9f8282790a6a6101790a726ca201b1",
+        "signal": "I will pay that right now.",
+        "reason": "Owner explicitly asked about the plan, inquired about start date, and confirmed payment. Shows clear commercial interest.",
+        "date": "2026-07-05"
+      },
+      {
+        "cdr_id": "f35661e3-c814-42b7-937c-9bdd94a83913",
+        "user_id": "8a9ff782851e41e401851e5cc0440b29",
+        "signal": "Kitne plan hain?",
+        "reason": "Owner asked about plans, pricing, and services, indicating commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "fcad86d4-6ed0-4a09-93e4-477e5a76df15",
+        "user_id": "8a9f8e439363da120193642787b81519",
+        "signal": "How much I will pay",
+        "reason": "Owner asked about payment, plan cost, and how to pay, indicating commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "020a608b-65c1-4bd4-8d58-0aa156a52eb2",
+        "user_id": "8a9faa8277c7eb390177c8168ef90ee7",
+        "signal": "aap bhi jo khali kar rahe the person it was booked through the NoBroker no",
+        "reason": "Owner wants to renew, mentions previous positive experience, and asks about specific plan details for single occupancy.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "0d53d1e8-77a6-4c9a-bede-f6e0d952ef6d",
+        "user_id": "8aa9c3779f21c379019f2218aa372c54",
+        "signal": "Ok mam pay pannana",
+        "reason": "Owner asked about payment, plan details, validity, and requested a callback for decision.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "1b451c63-1347-44a1-87aa-92452bdf4eae",
+        "user_id": "ff80818162ce10e20162cef902d64530",
+        "signal": "activate this plan",
+        "reason": "Owner asked about plan cost, validity, and activated the 'Relax Plan' after payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "44e37ec7-3bca-4b21-9f97-bd6a4e496410",
+        "user_id": "8a9fae8277ca7e750177cae8b71b1d85",
+        "signal": "No, no, I will not pay offer on post paid. I will pay.",
+        "reason": "Owner asked about payment and confirmed they will pay, indicating commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "627fae28-e0f9-4d27-a108-0650b40267d0",
+        "user_id": "8aa99a0e9e72a6bf019e7316a8c6313b",
+        "signal": "Mam, I wanted to tell you the, is there any hundred percent guarantee sam?",
+        "reason": "Owner inquired about guarantee, refund, plan details, and price, and agreed to pay next week.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "630c66aa-7139-4330-bbe3-3e7b85297a97",
+        "user_id": "8a9faa8276ffb77e0176ffd5526e0905",
+        "signal": "then I will go for the plan",
+        "reason": "Owner wants to proceed with a plan after a few days and mentioned people are seeing the house.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "a78f9541-966e-4aaf-bd2f-24f8be2b42c8",
+        "user_id": "8aa9ad689f4b07d7019f4b4bca2d29ca",
+        "signal": "can you give me just 30 minutes?",
+        "reason": "Owner asked for details, plan validity, and callback for confirmation after discussing with brother.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "c0749c40-cba1-4794-b141-4bf52a45ea1a",
+        "user_id": "ff8081815c6cf277015c6d2adcab0c48",
+        "signal": "how much money I have to pay",
+        "reason": "Owner asked about payment, plan details, and how to proceed with services.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "1adbae74-f815-4ad1-82e2-b6ee8181802e",
+        "user_id": "ff80818164e0ee580164e1107b571321",
+        "signal": "nodana nimdu nimm kade indane",
+        "reason": "Owner wants to try NoBroker services, asks about payment, and agrees to a callback for Monday.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "9e1af628-47d4-4121-974a-4301afe7abbb",
+        "user_id": "8aa99c299ac3b1e1019ac41622a52c96",
+        "signal": "Adhu yavlo sir pay",
+        "reason": "Owner asked about plan charges, validity, and number of contacts, indicating commercial interest.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 19
   },
   "NBTSC400994": {
     "employee_id": "NBTSC400994",
@@ -4820,7 +6423,164 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "068ec1e7-5977-4e3e-86fb-b5dadbd1ad14",
+        "user_id": "ff8081815567a8360155686832dd0de0",
+        "signal": "send me the payment link",
+        "reason": "Owner asked for payment link, confirmed receiving it, asked about price, and stated they would make the payment and confirmed payment made.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "217e9b2d-535d-49f9-8a63-d9b7b73aaa2f",
+        "user_id": "ff8081816bdfc7d6016bdfde3213122d",
+        "signal": "Ha. Aapsi payms service lena chahte hain, Sir?",
+        "reason": "Owner confirmed interest in premium assistant and payment service, and mentioned a previous conversation about the plan.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "29e9ba72-28ae-49cf-9569-327503077113",
+        "user_id": "8a9fad8698dfa31e0198e00f9aa52f9e",
+        "signal": "Aap mujhe bhej do uska kya kya services hain",
+        "reason": "Owner asked about service charges, plan details, and requested details via WhatsApp.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "470b9888-53d4-46cf-8da1-b104802c8d4d",
+        "user_id": "8aa9b3ff9f166a19019f168c37c80613",
+        "signal": "Ah yeah yeah you can do that",
+        "reason": "Owner confirmed uploading photos, asked about proceeding, inquired about services for multiple properties, and agreed to list another property.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "b88d6539-3fcc-43ea-b7eb-55431fd25e20",
+        "user_id": "8a9faa8395be61ee0195bed35b061c65",
+        "signal": "pay and there I will get the discount",
+        "reason": "Owner asked about paying directly for a discount and how to get a manager assigned.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "bb6ccdad-7649-4390-8552-cbf9fa4ab455",
+        "user_id": "8a9fff838ae3de28018ae3f84afb040c",
+        "signal": "Ok ok tho iske liye mujhe kya karna paga",
+        "reason": "Owner asked about service activation, cost, and requested a link to proceed.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "be12485a-b73f-495f-997d-39f615a81d47",
+        "user_id": "8a9f9f838f44227f018f446678611876",
+        "signal": "super relax wala hi plan",
+        "reason": "Owner asked about plan details, payment, validity, and requested a callback to confirm purchase.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "c855bffe-f2e9-4c5d-9ceb-31f86793657c",
+        "user_id": "8a9fae8496f0cc0f0196f1279d351527",
+        "signal": "my R M For that plan",
+        "reason": "Owner explicitly asked about their Relationship Manager for a plan, indicating a need for service and a potential purchase.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "db7d27cc-db95-4c84-aacf-7228bca7b0e9",
+        "user_id": "8a9f8e448f86b24f018f86ff184e22ea",
+        "signal": "Nalak Saviatta",
+        "reason": "Owner asked about price, plan details, and confirmed property availability and rent.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "ec2b35f0-ecb8-468f-8d4a-2c0ecb202acd",
+        "user_id": "ff808181501751a20150175fe8c8003f",
+        "signal": "I am renewing 1 plan.",
+        "reason": "Owner explicitly states they are renewing a plan and will talk to them in the evening.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "226a0920-d288-4ce0-9e40-16aa7935d2ff",
+        "user_id": "8a9ff48285afbbed0185afe4649d1a50",
+        "signal": "Usko discount thoda sa aur kardo na?",
+        "reason": "Owner actively negotiates price and asks for a specific discount, indicating strong commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "6052d997-7ec2-4025-adbc-150e23d14ce4",
+        "user_id": "ff8081816c1ee95b016c1f0fd30428cc",
+        "signal": "wanted to buy a package",
+        "reason": "Owner explicitly wants to buy a package for renting out property and asks about payment and team allocation.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "672b2b3f-fb3d-4790-9d8e-30ea0116f901",
+        "user_id": "8a9f92e87628104901762815ef9c0158",
+        "signal": "Ok i paid.",
+        "reason": "Owner expresses dissatisfaction with previous service, asks for better discount, and agrees to pay after negotiation.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "b9a0411b-4692-4fff-9bf6-b208c7544c1b",
+        "user_id": "8a9fb3837c2b3bef017c2b543add000d",
+        "signal": "I can pay from that link",
+        "reason": "Owner asked about services, plan details, payment link, and confirmed they will proceed.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "07191f9e-e9a8-4a89-9a7f-da34f46b3215",
+        "user_id": "8a9f8c867c31081b017c319a83ad58e9",
+        "signal": "Money back hoda",
+        "reason": "Owner wants to meet, discusses services, and asks about MoneyBack plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "59a71fcb-ca3e-4b0b-aff5-26717f77d7ab",
+        "user_id": "8a9f948878ded4ce0178df393dd9352f",
+        "signal": "Han ji.",
+        "reason": "Owner asked about services, confirmed need for tenant, and agreed to receive payment link.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "59c3a730-73e7-4b91-933a-7ba0378cb9a0",
+        "user_id": "8a9fa78597267d78019726a5ad9b0e21",
+        "signal": "Humko jaldi jaldi kehna aaj vo karke rent mein utate nikalna",
+        "reason": "Owner wants to rent out property quickly, asks about plan cost, and expresses urgency for faster closure.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "5b73d7b8-28ba-4e92-a7a5-7d774c1d9fa8",
+        "user_id": "8a9f91b873398bda01733a2774a31bac",
+        "signal": "But there is no positive response",
+        "reason": "Owner previously purchased premium subscription and is complaining about lack of response, indicating continued interest and a need for better service.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "849cd25f-af92-4cee-82f9-b13e68dc6654",
+        "user_id": "ff8081815d698c46015d701361de0d2c",
+        "signal": "Ok. I will do the subscription.",
+        "reason": "Owner asked about plan cost, requested to create a new property listing, and agreed to subscribe after a discount.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "97221807-c5f8-4350-aee4-69cc9719bf62",
+        "user_id": "8a9ffe8389ab032d0189abb97a2b096f",
+        "signal": "send me the link",
+        "reason": "Owner asked about plan comparison, discount, payment, and how to proceed, and initiated payment.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "a6196e2e-fb49-41ca-985d-e4d15e1de2c2",
+        "user_id": "8a9fea8287dfc8610187e05537ca57df",
+        "signal": "Ok then I can enable I can go for this",
+        "reason": "Owner actively discussed money back service, refund conditions, payment, and asked for policy details before agreeing to proceed.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "b340b550-9f01-45a0-b1d4-f1a903afc59c",
+        "user_id": "8aa9b1799f045f84019f04971dd40d21",
+        "signal": "multiple options are there",
+        "reason": "Owner confirmed interest in renting, asked about offers, and requested a callback to discuss further.",
+        "date": "2026-07-10"
+      }
+    ],
+    "high_intent_leads_total": 22
   },
   "NBTSC400669": {
     "employee_id": "NBTSC400669",
@@ -5320,7 +7080,136 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "27840007-c308-482a-9b03-5e3c1f307ed9",
+        "user_id": "8a9f82768d1ba1e0018d1cc9b525551f",
+        "signal": "what is a ok",
+        "reason": "Owner asked about plan details, discount, activation timing, and payment process, indicating strong commercial interest.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "b6881c9b-1b37-4ae1-a829-7c56be39fe6d",
+        "user_id": "8a9f8b838d49fbfb018d4b3f36b81511",
+        "signal": "karna hain abhi",
+        "reason": "Owner explicitly stated 'karna hain abhi' (need to do now) for renting and selling, and asked about services and charges.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "ff42ce67-aea9-44dc-9a22-e9094124a769",
+        "user_id": "8a9fc38281bd144f0181bd26f35f06d0",
+        "signal": "Ok sare do the payment now.",
+        "reason": "Owner inquired about price, tenant timeline, and confirmed property details, then proceeded to make payment after expressing some concern about post-payment service.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "0445c520-5bb7-46d1-ada2-d63c1aa65938",
+        "user_id": "8a9fe68389bb629f0189bbb81576387d",
+        "signal": "post paid hi theek rahega",
+        "reason": "Owner asks about postpaid plan, wants to refresh listings for better inquiries, and mentions previous successful service.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "0ac70207-4105-4b8b-a52c-6baf2d3ad336",
+        "user_id": "ff8081815b8c57cb015b8c91d78e0901",
+        "signal": "List it now I will make a payment.",
+        "reason": "Owner explicitly asked to list the property and make payment after hearing about services.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "241c9af2-44c5-4a75-998e-02621d0dab7f",
+        "user_id": "8a9f82768d1ba1e0018d1cc9b525551f",
+        "signal": "What is just?",
+        "reason": "Owner asks about plan details, price, discount, and how to proceed.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "6290df59-0f1d-40c7-ba55-031433e42800",
+        "user_id": "8a9ffb838adaa89f018adac943321bec",
+        "signal": "maine payment bhi kar diya hain",
+        "reason": "Owner confirmed payment for services and asked about tenant inquiries, indicating commercial interest.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "941a0538-2b55-4727-865c-39c98eef80df",
+        "user_id": "ff80818169958f4201699591a236012d",
+        "signal": "Ah, main karta hoon.",
+        "reason": "Owner asked about payment, services, and confirmed they will pay. Property is available.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "a36ce1f5-02b5-42fd-8717-bb1a294a1fa6",
+        "user_id": "8aa9a8829eee3fa0019eee6a8e06147d",
+        "signal": "kitna paisa lete aap",
+        "reason": "Owner asked about pricing, facilities, and how the plan works, and confirmed property is available.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "d2d3b6da-edf6-46da-b69c-72b9c368ce83",
+        "user_id": "8a9fb7827a79ebb7017a7a1e9e8f1470",
+        "signal": "Theek hain aap karva dijiye vok mein baad mein pay kar du",
+        "reason": "Owner asked about charges, wants to pay later, and requested postpaid plan.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "dada0a8c-00aa-49fc-8ef7-208ff5f30cb2",
+        "user_id": "ff8081816acdd828016acfebadda7d65",
+        "signal": "I am okay with that.",
+        "reason": "Owner confirmed interest in the money-back policy, discussed the goal of renting out within 9 months, and agreed to pay on Tuesday.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "fc7cc024-f43b-4974-8045-37105ae9278b",
+        "user_id": "8a9ffb838a6ffe4c018a7057afc732a2",
+        "signal": "I will be making the payment tomorrow.",
+        "reason": "Owner explicitly states they will make payment tomorrow for 'super relax plan' and asks for a callback to finalize.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "0b526a23-3826-4847-8091-9b05d16eeda4",
+        "user_id": "8a9fb88395ccfa4a0195cd08997d03cf",
+        "signal": "mere paas jo plan hain usmein aapka field assistant bhi included hain",
+        "reason": "Owner is frustrated about property inactivity despite purchasing a plan, wants it active, and is willing to pay for services.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "6937962f-b7bb-4910-877d-ee29f1c10511",
+        "user_id": "8a9f8cdf723c715a01723cd487ed1ef4",
+        "signal": "Kitne paise? Kitne paise dene honge, mujhe?",
+        "reason": "Owner asked about price and service charges, indicating commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "81321fbb-f85e-492c-b6cc-22e1a18c0075",
+        "user_id": "8a9f89859702dfe30197033dcc7b15b0",
+        "signal": "Vo karne wala thamein",
+        "reason": "Owner asked about payment, confirmed they would pay, and inquired about service details.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "9906c6fd-bb81-4344-9ecf-7a824be0e01a",
+        "user_id": "8a9f8b03920ff622019210598b281347",
+        "signal": "premium panni podalamla",
+        "reason": "Owner asked about premium plans, how to add multiple properties, and plan details.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "9a9df7d8-1d3d-42ca-ba82-25a9a19eea57",
+        "user_id": "8a9fbe8980b5c9c50180b64841201531",
+        "signal": "willing to pay higher",
+        "reason": "Owner explicitly states interest in refundable services and willingness to pay higher for them.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "abaa2d35-7aa4-4636-a8e9-74dd9c276e2b",
+        "user_id": "8aa9b7dc9eddf0f4019ede4024841c61",
+        "signal": "Usko kuch charges padega kya?",
+        "reason": "Owner asked about charges for services and how much it would be, indicating commercial interest.",
+        "date": "2026-07-08"
+      }
+    ],
+    "high_intent_leads_total": 18
   },
   "NBTS35806": {
     "employee_id": "NBTS35806",
@@ -5627,7 +7516,101 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "05567542-e076-4faa-b40b-efcfcb362be2",
+        "user_id": "8a9f0e828725be1901872647311a190e",
+        "signal": "What's the guarantee for getting the tenants.",
+        "reason": "Owner asked about plan benefits, cost, and guarantee for tenants, and requested a callback to finalize.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "4ab5ced8-2078-4ca8-9253-b43aa63a4fe2",
+        "user_id": "8a9f87849618f7480196192132510c88",
+        "signal": "Ah yes.",
+        "reason": "Owner asked about premium listing and how NoBroker can help get a tenant.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "68333933-a15f-447e-b3ce-571effb57511",
+        "user_id": "ff808181669547370166966ea4484d75",
+        "signal": "Yeah, you are interested in the paid plan.",
+        "reason": "Owner asked about paid plans and expressed interest in assistance for finding tenants.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "76d9b94d-1864-42c8-9dce-2c2eb4bc2b98",
+        "user_id": "8a9fb1827accc384017acced447e16fa",
+        "signal": "I want to take the premium 1. Sorry, basic 1.",
+        "reason": "Owner actively asks about plan details, costs, and options, showing clear commercial interest and willingness to pay.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "02bc8017-d5b8-445d-823b-fbf1a523204f",
+        "user_id": "8a9fbf82767fa4ea01768031b1cb301a",
+        "signal": "Available hain, madam.",
+        "reason": "Owner confirmed property is available and expressed interest in premium service.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "0485eb7d-8430-479b-a9d4-332f645efe31",
+        "user_id": "ff808181620b087f01620e4cda737812",
+        "signal": "Nona. Nodrana ande",
+        "reason": "Owner asked about plan details, pricing, and how the service works, indicating commercial interest.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "700c862b-5047-4fd1-bdb1-36f91137843f",
+        "user_id": "ff8081816870cc440168711db69a1e8e",
+        "signal": "What will you? Sir, with the paid plan.",
+        "reason": "Owner asked about guarantee, plan differences, and how buying a paid plan changes visibility.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "9b278893-968e-40e9-90d3-5757c468d38f",
+        "user_id": "8a9fadc780d61d190180d63a54cb1077",
+        "signal": "I will go basic plan",
+        "reason": "Owner confirmed callback, asked about plans, chose basic plan, and asked how to pay.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "ba9c6096-387e-4736-bb53-773515f912eb",
+        "user_id": "8a9f8a137033534701703405dd905402",
+        "signal": "what is the final price",
+        "reason": "Owner asked about discount, final price, and how to proceed, indicating commercial interest.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "10d811dc-1bb7-4939-8107-580fdcd978b5",
+        "user_id": "8a9fbf827f960cae017f9694883c4c3a",
+        "signal": "7 thousand kuduthu pay panna but endhaoru response me illa",
+        "reason": "Owner complained about previous paid service, asked about current service quality and pricing.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "73537bb2-3414-4c1a-80a0-23b2aa6ffc12",
+        "user_id": "8a9fadc780d61d190180d63a54cb1077",
+        "signal": "I will pay that amount",
+        "reason": "Owner asks about payment, plan details, and commits to paying within 1-2 days after work completion.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "bdc15662-28fc-43f0-8fc5-a512dad47c74",
+        "user_id": "8a9f8b838eadee7e018eae3a340322eb",
+        "signal": "what is the discount",
+        "reason": "Owner actively inquired about plan details, discounts, refund policy, and payment options.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c11e6065-2153-4cc3-942a-3bd65c1c2ad8",
+        "user_id": "8a9ff383896363f20189637364ec07b9",
+        "signal": "money back plan",
+        "reason": "Owner inquired about discounts, plan details, and confirmed they want the money-back plan, asking for a payment link.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 13
   },
   "NBTS24094": {
     "employee_id": "NBTS24094",
@@ -5862,7 +7845,171 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "1653c8ea-b278-4950-8718-b20b6bcf7e4f",
+        "user_id": "8aa999709ecb54c7019ecba6a53f2356",
+        "signal": "4000 rupaye apo sara achi a",
+        "reason": "Owner asks about plan cost, benefits, and activation, and expresses willingness to pay if there's a benefit.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "2ef3fa94-1ee0-422e-bbf1-8085ffb7e8ea",
+        "user_id": "8a9f8a8497d81c5a0197d87a6bc6072f",
+        "signal": "So get get in touch with me after 4 days",
+        "reason": "Owner asked about payment, refund, plan details, and callback for activation, indicating strong commercial interest.",
+        "date": "2026-07-05"
+      },
+      {
+        "cdr_id": "5da4da27-3500-4583-b082-c4c7e66212a9",
+        "user_id": "8a9f9a827cae894b017cb58eb13941e5",
+        "signal": "how will I reach your service",
+        "reason": "Owner asked about service charges, plan details, and how to proceed with key handover and manager coordination.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "7678bbdc-33b4-4276-9bdd-f70a58f29734",
+        "user_id": "ff80818169cf30910169cfd8cb1d28e0",
+        "signal": "subscribe to super relax",
+        "reason": "Owner asked about plan details, refund, and proceeded to make payment.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "80159d78-5051-400d-82b9-552f939e0dda",
+        "user_id": "8a9fc70392f0688b0192f0b315321732",
+        "signal": "You tell me number.",
+        "reason": "Owner asked for a number after hearing about enquiries and premium services.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "885689a0-89be-48a7-83c4-34beb3f7cfd1",
+        "user_id": "ff8081815ad0de49015ad63c8f276061",
+        "signal": "what is the package?",
+        "reason": "Owner asked about free services, confirmed property details, and asked about the package price, then proceeded to pay.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "9afa6ba8-e619-4230-84fe-a1a3f309a838",
+        "user_id": "ff80818169cf30910169cfd8cb1d28e0",
+        "signal": "What is the plan name?",
+        "reason": "Owner asks about plan name, discount, money back guarantee, and payment method.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "f45852ef-e59f-4840-b608-f429467f7bc5",
+        "user_id": "ff80808148bd7a1d0148c5960cc703d4",
+        "signal": "Enquiry. So I can go ahead.",
+        "reason": "Owner asks about how leads are handled and if they can suggest names, indicating interest in the service.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "fc00ad96-df28-443b-bf6c-23ed4fdfb611",
+        "user_id": "8a9fa2869985648d019985a6ed2e1ace",
+        "signal": "tho hame kitna pay karna padega total mam",
+        "reason": "Owner asked about total payment, plan details, validity, and requested to activate the plan for tomorrow.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "0c7a2c56-3186-49a8-8455-ecc54962706b",
+        "user_id": "8a9ff6828635a428018635d3c71b1e24",
+        "signal": "you can activate it",
+        "reason": "Owner confirms previous discussion, asks to activate, and requests a callback for payment.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "32f3d972-bdbd-4155-932a-a7e3b482766d",
+        "user_id": "8a9f0a838704e9c60187051c51860fdd",
+        "signal": "Ok. then go ahead.",
+        "reason": "Owner asked about plan activation, tenant search timeline, rent and deposit, and proceeded to pay.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "3a1324c1-a4b2-49a1-835c-0577ea9fa326",
+        "user_id": "ff8081816b6fb9b1016b6fd5d08c0ee3",
+        "signal": "I will send money",
+        "reason": "Owner explicitly states they will send money and asks for a link, indicating strong commercial intent.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "3f1bfa77-6fe6-468b-b92f-79b3b885cc84",
+        "user_id": "8aa9b2cc9f3c453a019f3c75ea341d40",
+        "signal": "Ha ma kavali",
+        "reason": "Owner explicitly stated 'ma kavali' (we need) for a rent house and provided a specific locality and BHK.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "7140a35e-09d6-48d2-8123-41f2104cbad7",
+        "user_id": "ff8081816534813c016537f9105150af",
+        "signal": "Can you just go through that and explain me.",
+        "reason": "Owner asked about plan details, price, and how to proceed after payment.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "b360009d-cb41-42cc-8d6a-b76f706cbdba",
+        "user_id": "ff8081815d173890015d174deaea0acc",
+        "signal": "Amount I need to pay for the service.",
+        "reason": "Owner asked about price, plan details, and discount, and proceeded to payment.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "dbf7b141-1d95-4137-adf5-54f43a25c0b7",
+        "user_id": "8a9f90838fddc5e9018fde0d377023ad",
+        "signal": "payment kaise karni padti iski",
+        "reason": "Owner inquired about plan cost, payment, and actively proceeded with payment after addressing concerns.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "dd0abcc2-8500-40a6-bdb5-64c9f70fecb8",
+        "user_id": "8a9fb0839604c40801960526a0092fa1",
+        "signal": "aapka charges kya hain?",
+        "reason": "Owner asked about charges and confirmed they are coming to pay, requesting a callback for confirmation.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "f98ee886-d603-4f4d-9241-3a28aed948d4",
+        "user_id": "8a9fb1827a9956bd017a997ba9751668",
+        "signal": "1 hour you give me time",
+        "reason": "Owner agreed to a callback after 1 hour to arrange for tenant search, indicating commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "3e011ebd-00ae-45b6-b3fc-bae5f34d18d0",
+        "user_id": "ff808181605f3aa20160638ede427c8f",
+        "signal": "and the plan",
+        "reason": "Owner confirmed property is available, asked about plan details, and agreed to a callback.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "7dfd7dc6-edf8-4fbe-8097-9494c412948d",
+        "user_id": "8a9f8cc3920e3f0901920e69fee40e31",
+        "signal": "Kara dijiye, ham kar denge aapko.",
+        "reason": "Owner inquired about cost, payment, and plan details, and agreed to proceed with payment.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "88793979-1ded-41ce-bb89-58aa2edb9212",
+        "user_id": "8a9f948383cb1fba0183cb42ce96145d",
+        "signal": "I will make the payment",
+        "reason": "Owner confirmed payment link and stated intent to make payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "ab54fbf5-9e26-4a5d-94e8-9c358739b466",
+        "user_id": "8aa982ac9edd4afa019eddd484740cd5",
+        "signal": "Ho gaya sir, payment.",
+        "reason": "Owner actively engaged in payment process, asked about invoice, and confirmed payment. Property is available.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "cd4735c2-68b6-4ba1-8e95-f5ea85f158e0",
+        "user_id": "8a9fc08281d1ad6b0181d25250ec7174",
+        "signal": "Ok ani service charge cut kartat ta refund mahanje ka full refund ahe.",
+        "reason": "Owner asks about money back plan, refund conditions, service charges, and discount. Also confirms previous purchase and asks for payment link.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 23
   },
   "NBTS40448": {
     "employee_id": "NBTS40448",
@@ -6152,7 +8299,213 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "3d28a9f5-4e58-4001-a29b-3718c4e24643",
+        "user_id": "ff8081814f3486ae014f35232e1f04bb",
+        "signal": "Ade adu link link kalsi nanu.",
+        "reason": "Owner asks about plan details, payment, discount, and how to proceed, indicating commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "69b662ae-3b2a-4b6b-8c69-ab2d3f0d4d6f",
+        "user_id": "ff808181667de21f01667de384de0038",
+        "signal": "already we paid the premium",
+        "reason": "Owner confirmed property is available and stated they previously paid for premium services for multiple properties, indicating continued engagement and past commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "95a5adac-7ff0-4e62-a0a4-e16f8ec1c700",
+        "user_id": "8a9fcbab81b2214a0181b2aae51f172d",
+        "signal": "I will take the plans",
+        "reason": "Owner explicitly asked about plans, payment, discounts, and how to proceed online.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "a9d96c2f-ee67-42c9-a973-56df27e7a346",
+        "user_id": "ff80818152648bcb015265596007056c",
+        "signal": "refund nar na sir uska kitna premium hain?",
+        "reason": "Owner actively inquired about refund, plan cost, and differences between plans, showing strong commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "afa53c2c-b8a0-436a-be9e-c60f49e48415",
+        "user_id": "8a9fb88597d3da1c0197d44e0c0f3023",
+        "signal": "paid services pakuringalla mam",
+        "reason": "Owner asked about paid services and confirmed interest in renting out the property.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "bc262ac8-d59b-44ba-84c4-38a312bb16cc",
+        "user_id": "ff808181585a428301585d14b9ca5136",
+        "signal": "payment received successfully sir",
+        "reason": "Owner confirmed payment and is actively discussing tenant requirements and next steps.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "eb4c9958-1825-4594-8254-30643833d665",
+        "user_id": "8aa9829a9f2c0bb6019f2c1aa6d80812",
+        "signal": "Kodtini Kodtini",
+        "reason": "Owner asked about premium services cost and agreed to pay.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "0a930fdd-4495-42d1-a5e9-632da093684c",
+        "user_id": "ff808181540438f40154046e1e180410",
+        "signal": "what are the services",
+        "reason": "Owner asked about services, plan details, and payment, and confirmed property availability.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "118b96ca-7346-47dd-9495-687efb722655",
+        "user_id": "ff80818152648bcb015265596007056c",
+        "signal": "mere ko plan ke bare mein batao na",
+        "reason": "Owner asked about plan details, refund, and how it works, showing clear commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "1dd0f516-03dd-4773-b018-49a521df555b",
+        "user_id": "ff8081816e7f99a5016e8232635b1364",
+        "signal": "nan nim dudd kotbidtini",
+        "reason": "Owner explicitly states willingness to pay if property is set up in 3 days.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "221d7968-f527-432a-81a7-65948bf8e22a",
+        "user_id": "ff8081816781a45a016782788cbd673b",
+        "signal": "What is the charges?",
+        "reason": "Owner asked about charges for services, indicating commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "2f040fac-450d-49f5-b747-e594a11f699f",
+        "user_id": "8aa9be979c8b068d019c8b2824a4094d",
+        "signal": "Is there any charges for these services?",
+        "reason": "Owner explicitly stated intent to rent, asked about charges for services, and discussed plan details.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "4d382d9a-003b-43d7-a47b-d88c04b6e853",
+        "user_id": "8a9fff838a4bf1d6018a4ca303a85a7c",
+        "signal": "paid services le",
+        "reason": "Owner expressed interest in paid services for renting out their property.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "576f92a7-6c2f-4bc4-acb0-7f5b88537cab",
+        "user_id": "8a9f96827a72993b017a72cab3172f84",
+        "signal": "I will do it before afternoon, sir.",
+        "reason": "Owner agreed to complete the plan before afternoon and stated they were in a meeting to discuss it.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "6be28b46-4282-4294-b023-29254624e8a8",
+        "user_id": "8a9fd32f85f72f4c0185f7416e640cb0",
+        "signal": "looking for sale",
+        "reason": "Owner explicitly stated they are looking for sale and agreed to activate services for sale.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "98256f4c-bb21-406e-a264-936db2ce7057",
+        "user_id": "8aa9ac7b9aaff481019ab00d25c90bc3",
+        "signal": "I will subscribe to that",
+        "reason": "Owner explicitly stated they will subscribe to the plan in 2 days and asked to be called back.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "a610b4f0-a35a-4300-b73d-ac76c1fb0b79",
+        "user_id": "8a9f93d77452772d017453909fa82a8a",
+        "signal": "kaisa B jate hain",
+        "reason": "Owner asked about plan details, validity, features, and price, and negotiated the price.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "b5147b62-e1f4-48b4-9378-c7254032db9a",
+        "user_id": "8a9faf827ff40859017ff41cb60309c3",
+        "signal": "idhula enaku eduthadh response iruku suppose response illana na adh na add panni kire nan indha plan",
+        "reason": "Owner is considering paid plan, wants to activate by weekend if no response, and is discussing property readiness.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "158686f1-3785-48fa-8569-d55a5ccf4a3b",
+        "user_id": "8a9ff582885caa7601885cd1decd1fd7",
+        "signal": "Amount vattadamante sale madandi",
+        "reason": "Owner asked about payment and confirmed property is available.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "2954d09d-e413-4434-9a97-428d5d473efa",
+        "user_id": "8a9f90c38fdcea7e018fdd0eae6d11fa",
+        "signal": "how much do you need to pay",
+        "reason": "Owner inquired about plan, pricing, discounts, and payment, and asked for a callback to discuss the amount.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "319ec2de-5b7b-4156-ae45-83c6eecb6686",
+        "user_id": "ff8081815dd66c3a015dda18fbd84641",
+        "signal": "Ondu yavdu idu madkotilla",
+        "reason": "Owner expressed strong dissatisfaction with current listing, seeking better service and faster tenant acquisition.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "508e62ec-74eb-4647-9cbc-80d12112f119",
+        "user_id": "ff8081815292dae701529592349c0c48",
+        "signal": "next week I will buy it sir",
+        "reason": "Owner stated they will buy the service next week if no one comes this weekend.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "5801e61d-1c68-405d-bf43-d43fa8ba8b87",
+        "user_id": "8a9f9a8281bbca650181bc51e37d0485",
+        "signal": "how much I have to pay",
+        "reason": "Owner asked about renewal cost, money back, and other facilities, indicating commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "5adef41a-c64a-4538-8aca-6a63df6723ac",
+        "user_id": "ff8081816e837f87016e83b3fc33264d",
+        "signal": "Ok ok fine. I will do the payment.",
+        "reason": "Owner actively asks about plan benefits, refund, price, and payment, and confirms intent to pay.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "62a7dd71-95f6-42a1-b073-99caafb9b8bd",
+        "user_id": "ff808181529083f9015290c77a2901a2",
+        "signal": "refundable yavdu ide adu",
+        "reason": "Owner asked about refundable plans, payment, and negotiated price, showing clear commercial interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "8ad9b21c-7254-4988-a485-c90e0566494f",
+        "user_id": "8a9f8e4390cb85640190cbce75c7142c",
+        "signal": "I surely don't want that.",
+        "reason": "Owner actively inquired about premium plans, asked about pricing, benefits, and proceeded to make a payment.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "ac5eec64-b5e7-43f0-968d-d5826e5f9e2b",
+        "user_id": "ff80818165fb8ba30165fbb3d5741730",
+        "signal": "Sir, it's already listed.",
+        "reason": "Owner is discussing pricing, negotiation, and has previously used paid services.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b2cdfa41-bdd1-4f61-b60c-f205312b8e63",
+        "user_id": "ff8081815e233f28015e297c86ef3366",
+        "signal": "vo fees kiya hain. Minimum denge kar ki baat hua hain.",
+        "reason": "Owner discussed post-paid services and payment terms after initial property discussion.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "b8e0c58b-54e8-46ff-8ea9-0104d34ec03b",
+        "user_id": "8aa99e7d9e73423a019e736604e40cdc",
+        "signal": "Premium services matlab kitne ka hain?",
+        "reason": "Owner inquired about plan cost, validity, and payment structure, and discussed property requirements.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 29
   },
   "NBTSC400946": {
     "employee_id": "NBTSC400946",
@@ -6636,7 +8989,178 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "0d4a8c36-7b18-4bff-ab26-4edc49e6863e",
+        "user_id": "8a9f8b8396af910a0196afef38fc23be",
+        "signal": "Ivaga madadu ivaga m activate aguta",
+        "reason": "Owner asked about activation after payment and inquired about the process.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "1fe7eb79-31da-43ee-a890-70407ea9f0bb",
+        "user_id": "ff8081814db4d98a014db83287b90cf2",
+        "signal": "12ke heli",
+        "reason": "Owner confirmed property is available and asked for a specific time to discuss, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "493422b3-2a39-41db-ad1c-7f482e22c3e3",
+        "user_id": "8a9f82ce75c080b70175c0848a5200c9",
+        "signal": "E month ending ku khali aypotadi",
+        "reason": "Owner confirmed property availability, discussed tenant move-out timeline, and asked about photos.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "5772b74c-4f37-4bf3-b258-afc1502332b2",
+        "user_id": "8a9f85c16f3a8d40016f3ab5cfe00269",
+        "signal": "can you able to reduce further",
+        "reason": "Owner asked about price reduction, payment activation, and details after payment, indicating strong commercial interest.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "791cf910-6d14-4cd4-847d-e790eb6ab23f",
+        "user_id": "8a9fbb8280db216b0180db2c512404ca",
+        "signal": "Send me the link",
+        "reason": "Owner repeatedly asks for the link and confirms receipt of payment and activation, indicating strong commercial interest.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "ae84392c-0610-4d62-bc95-ab03547df2b5",
+        "user_id": "8a9fa78d97ee937c0197eecbd8b81642",
+        "signal": "Ha ok ok.",
+        "reason": "Owner asked about basic plan, price, and discount, showing commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "b7018528-714c-4f25-803f-5c3fb4ce3ea1",
+        "user_id": "8a9f8c8a8fd82fea018fd86588bb1753",
+        "signal": "plan bagge cheppintni kada",
+        "reason": "Owner asked about plan details and confirmed property, showing commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "c699c3e0-27b9-4485-8361-2e65f34a6d6b",
+        "user_id": "ff8081814ee47e27014eee591fcb3793",
+        "signal": "how much is the PAN plan.",
+        "reason": "Owner asked about plan cost, refundable/non-refundable options, and plan details.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "d280d346-87a5-4c68-a94d-5533d55c3608",
+        "user_id": "8a9fa18276f044d10176f06a62550d6f",
+        "signal": "ready to occupy",
+        "reason": "Owner explicitly stated property is available for rent and requested tenants to be sent to their location.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "28d21c1b-1427-4214-93d7-824c16490818",
+        "user_id": "8a9fb98499b32f780199b3421374099b",
+        "signal": "Sari sari nanu check madi",
+        "reason": "Owner asks about money back plan, property availability, and payment details, and agrees to activate.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "50e28dd3-0b49-4ce6-a631-9d3cc3a58ddf",
+        "user_id": "ff8081816994ee6e01699516fba21561",
+        "signal": "how much is the plan",
+        "reason": "Owner asked about plan cost, payment, and requested a callback to proceed with payment.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "56a1a712-fbe1-4bb5-93fe-8bf563f01e3b",
+        "user_id": "ff8081815149508101515d17f7b82b89",
+        "signal": "How many days validity",
+        "reason": "Owner asked about plan validity, details, and requested to see them via WhatsApp, indicating commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "6274a639-6ccc-4c6f-b004-f0f9556a15b1",
+        "user_id": "8a9ff7828634582f0186353b35a81bce",
+        "signal": "what's the fees that we have to pay",
+        "reason": "Owner asks about premium plan, pricing, payment, tenant limits, and how to list with expected vacancy date.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "a2c5db60-4e8e-4e5c-937c-f1b258ec111f",
+        "user_id": "8aa998559f4f3c99019f4fbc96294e6f",
+        "signal": "How much is charge?",
+        "reason": "Owner asked about charges, plan details, and callback time after hearing about tenant interest and plan benefits.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "a529fab3-c825-4fba-9232-0fa3e1feceaf",
+        "user_id": "8a9fea838ad46a41018ad52628584e2b",
+        "signal": "Aaj aaj pataik mein kar dunga",
+        "reason": "Owner asked about plans, how to activate, and confirmed they will activate today.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "b9a145f3-07c3-4367-a029-7880c8986a7e",
+        "user_id": "ff8081816939a8ed016939b5352a048b",
+        "signal": "You have any discount and tell me the correct price.",
+        "reason": "Owner inquired about price, discounts, and how the plan works, and expressed a need for services like painting and e-khata. Owner also confirmed payment.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "cd4e555b-ee78-47bb-8d8c-8397597d9e61",
+        "user_id": "ff8081815d77d70c015d7880099848ff",
+        "signal": "Lekin discount karo na",
+        "reason": "Owner inquired about plan cost, asked for discount, and expressed willingness to pay after discount.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "d9da4ddf-4a7c-4e8f-840e-fed2fcf9812d",
+        "user_id": "8a9f9a82776133670177616035bb1118",
+        "signal": "For this only, it is very difficult",
+        "reason": "Owner explicitly called for service due to inability to attend calls and asked about plan cost and activation.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "23d9ea33-9d61-432b-b0c1-c660a07f399b",
+        "user_id": "ff8081816bfeefb5016bff4257355ab3",
+        "signal": "Painting and carpentr swalpa wardrobes idella hogide",
+        "reason": "Owner asked about plan details, payment, and services like painting and carpentry, indicating strong commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "2d310185-886f-4d99-9ccf-ab9770878861",
+        "user_id": "8a9f9d827675f4b30176764f45c91828",
+        "signal": "Ah thats ok.",
+        "reason": "Owner confirmed property listing and acknowledged interest, then asked about the premium plan.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "64f9dd02-2ea3-49ab-b2b4-6ed2bf39cc93",
+        "user_id": "8a9fb08277be43bf0177be6825001331",
+        "signal": "I will be activating this next week.",
+        "reason": "Owner confirms previous discussion and commits to activating the plan next week.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "8edeaaef-25ef-4e5b-9b88-9b3af480547f",
+        "user_id": "8a9fb98499b32f780199b3421374099b",
+        "signal": "money back plan 100% money back",
+        "reason": "Owner inquired about plan details, refund conditions, and confirmed interest in the money back plan for 2 BHK.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "ab4dd844-a4db-4da9-b025-99befed5e696",
+        "user_id": "ff80818168b760640168b7709557088b",
+        "signal": "I can take this plan",
+        "reason": "Owner asked about tenant timeline, selling option, and plan after work completion.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "bf4aabc8-8f11-4f83-b7d8-ebcf9da421db",
+        "user_id": "8a9f8a038e0a199b018e0a308c8009ae",
+        "signal": "it is available.",
+        "reason": "Owner confirmed property is available and responded positively to plan discussion.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 24
   },
   "NBTS27511": {
     "employee_id": "NBTS27511",
@@ -6992,7 +9516,136 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "36425dcc-9fd6-4267-b786-bdb3da27c2e6",
+        "user_id": "8a9f9a8597e8ed490197e9104dfa0e60",
+        "signal": "You can provide some discount",
+        "reason": "Owner asked about discount and confirmed they will proceed with services.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "72cf80a6-025d-44f3-b9f1-0ca483146a31",
+        "user_id": "ff8081815cdb106a015ce8ab832d19b2",
+        "signal": "andha post edukanum",
+        "reason": "Owner confirmed property is listed for rent and wants to remove the post as tenants have arrived.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "7743ab6a-5f91-46da-ab8c-f8380797a4ae",
+        "user_id": "8a9f90438fe7a4cb018fe7e6a4951f96",
+        "signal": "We will close it tomorrow.",
+        "reason": "Owner explicitly stated they will decide and close tomorrow, asking for a call back.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "7abb5703-6129-4d37-a1d8-24a35e41f284",
+        "user_id": "ff80818160792cc001608e114b557876",
+        "signal": "This is the only 1 available rent now.",
+        "reason": "Owner is actively seeking to rent out their property and asks about the service details.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "89965cb4-acdf-4e54-9216-d10eecb5b9b5",
+        "user_id": "8a9fa48276ad52970176ad72df870b35",
+        "signal": "I am ok I am ok with 3 BHK right now",
+        "reason": "Owner explicitly agreed to onboard the service, asked about plan details, price, and actively participated in the payment process.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "8c2c9aa2-900e-4954-a590-4a0be880bdfa",
+        "user_id": "ff80818159fa0f0f015a0226e463460a",
+        "signal": "Innaiku nalaikulla book alana na ungakita vara",
+        "reason": "Owner explains previous tenant issue, wants faster rental, asks about plan details and discount.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "93e925d3-7d7b-4471-8a85-5d10a6794ba0",
+        "user_id": "8a9fea8389025918018905eb452c7e35",
+        "signal": "what is that money back policy",
+        "reason": "Owner inquired about money back policy, refund conditions, and how the process works, indicating strong interest in the service.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "d19b769f-066b-42cd-b184-1f735f562c45",
+        "user_id": "ff8081815419937101541dc51ee52acf",
+        "signal": "What are the charges for that?",
+        "reason": "Owner asked about charges, plan details, and requested a message with details, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "20218310-9657-4a4e-8edf-c80ca085f25a",
+        "user_id": "ff8081816bea7495016bea996ea423be",
+        "signal": "How much I will pay",
+        "reason": "Owner immediately asked about payment and cost after agent mentioned tenant availability.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "6065cfc0-8eab-4e39-912f-a22f61b1e461",
+        "user_id": "8aa9a7579f124c36019f12810ef4163e",
+        "signal": "rent out karna hain any how 1 week mein ghar",
+        "reason": "Owner explicitly stated they need to rent out the house within a week and asked to activate the service.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "aa4901f0-86b1-4007-bcb6-099cf3f83d84",
+        "user_id": "8aa9d9259e3924f0019e396b6a6b138c",
+        "signal": "looking for 1 BHK flat",
+        "reason": "Owner explicitly stated they are looking for a 1 BHK flat within a specific budget and furnishing type.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "d8490c65-6957-4d3a-8aab-fb77d228d783",
+        "user_id": "8a9fb383968f616301968f7e28cf09a3",
+        "signal": "So, what's the difference between this and that?",
+        "reason": "Owner asked about plan differences, confirmed payment, and inquired about proceeding with the service.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "de95edcd-5abc-4407-a582-268c6e347c4a",
+        "user_id": "8a9f87138ed18c23018ed1b8e62a14df",
+        "signal": "ad dali maine vo rent ko dena hain",
+        "reason": "Owner explicitly stated they need to rent out the property and confirmed listing details.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "f17d6c0c-7642-43af-862f-76bd74dc5a6e",
+        "user_id": "8aa9a0b59f45cc11019f45e5214f0e38",
+        "signal": "em plans em unnayi",
+        "reason": "Owner asked about plans, payment methods, and expressed willingness to pay after clarifying details and confirming property availability.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "2cbe3376-c959-4dec-90b3-dbece4c4ec5a",
+        "user_id": "ff8081815cdb106a015ce377403464a6",
+        "signal": "adhu enna se rvice",
+        "reason": "Owner asked about plan details, cost, payment options, and how to proceed with payment.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "9f4ee027-7953-4f03-9812-50ad5105d316",
+        "user_id": "8a9f8686708b0adf01708bcc12734734",
+        "signal": "how can we sell the property",
+        "reason": "Owner explicitly stated they are planning to sell and asked about the process and how NoBroker can help.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b8243a5f-9928-4dce-b465-ae66562c403d",
+        "user_id": "8a9fb4827d2d59fc017d2d76a1290e08",
+        "signal": "send me the link for the payment",
+        "reason": "Owner explicitly asks for payment link and confirms payment completion.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "bfc4de89-e17f-4903-9b7c-f441f3be7f20",
+        "user_id": "8a9f83438ef6e36c018ef711626c0f20",
+        "signal": "payment epadi munnadiye kudukanuma",
+        "reason": "Owner asks about payment timing and expresses concern about previous listing duration.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 18
   },
   "NBTS15547": {
     "employee_id": "NBTS15547",
@@ -7155,7 +9808,73 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "5a057bde-b45e-40b0-8e05-3134416dc063",
+        "user_id": "8a9f80ce700f959301701083385c48c1",
+        "signal": "I will do it 100%",
+        "reason": "Owner asked about how to insure good customers, police verification, rent agreement costs, and confirmed they will take the service.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "b1368150-5242-4ede-b4e9-332b1eee6155",
+        "user_id": "8a02ec466f23906a016f23bf83ff19f3",
+        "signal": "premium member se",
+        "reason": "Owner asked about plan, discount, and requested evening callback for premium membership.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "da2e0fb4-ae06-44a5-9946-ecb18d1e5331",
+        "user_id": "8a9fa782803a325f01803a754c960889",
+        "signal": "Aapki service ke liye service se charges kya hote hain?",
+        "reason": "Owner asked about service charges, plan details, validity, and how to proceed with showing the property.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "f08aa4ef-3798-400c-a2c8-2515975e9134",
+        "user_id": "8a9fad8594c6d0f90194c6e0cfaf055c",
+        "signal": "what are the services including it?",
+        "reason": "Owner inquired about packages, services, plan validity, and asked for a callback number to contact directly.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "f16b0c2c-e312-4a94-8728-27a47efc9478",
+        "user_id": "8a9f8a8996fe27690196fe8183cd0d8f",
+        "signal": "Kitna paisae dena padta hain sir uske?",
+        "reason": "Owner asked about price, plan details, and how to proceed with renting the property.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "0be18bd8-946e-421c-a26b-6953d6cf715b",
+        "user_id": "8a9f80e58efc4404018efe0de5f4769e",
+        "signal": "Ah, yes, I am interested",
+        "reason": "Owner expressed interest, asked about renting out multiple units, inquired about plan details, and requested a callback to discuss further.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "bf6e68f8-1fa3-4377-96e3-1dbe6b004a76",
+        "user_id": "ff808181644adac301644af6db771589",
+        "signal": "calls edhum panraluku avanga pannala",
+        "reason": "Owner confirmed property is available and expressed frustration about lack of calls, asking about paid services.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "cde1d31f-dd82-4499-841a-51e3149c9130",
+        "user_id": "ff8081816a39c381016a3f22ced60656",
+        "signal": "what will be the guarantee",
+        "reason": "Owner asked about guaranteed service, contact, and how to interact after payment.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "1f65bdd4-1af0-4fd3-bd4e-b93d3fb6c2f3",
+        "user_id": "8aa9b4609ebfe5f5019ec139f53b2a1a",
+        "signal": "No, how to register that.",
+        "reason": "Owner asked about registration, plan details, and payment link after expressing dissatisfaction with free listing.",
+        "date": "2026-07-08"
+      }
+    ],
+    "high_intent_leads_total": 9
   },
   "NBTS35805": {
     "employee_id": "NBTS35805",
@@ -7404,7 +10123,108 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "5cd83ea4-6ea0-4733-8116-fd8cd6116e41",
+        "user_id": "ff8081814efee247014f07de3bf72eb8",
+        "signal": "Can you check and give me the owner relax plan.",
+        "reason": "Owner asked for 'owner relax plan', mentioned being a premium customer, and has multiple properties.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "8b4f0542-6742-405e-a45f-77d7691f9f81",
+        "user_id": "8a9ff2828635a4130186360c49af4499",
+        "signal": "Any free like post paid?",
+        "reason": "Owner explicitly asks about postpaid, money back plan, and negotiates price after previous bad experience.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "1ae031e5-a819-4268-a766-886726d2f570",
+        "user_id": "8aa9a1669f45cbe9019f47257ba865f7",
+        "signal": "Let me see how to subscribe then.",
+        "reason": "Owner asked about plan details, how to subscribe, payment methods, and expressed a need for confidence in renting the property quickly.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "4b57ccc2-9dc4-4ccc-bee5-495dab3109c8",
+        "user_id": "ff80818154487c3001544b6e2c0f1224",
+        "signal": "I have purchased the rental plan.",
+        "reason": "Owner purchased a money-back plan and is inquiring about service delivery and next steps.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "68b8e1d4-d8df-4937-9c14-541881f09412",
+        "user_id": "ff808181651e847c01651ea62181190b",
+        "signal": "probably next week we will know ok otherwise then I will activate it",
+        "reason": "Owner is waiting for tenant decision, will activate plan next week if no tenant is finalized. Property will be available next Sunday.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "6de3d412-ae84-43bc-80cb-f65eb98482f0",
+        "user_id": "ff8081815a701e88015a7e39112520b4",
+        "signal": "Appo ninga nanga eppadi idh pay panradhu",
+        "reason": "Owner asked about payment, plan details, and how to proceed, and eventually made the payment.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "7cf7adec-f0c2-47e9-adb8-d68c66229da2",
+        "user_id": "ff8081816bbce5c7016bbce748090081",
+        "signal": "supposed to pay",
+        "reason": "Owner confirmed discussion about premium plan and intended to pay by Monday.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "bfcdd3b2-b72c-42bd-8847-09381fadc137",
+        "user_id": "ff8081816bac663f016bac731afe0e1d",
+        "signal": "when will be the R M will be assigned",
+        "reason": "Owner asked about RM assignment, field manager visit, and key handover process after payment.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "dd0ba9aa-acfc-4b59-bcbb-23e3d0fcf2f9",
+        "user_id": "ff80818169be540e0169bed41f0c3acf",
+        "signal": "Will I get any tenants, madam, in this?",
+        "reason": "Owner asks about payment, insurance, and tenant acquisition, indicating strong commercial interest and a need for service.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "1b862283-3789-412e-a450-d7973039f4f0",
+        "user_id": "8aa9a1669f45cbe9019f47257ba865f7",
+        "signal": "what is the guarantee",
+        "reason": "Owner asked about plan cost, guarantee, and how to proceed with payment.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "1be2a4f9-7c0c-4230-a063-4af17f29200d",
+        "user_id": "ff8081815ef0c8ab015ef0f9072106bb",
+        "signal": "my father actually from this mobile phone he has opted for the relax plan.",
+        "reason": "Owner confirmed property is available and mentioned a previous paid plan, indicating continued interest in NoBroker services.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "3f6cdb49-3d6e-4434-8802-dac038f87598",
+        "user_id": "ff8081814d76c9df014d806859b136ac",
+        "signal": "howse? When does it start",
+        "reason": "Owner asked about plan activation, validity, and expressed desire for faster tenant acquisition.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "72c81229-3bae-45b9-8b0e-c432dc300033",
+        "user_id": "ff8081816035b49201603a459c4f47ea",
+        "signal": "can you send me these plans",
+        "reason": "Owner asked about plans, pricing, and requested details via WhatsApp/email.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "c972b45b-8e9d-4773-b810-9f5253b273fd",
+        "user_id": "8a9f9b827ef7b103017ef7b6e8310053",
+        "signal": "No, no, no, no, no, it's a vacant new.",
+        "reason": "Owner explicitly states property is vacant and new, indicating immediate availability and interest in renting.",
+        "date": "2026-07-09"
+      }
+    ],
+    "high_intent_leads_total": 14
   },
   "NBTSA304976": {
     "employee_id": "NBTSA304976",
@@ -7615,7 +10435,59 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "5b91b79f-a6c8-41aa-a501-c821db39f818",
+        "user_id": "8a9fa1c6785e8cef01785efb29362b5e",
+        "signal": "Can you send me a plan for selling it also",
+        "reason": "Owner explicitly asks for selling plan details to decide and discusses budget and expectations.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "beb8bb32-a695-4a6c-82c2-db89defbca18",
+        "user_id": "ff8081815394458b0153980e38e42116",
+        "signal": "Can you make it? Can you make it active my plan.",
+        "reason": "Owner wants to reactivate plan, asks about validity, and needs help with RM contact for property.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "39df23a4-69cd-47b8-8cf3-075b112060bb",
+        "user_id": "8a9f9b83966251af019662b81b2926df",
+        "signal": "I want to meet",
+        "reason": "Owner wants to meet RM, pay on the spot, and discussed plan details like refund and managers.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "99c2e3f9-9106-4261-938e-89696132faa7",
+        "user_id": "8aa9b5ad9f44f01b019f455e345437ee",
+        "signal": "You can start se services.",
+        "reason": "Owner agreed to start the service and asked for the payment link.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "9ea62820-86cd-4e06-a8b7-0def580719b4",
+        "user_id": "8aa996659e4973c2019e4a5ffd5e7aa6",
+        "signal": "I will check the plan",
+        "reason": "Owner confirmed property is available, negotiable rent, and stated they will check the plan and register.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "cb403686-78b0-4991-98e8-4854d3113524",
+        "user_id": "8aa9b0e49f21c354019f21d9dfb80a83",
+        "signal": "Tho usmein aapke end se edit karoge",
+        "reason": "Owner asked about discount, final rate, and chances of rent out with premium service. Also asked about property edits.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "ab127d61-1f82-4c57-b913-1955ad65aca2",
+        "user_id": "8aa9a4bc9f45cbbf019f462af35c3aa9",
+        "signal": "How much it will cost for",
+        "reason": "Owner asked about cost and requested details to review, indicating commercial interest.",
+        "date": "2026-07-10"
+      }
+    ],
+    "high_intent_leads_total": 7
   },
   "NBTS44216": {
     "employee_id": "NBTS44216",
@@ -7946,7 +10818,45 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "ba88dbb3-e993-44e2-aa6e-a1a31c79d3a1",
+        "user_id": "ff8081816b4ff311016b50073eef0d31",
+        "signal": "Vo nahi hua tho",
+        "reason": "Owner asked about plan details, refund, and what happens if property doesn't rent out.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c3dfbc6d-d0b5-4dbd-bbf7-d876e7039295",
+        "user_id": "8a9fb982802b644301802c07367e6f76",
+        "signal": "Premium subscription venu",
+        "reason": "Owner explicitly stated 'Premium subscription venu n call panre' and asked for plan details.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "e69dc072-5ece-4293-a6db-f0eee70e1944",
+        "user_id": "8a9f87038e01322e018e013d864d003d",
+        "signal": "I will be subscribing it",
+        "reason": "Owner stated they will be subscribing and giving munch time, indicating clear intent to proceed.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "04370927-e9f3-4618-8626-045506c0ce4e",
+        "user_id": "8aa9b06e9f44efcf019f457d9faf4d70",
+        "signal": "The cost of this plan.",
+        "reason": "Owner asked about plan cost, rental agreement, and best deal, indicating strong commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "65189ffb-10fc-43be-91b4-134b7353e829",
+        "user_id": "8a9f9f838bc3e236018bc672254e5537",
+        "signal": "Sale chesthamu",
+        "reason": "Owner actively provided property details for sale and asked about pricing and timelines.",
+        "date": "2026-07-10"
+      }
+    ],
+    "high_intent_leads_total": 5
   },
   "NBTS42531": {
     "employee_id": "NBTS42531",
@@ -8229,7 +11139,80 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "46021406-d655-43fa-8875-30b6c9e52e87",
+        "user_id": "8aa9bec49d6b27c6019d6ba41ca2333b",
+        "signal": "The let them to come to me. Then I will pay your premium",
+        "reason": "Owner explicitly stated they need tenants and are willing to pay for premium services once a tenant is found.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "4954c980-736d-4fd4-8c7d-cd90df966e77",
+        "user_id": "ff8081816acdd828016acf7feaa8058e",
+        "signal": "can you please enable that 1",
+        "reason": "Owner asked about plan cost, validity, and explicitly asked to enable the plan and pay.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "9e16c4c9-c6df-44e0-8986-a7b1b8777b68",
+        "user_id": "8a9fae8377ce074a0177ce52af702290",
+        "signal": "We already taken the premium.",
+        "reason": "Owner confirms having premium services, provides correct number, and expresses concern about not getting tenants.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b24ace5f-9d1a-4d4d-815b-19733cafa178",
+        "user_id": "ff8081815c72c7b5015c73228f0928f9",
+        "signal": "no tension at all",
+        "reason": "Owner is looking for lease, wants no monthly maintenance tension, and asks about guarantee.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "5852fcf2-87d7-4375-9840-3cbda903314e",
+        "user_id": "8a9f920390a62fe50190a695c666305e",
+        "signal": "how does that work",
+        "reason": "Owner asked about coordination, keys handover, photo process, and rent agreement charges, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "645540e5-8991-4edd-90ff-d1c1a581027a",
+        "user_id": "ff80818160b700f10160b75f82051526",
+        "signal": "for how much is the validity",
+        "reason": "Owner asked about plan validity, guarantee, and information availability on the app, and requested WhatsApp details.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "a2b55e12-da99-4dc4-b30e-83854ffa71f7",
+        "user_id": "8a9f97898c71b1a1018c71d2cb2f1950",
+        "signal": "can you get more discount",
+        "reason": "Owner inquired about discounts, plan features, and how interest notifications work, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "ceff24e3-4c74-483d-8f01-60d2992fef22",
+        "user_id": "8a9f917d74cef0760174cfc60ccd4e5a",
+        "signal": "So, can you call back after some time",
+        "reason": "Owner asked about rental agreement, plan details, and callback time, showing clear commercial interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "28df925b-84c0-434d-9acc-3a71153f30bc",
+        "user_id": "8a9fae8278ff096c0178ff4559a8127f",
+        "signal": "Basic plan I will subscribe",
+        "reason": "Owner asked about plan details, price, and confirmed they will subscribe to the basic plan.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "6d1f1171-3fc1-4634-8cf0-52cb1835f90b",
+        "user_id": "8a9f9103913b19c501913b24fe4604ad",
+        "signal": "how much is the plan",
+        "reason": "Owner actively negotiates price, asks about plan details, refundability, and expresses need for a tenant within a timeframe.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 10
   },
   "NBTSC400614": {
     "employee_id": "NBTSC400614",
@@ -8565,7 +11548,150 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "4935d236-9251-4a9e-9cbd-0feaa07dac36",
+        "user_id": "ff808181672a6c3b01672ae3918249f9",
+        "signal": "link vapas rahege bhej dijiye",
+        "reason": "Owner asked for plan link, discussed pricing, and confirmed property availability for the plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "683ab432-0602-487f-8d6e-b2dba07fdb6f",
+        "user_id": "8a9fc4827e33fec2017e344455b721f7",
+        "signal": "Kitna expensive hain?",
+        "reason": "Owner inquired about plan cost, refund policy, occupancy chances, and paperwork. Asked for callback to discuss further.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "6ffb2a3c-8726-44c3-b26d-08128ce19538",
+        "user_id": "8a9fdf8286daa5360186daaaf6dd005a",
+        "signal": "How much do you charge?",
+        "reason": "Owner asked about charges, plan details, and rental agreement inclusion, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "87766bff-c01d-43f4-b3d3-182ee5b4507b",
+        "user_id": "8a9fba8395e794b60195e79ba99900bd",
+        "signal": "So mone ye calls k one day minimum 20 ye 25 calls",
+        "reason": "Owner is actively seeking tenants and complaining about lack of responses, indicating a need for better service.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "92c9d73b-8c45-4a9f-8d16-da673b455a3a",
+        "user_id": "8a9f8c827c2ad2e2017c2b0bd78b1be4",
+        "signal": "Ah, 100% money back policy",
+        "reason": "Owner asked about money back policy, plan costs, and expressed intent to take the plan on Monday.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "93773a72-d17b-4827-82bb-3286543528d4",
+        "user_id": "8a9fb9827ba219e3017ba259d7701511",
+        "signal": "Tho abhi abhi maine vo payment kiya",
+        "reason": "Owner confirmed payment, asked about plan applicability to multiple flats, and requested to delete a sale listing.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "9de96e90-8546-46da-b6fd-ee293cbfa915",
+        "user_id": "8a9fce82839df1f901839e079ce30959",
+        "signal": "So that's why I was just checking",
+        "reason": "Owner is actively seeking details about plans due to previous missed opportunities and interest from visitors.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "a840dab8-a35b-4da5-8b49-395945f4dae8",
+        "user_id": "ff8081815fb9b9c0015fb9dd4f2910f3",
+        "signal": "I will be subscriving mostly",
+        "reason": "Owner expressed intent to subscribe, asked about discounts, and confirmed plan choice after discussing tenant availability.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "b1d38e74-93eb-4d83-a5ca-fbebe60cca96",
+        "user_id": "8a9fc382819004630181905c52c939eb",
+        "signal": "I will pay immediately",
+        "reason": "Owner wants to pay immediately after negotiation and is willing to pay any amount.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "34471748-81b6-437e-9493-efa59fec6fda",
+        "user_id": "8aa98ec29eee3fc7019eeee5ddc1532f",
+        "signal": "chalo theek hain sir mein kar leta hun",
+        "reason": "Owner asked about plan benefits, cost, and agreed to purchase.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "5a117943-0cb3-4c9a-9e65-45b9b4a9c38e",
+        "user_id": "8a9f91cf6f74863a016f74a693ca081d",
+        "signal": "if you do it from your side, is there any discount?",
+        "reason": "Owner inquired about discounts, money back, and payment methods, showing clear commercial interest.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "5c4c880c-30d2-47f6-b70e-094ed92c659d",
+        "user_id": "8aa996549f2a8ac1019f2ad0e4ed046b",
+        "signal": "I want 1 laries PG for 15 days",
+        "reason": "Owner explicitly stated need for PG and 2-bedroom apartment with specific dates and location.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "607e13e3-a7b1-4fd4-b2a5-2c9c865125b3",
+        "user_id": "8a9f8a839a2debe7019a2e4692a41315",
+        "signal": "I am ok, you sell it.",
+        "reason": "Owner wants to rent or sell property quickly, is open to both, and has no budget constraints.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "8cbcc113-c01c-4de1-90df-9f5ee39bd293",
+        "user_id": "8a9f8b5990d4f5520190d5603c9e382f",
+        "signal": "what all the assistance",
+        "reason": "Owner inquired about package, assistance, payment, discount, and how to apply it, and confirmed payment.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "9e6bcc77-39dc-4371-a013-6aa187b25aed",
+        "user_id": "ff808181643baa2601643bcdfccb1b3f",
+        "signal": "Yeah, how, how fast, can you do it?",
+        "reason": "Owner asked about plan, payment, speed of renting, and agreed to activate plan.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "03f00679-e1f8-4ed3-a40a-9dcc5ad37ecd",
+        "user_id": "ff8081816bb7f81c016bbc3a8825265d",
+        "signal": "4,000 10 rupees annaru",
+        "reason": "Owner asks detailed questions about two different plans, pricing, validity, and payment methods.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "1c96bf42-330a-49f5-a486-a878b8fd6ff8",
+        "user_id": "8aa9c8259e83ab06019e83c4473a065c",
+        "signal": "1 month fami rent vagera dena pade kya",
+        "reason": "Owner repeatedly asks about payment, plan details, and how to proceed, indicating strong commercial interest.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "305440b1-e723-4c78-9dc4-0573e9805ae1",
+        "user_id": "8a9fb4827d64b6a0017d65035f2426a3",
+        "signal": "tho ye 10 chages hain",
+        "reason": "Owner inquired about package cost, validity, and number of enquiries, indicating commercial interest.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "8e1c7578-81f0-482f-a685-6a898f5f9b4a",
+        "user_id": "8a9f97827e23422e017e23ce73844a8f",
+        "signal": "main 2 din mein kar dunga",
+        "reason": "Owner confirmed intent to pay for the plan in 2 days and asked for the payment link.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "8f8e8515-e07e-4600-b286-5e161650a043",
+        "user_id": "ff8081816d0f5753016d0f7e341f1d43",
+        "signal": "adi 223 days lo chusi teeskuntanu",
+        "reason": "Owner confirmed property is available, asked about plan details, and requested a callback for a specific time to decide.",
+        "date": "2026-07-04"
+      }
+    ],
+    "high_intent_leads_total": 20
   },
   "NBTSC400396": {
     "employee_id": "NBTSC400396",
@@ -8962,7 +12088,122 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "0051339f-40ee-468c-b498-812af1c64d47",
+        "user_id": "8a9fab8393f1e6860193f205f9a309d3",
+        "signal": "Can you give a little bit more discount?",
+        "reason": "Owner asked about discounts, plan differences, money-back guarantee, and best price for a plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "13688782-cbcf-474b-af60-b37ff94cc6bc",
+        "user_id": "8a9f92038eb2d4ae018eb2e8bb69091c",
+        "signal": "Yeah, it's available.",
+        "reason": "Owner confirmed property is available and asked about tenant visit timing, showing commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "6dea0b5f-92e5-422b-b8ca-9ac011e7b3b0",
+        "user_id": "ff8081816cddf662016cde008d3a0ddd",
+        "signal": "Made the payment but that link is not working",
+        "reason": "Owner wants to make payment and is asking for a working link.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "a6c2e5cc-88d6-4c6e-b1c7-82b6c147cad7",
+        "user_id": "ff8081816aa26c11016aa84bf7dc3a35",
+        "signal": "Is there any discount on this?",
+        "reason": "Owner asked about plan cost, taxes, discount, activation time, and number change for notifications, indicating strong commercial interest.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "b08a52bd-d105-4cea-8e5e-a12f83d22de4",
+        "user_id": "ff80818164c152490164c304a768221d",
+        "signal": "How much have to pay",
+        "reason": "Owner asked about payment, cost, duration, and requested details to share with children for payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "d2bd3589-b389-4f25-92e0-a4ee15f686ff",
+        "user_id": "8a9f84826fb4924b016fbc379d3a33ca",
+        "signal": "what is the charge?",
+        "reason": "Owner repeatedly asks about charges, discounts, and negotiation, indicating strong commercial interest and a desire to proceed if price is right.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "0c4acad7-c84d-4c4f-8e38-fa3432bcf58c",
+        "user_id": "ff8081816cc25e43016cc30f04dd3ded",
+        "signal": "charges eshtu aguthe madam",
+        "reason": "Owner asked about charges and plan details after confirming property availability.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "1df2513c-f201-4a7d-9348-2951a1384e7d",
+        "user_id": "ff8081814db850bd014dbcaf1fe61977",
+        "signal": "please connect the approxxt tenants directly to me",
+        "reason": "Owner is actively seeking tenants, complaining about lack of leads, and wants direct connection to prospects.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "910bb4c8-9225-4c64-a8c0-1e95548a6dc6",
+        "user_id": "8a9f844392c16a3f0192c34ac8be5766",
+        "signal": "And if you are not closing, deal within the time, ame then you will refund.",
+        "reason": "Owner actively inquired about pricing, discounts, refund, and payment modes, and ultimately made the payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "b6412d29-e8a9-42c2-8a1a-dabb25b35a6c",
+        "user_id": "ff8081814fe5e616014fead2b16e226d",
+        "signal": "Can you tell me about?",
+        "reason": "Owner inquired about plans, benefits, pricing, and specific conditions for tenants.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "cfa97aad-c1cb-4b47-a12e-ca1e7fb08106",
+        "user_id": "ff8081816cddf662016cde008d3a0ddd",
+        "signal": "And what services will I get?",
+        "reason": "Owner asks about services and specific plans like money back guarantee, indicating commercial interest.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "e3751c96-0de5-4ae6-8cdb-2f5d47ea3f43",
+        "user_id": "8aa9acf29ca37c8a019ca3ff11683b44",
+        "signal": "how a bout the discount",
+        "reason": "Owner asked about cheaper plans, discounts, activation time, and requested a callback to decide.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "2f6a94fc-9a7e-4d77-994a-4227fe13ecd7",
+        "user_id": "8a9fbc838147f86f01814857d55740aa",
+        "signal": "I agree for 45 days",
+        "reason": "Owner explicitly agreed to pay for the plan and confirmed payment details.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "336c31cd-fec9-4203-9ee5-a6f4183a5af8",
+        "user_id": "8a9f9b8278ecb1530178ecb4d938000a",
+        "signal": "What is the charge of this?",
+        "reason": "Owner inquired about charges, plan details, and payment, indicating commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "543a8543-3969-47dd-a39d-4dbd48c15e79",
+        "user_id": "8aa9b3799f305651019f310148426998",
+        "signal": "Mai ne aapko bola tha ki yaha pe mein jaise p g as a p g girlha chahti hun",
+        "reason": "Owner is actively discussing property details for PG, asking about available beds, and explaining her property's suitability for PG students.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "66c1e152-4295-4c70-af8e-ec24a3c5bcac",
+        "user_id": "8a9f92ee749b036601749b1b5dc40b38",
+        "signal": "Ha, rent pe available hain.",
+        "reason": "Owner confirmed property is available and asked agent to rent it out, showing clear commercial interest.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 16
   },
   "NBTS42035": {
     "employee_id": "NBTS42035",
@@ -9592,7 +12833,157 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "07a62c9a-f1cc-4d3b-ae74-f4b857c0633f",
+        "user_id": "ff8081815ed194d2015edc242947689d",
+        "signal": "12 thousand 999 plus 18% GST",
+        "reason": "Owner asked about plan details, pricing, and payment, and expressed readiness to proceed.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "092c6fa9-78af-4343-b76d-1903aa833d45",
+        "user_id": "8a9fad8279a255f50179a2f9e3d249b6",
+        "signal": "I want a same plan like that.",
+        "reason": "Owner explicitly stated need for new tenant, asked about plan details and payment options.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "0ab48103-2ae9-49b0-8b1a-8590e8f30ab3",
+        "user_id": "8a9f93d77452772d017452a4d8ca23bf",
+        "signal": "Ok, like what are the premium service option",
+        "reason": "Owner inquired about premium services, plan details, and price, indicating commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "1957fc16-4aa9-424f-831a-1e9f9cad2cc3",
+        "user_id": "8a9f93438ea7fa25018ea81290ce0f28",
+        "signal": "Should I go for the money back plan",
+        "reason": "Owner is actively discussing plans for both rent and sale, inquiring about features, pricing, and discounts.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "5b1b3747-42ef-4528-9a0b-13f0e4eadb8b",
+        "user_id": "8aa9cdc89e33fec2019e348b16813c1f",
+        "signal": "Yes, it is available.",
+        "reason": "Owner confirmed property availability and expressed interest in premium services after hearing about local demand.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "6a3d7d79-c30f-49f4-bcc0-2565b4fc7fe8",
+        "user_id": "ff8081815c9ba978015c9bf73dd525ba",
+        "signal": "is it 100% guarantee to the tenant will come.",
+        "reason": "Owner asked about 100% guarantee, property location, tenant type, and how to proceed with payment.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "73089543-7a10-4177-ab65-d32771561ac6",
+        "user_id": "8a9fe182858baf8f01858c1c735657f8",
+        "signal": "Rent a 1tama",
+        "reason": "Owner provided rent and advance details, asked about maintenance, and engaged with plan discussion.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "792fe531-3e56-45ba-9cf3-ce533e4e70a4",
+        "user_id": "8a9fe68389065a08018906b80b7943af",
+        "signal": "get get the tenant immediately",
+        "reason": "Owner confirmed plan activation, requested immediate tenant booking, and asked for RM to finalize the deal.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "7a162195-4e42-4353-83e3-a382f80c363c",
+        "user_id": "8aa9be2b9ab4ad4c019ab5128cee2d30",
+        "signal": "We can discuss and close it.",
+        "reason": "Owner asked for callback to discuss premium services and close the deal, indicating commercial interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "ad0462d3-6f1e-4980-b744-04d4aabf0224",
+        "user_id": "8a9fc2847ee54f85017ee6ebecdb002d",
+        "signal": "looking for paying services",
+        "reason": "Owner needs a tenant urgently within 30 days and is asking about paying services, plans, and charges.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "c8502a07-6617-4bd1-bfec-dd1f465ba830",
+        "user_id": "8aa9b5ec9f36bea9019f36d4e82e0cb4",
+        "signal": "I will let you know",
+        "reason": "Owner confirms previous discussion about payment and says 'I will let you know mam I will let you know sure'.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "e2391e9d-89a4-4ec9-bbbe-ce62ce4526c1",
+        "user_id": "8a9fb7827d9506b8017d954db7132b7b",
+        "signal": "premium ke liye tabhi interested nahi hain",
+        "reason": "Owner confirmed property is available and asked about premium services after occupancy.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "e96a3b2f-69a6-4833-86fc-93d76c432b59",
+        "user_id": "8aa993db9f26e556019f27401cd4315e",
+        "signal": "I take that 33,000 something about package.",
+        "reason": "Owner inquired about package cost, validity, and guarantees, and agreed to book.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "231bba8f-e30f-4cda-a846-1870cd646738",
+        "user_id": "ff8081816acdd828016acfebadda7d65",
+        "signal": "I am just looking for super money back only.",
+        "reason": "Owner actively inquired about plans, pricing, guarantees, and specifically requested the 'Super Money Back' plan with field assistance.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "36965c4e-3d23-4b3a-ae84-de51c3c1ae38",
+        "user_id": "ff8081815a08262d015a08d5024f00c4",
+        "signal": "today we are trying to you know close it",
+        "reason": "Owner is actively trying to close a deal today and is open to premium services if needed.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "4035ce29-dbcf-441a-a33b-e141c0ba72c4",
+        "user_id": "ff808181503789f5015037b955be01e2",
+        "signal": "what is the charges?",
+        "reason": "Owner asked about charges, plan details, and urgency for tenant move-in, indicating commercial interest.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "586b3aff-9e52-467c-ae20-97e48a7d006c",
+        "user_id": "ff80818164b68a700164b6f2dd463a69",
+        "signal": "But idu en iduthe 1999 alli",
+        "reason": "Owner asks about plan details, validity, and how it works, indicating commercial interest.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "d1d29c3b-cebb-4e53-80b1-a0c81c6ddc9b",
+        "user_id": "8a9f920390dd8c720190ddec1ff91d15",
+        "signal": "should I do the payment",
+        "reason": "Owner actively asked about price, confirmed discount, asked if they should pay, and confirmed payment completion.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "2c41d8cd-c026-48fc-9cce-bba276f87463",
+        "user_id": "8a9f88838f23f2a7018f2409ed0e0af5",
+        "signal": "How much for that",
+        "reason": "Owner asked about price and how to proceed with the plan.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "89b631f6-a8d5-4d2a-ac36-1eac97219bd2",
+        "user_id": "ff8081816aca1810016acaa17cce334b",
+        "signal": "I have 1 more floor available.",
+        "reason": "Owner needs reactivation due to immediate tenant visits and has another floor available.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "baedb65a-b3c0-409a-8e56-e33c0629ec5d",
+        "user_id": "8aa9c8279e1473eb019e14eaea840885",
+        "signal": "I want a money back plan assurity",
+        "reason": "Owner wants money back plan, willing to pay extra for assurance, asks for discount, and agrees to pay after 2 PM.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 21
   },
   "NBTS44025": {
     "employee_id": "NBTS44025",
@@ -10153,7 +13544,157 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "42411037-7498-4485-8205-81299e2ce38a",
+        "user_id": "8a9faa8278ca0e540178ca6e60f81cb3",
+        "signal": "Currently, I am looking super relax.",
+        "reason": "Owner is actively discussing plans, pricing, discounts, and past negative experiences, indicating a strong desire for a solution.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "47cc5982-3d90-4bc4-94a7-a06a58bb9b9f",
+        "user_id": "8a9fad82768f193f01768f58feca132a",
+        "signal": "what are the facilities",
+        "reason": "Owner inquired about plans, details, facilities, validity, and payment, and agreed to pay by evening.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "991e078e-ef79-4e59-a930-008a1d5b3bd5",
+        "user_id": "8a9f858281e6ebb40181e728573e2d5d",
+        "signal": "Final 25 mam",
+        "reason": "Owner confirmed property is available and negotiated rent, showing clear commercial interest in renting.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "fdea0037-3fd2-4cad-b305-04fb494fe66f",
+        "user_id": "ff80818166d258dd0166d2d0fdf60e93",
+        "signal": "we need the client immediately",
+        "reason": "Owner needs tenant immediately, asks about plan cost, refund conditions, and validity, and agrees to think and pay.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "089ab543-d162-4a58-b071-ce483decd967",
+        "user_id": "ff80818154392e7601544702a357290d",
+        "signal": "sari madam, aendi",
+        "reason": "Owner asked about plan details, validity, and cost, and agreed to a callback.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "2ee46bab-93a4-4edd-8f56-3d252ea96474",
+        "user_id": "ff8081815a702135015a7ba176bc2311",
+        "signal": "I will take the plan.",
+        "reason": "Owner explicitly states 'I will take the plan. I am aware of the plans. I will take the plan.'",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "46fce15e-e54f-4740-85cc-c0ee1e8a50d7",
+        "user_id": "8a9f84828688074c0186880e41ec01b3",
+        "signal": "interested that basic plan",
+        "reason": "Owner expressed interest in a specific plan and asked about its details, and requested a callback for a specific time.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "49a5f060-2fc6-4a8e-995e-e893a3cfc71b",
+        "user_id": "8aa9d7869de6befb019de70f81d51aa0",
+        "signal": "payment is done",
+        "reason": "Owner actively sought payment link, confirmed payment, and asked about RM follow-up.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "7e2fcf15-7707-4c26-82b0-8fa210396d8b",
+        "user_id": "8a9ff98287ad92b10187adc10da01d92",
+        "signal": "Is it paid?",
+        "reason": "Owner asked about payment and plan details, showing commercial interest.",
+        "date": "2026-07-06"
+      },
+      {
+        "cdr_id": "84915133-d99d-4ffb-be9f-57098a0038cb",
+        "user_id": "ff8081815788133501578a22da2257a7",
+        "signal": "what is the commitment",
+        "reason": "Owner asked about commitment and details of the plan.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "87394566-562a-4a8a-8902-d04451996a34",
+        "user_id": "ff8081815bedef9f015bf757dfb51857",
+        "signal": "Which is that which is this 10 how much",
+        "reason": "Owner asks about plan cost, extension if not rented, and wants to initiate the plan.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "8a82918a-2b9d-4add-a35c-6f17ba7494b7",
+        "user_id": "8a9fb082808aa9fc01808aec59a319d2",
+        "signal": "Just send me the link, I will activate it",
+        "reason": "Owner asked for the link to activate the plan and confirmed they will pay.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "92e0584b-7990-4c2d-833f-2d7b27bbbd33",
+        "user_id": "8aa9babb9f11701e019f12121ef64243",
+        "signal": "Rent out kitna din mein ho jayega",
+        "reason": "Owner asked about rent out duration, plan cost for multiple units, and payment link.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "9d2fb1dd-be9c-4930-9089-65faa530ba00",
+        "user_id": "8a9f92cf76566901017656a66a8d1491",
+        "signal": "ade ad money back plan",
+        "reason": "Owner inquired about money back plan and confirmed property is available.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "ab6131e8-243a-40ae-b10c-584f0270c644",
+        "user_id": "8a9f8c8390bac8dd0190bae6ca4b08a8",
+        "signal": "how much do I have to pay",
+        "reason": "Owner asked about payment, plan details, and confirmed payment, indicating strong commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "c84ded42-c45c-4a7e-9c16-e63b042d66ec",
+        "user_id": "8a9f90827931b6dc0179320a0c912790",
+        "signal": "Post-paid service hain",
+        "reason": "Owner asked about post-paid service and money back plan, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "13777e2a-d7b2-4620-8df4-1000a6d77f6a",
+        "user_id": "8a9fad82768f193f01768f58feca132a",
+        "signal": "how long it will take",
+        "reason": "Owner asked about plan validity, cost, discount, and how to proceed after payment.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "28ac14df-3821-4182-828c-5c8cd3759df6",
+        "user_id": "8a9fadd97fc98a91017fca11b89963ea",
+        "signal": "At what charge,",
+        "reason": "Owner asked about charges, how to pay, and agreed to activate the plan.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "9e46f410-75fe-428d-a425-4145a349ce9d",
+        "user_id": "ff80818151a956430151aa1e77150bbe",
+        "signal": "I will purchase it",
+        "reason": "Owner explicitly states 'if I want, I will purchase it', indicating clear commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "c21ab210-289d-4970-ab3d-e91b970f309d",
+        "user_id": "8a9f078389d2f6c20189d3f3b46c00b2",
+        "signal": "Payment pree cheyala madam.",
+        "reason": "Owner asked about service charges, plan cost, payment, and what happens if property is not rented after payment.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "c83e0c5d-85dd-4353-b9e8-cdf58391d4fe",
+        "user_id": "ff8081815bedef9f015bf757dfb51857",
+        "signal": "after final happened what again we have to pay",
+        "reason": "Owner asks about payment timing, plan validity, and post-rental fees, indicating commercial interest.",
+        "date": "2026-07-02"
+      }
+    ],
+    "high_intent_leads_total": 21
   },
   "NBTSC400665": {
     "employee_id": "NBTSC400665",
@@ -10628,7 +14169,136 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "008f85bb-0da1-48b2-8250-63233cc29991",
+        "user_id": "ff8081816d6c7b7d016d6cf450904117",
+        "signal": "NoBroker estu priced",
+        "reason": "Owner directly asked about NoBroker pricing, indicating commercial interest.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "5f4a4246-071e-4aca-9e2a-bc7562437bb1",
+        "user_id": "8aa9b73f9c64d507019c6509405119d1",
+        "signal": "oka house kuda mee tarpu nunchi tille ka leduu sir",
+        "reason": "Owner is complaining about not getting tenants despite paying and wants to proceed with getting tenants.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "72e81624-9146-418d-a774-e1ed9967f5fa",
+        "user_id": "8a9fba827d7f7568017d7fb270431fbe",
+        "signal": "ko aapko koi aisa package ho jismein guaranteed tenants milege.",
+        "reason": "Owner asked about guaranteed tenants and a package, indicating commercial interest and a need for service.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "b1858529-696b-44bc-a720-79097d34e9eb",
+        "user_id": "ff80818156cd95f80156d1af0881397b",
+        "signal": "money back plan adu guarantee adu fke na.",
+        "reason": "Owner inquired about money back plan, its validity, and confirmed they will go with it after discussing options.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "c0692454-cb94-49cc-a548-87d1cf8861a1",
+        "user_id": "ff80818162e6a3300162ec1b9dcc371e",
+        "signal": "basic basic karna tha mujhe",
+        "reason": "Owner confirmed previous discussion about activation and asked about basic plan details.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "c3570757-1ffc-4ff2-976d-07d882d56d04",
+        "user_id": "8aa9af559f1e1952019f1e3edce00e0b",
+        "signal": "Can I make the payment tomorrow",
+        "reason": "Owner asked about payment, tenant guarantee, and scheduled a callback for payment.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "d21fbe1d-2867-4137-8934-c50c27f10d6c",
+        "user_id": "8a9fda8282fef2120182ff76554d2d37",
+        "signal": "Sir, detail medi",
+        "reason": "Owner asked for details and confirmed property is available for rent.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "d6581e7d-548f-4899-b2b2-70e255de7640",
+        "user_id": "ff8081816b44be00016b450e8ecd1934",
+        "signal": "Avunu andi.",
+        "reason": "Owner confirmed property is available and asked about services to rent it out quickly.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "dd34c50c-63fd-48e8-b998-e97c05df74ab",
+        "user_id": "ff8081815a87a3ac015a8a53424c7f26",
+        "signal": "plan buy kar sakte hain na?",
+        "reason": "Owner asked about plan details, pricing, and how to purchase, indicating commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "ea47e0ee-5dfe-4489-881d-2ad37de80c59",
+        "user_id": "8aa9acb19ed6000b019ed61fb2900952",
+        "signal": "close kar na sir",
+        "reason": "Owner wants to close the deal quickly and asked how to proceed.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "23f2f680-cb3b-4a75-a4a6-ae32d55aa10e",
+        "user_id": "8a9f92838f5f2be6018f600702a6061e",
+        "signal": "Please do something and then you give us, give me a good Tenant genuine card tenant.",
+        "reason": "Owner is frustrated with lack of results from a previous premium plan, wants commercial tenant, and is seeking immediate resolution.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "411c2198-8981-4557-af24-53893cfbbb9c",
+        "user_id": "8a9ff582878797fc018787dc70580815",
+        "signal": "Aur ye 1 plan hota hain na jismein aap log refund karte ho.",
+        "reason": "Owner asked about refund, payment, plan details, and expressed desire for management services and a good price.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "566f5c27-ed2c-4f95-b40a-e3f20bac22ea",
+        "user_id": "8a9faf827d7159f3017d7187b7f710bd",
+        "signal": "En response B illa",
+        "reason": "Owner is complaining about lack of responses and money spent, wants tenants, and property is vacant.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "904563f9-5285-451c-ae73-dd6c447fe07b",
+        "user_id": "8a9ff0838a323221018a325382bf109a",
+        "signal": "Photos photos isthe dant lo include chestaru ga",
+        "reason": "Owner asked about plan details, pricing, discount, and how to proceed, confirming interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "c07690c4-aefa-4d2a-8cee-d1ba21874b00",
+        "user_id": "8a9f84b36f652f65016f65332e08007f",
+        "signal": "malli activate chesthamu",
+        "reason": "Owner is asking about package activation, commission value, and reactivation of a previous service.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "e14114bb-47bf-4813-bbc2-1ded98a44065",
+        "user_id": "ff8081815470af360154756bab074157",
+        "signal": "Could you please explain that",
+        "reason": "Owner asked for details about the plan and its benefits, showing clear commercial interest.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "4f2e19c9-6d03-4d65-9099-f032cb5bf71f",
+        "user_id": "8aa9a1da9ecf5976019ecfd54c163c47",
+        "signal": "Amount kam nahi ho sakte hain",
+        "reason": "Owner asked about plan cost, payment, and how to proceed.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "7a81d0b1-f6fd-492c-9381-8f8aa2594b00",
+        "user_id": "ff808181651e847c01651ecc61ca343a",
+        "signal": "kitna charges chajaye aapka?",
+        "reason": "Owner asked about charges, payment timing, and expressed concern about previous paid experiences.",
+        "date": "2026-07-11"
+      }
+    ],
+    "high_intent_leads_total": 18
   },
   "NBTS43779": {
     "employee_id": "NBTS43779",
@@ -10923,7 +14593,80 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "ac5eafd9-a9b5-47ba-98de-a80d52be7eda",
+        "user_id": "8a9f8cc3902504150190252d51561623",
+        "signal": "Like, what is the service charges?",
+        "reason": "Owner actively inquired about service charges, payment, and closure, indicating strong commercial interest.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "dcd21cb1-5a3e-4e11-bb73-5521fb279fda",
+        "user_id": "8aa9d2359e0acbe8019e0b8c5ba85bde",
+        "signal": "Premium lene ke liye",
+        "reason": "Owner explicitly stated they will pay for premium service after discussing with brother.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "46a3a028-ac86-4810-b1c2-fd178ca37ae4",
+        "user_id": "ff8081815df53b4a015df85f5d903645",
+        "signal": "give you the keys",
+        "reason": "Owner inquired about services, rent expectations, deposit, and specifically asked for help showing the property and for return documents for guaranteed services.",
+        "date": "2026-07-11"
+      },
+      {
+        "cdr_id": "5fb6ed95-2af5-4589-bdd3-b94265822a09",
+        "user_id": "8aa9b67d9ddecef5019ddf224a431654",
+        "signal": "what is the validity time sir",
+        "reason": "Owner asks about plan validity and confirms ability to call back with queries.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "643a2fd4-6368-4cc3-a089-fc84febaa705",
+        "user_id": "8aa991169f45cbc5019f465134a6576e",
+        "signal": "kal pehle na ek kaam kariye",
+        "reason": "Owner wants to proceed with payment after sending photos and discussing with family, requests callback for payment link.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c4a9e180-4968-4528-84b9-d040ce4df25a",
+        "user_id": "ff80818166009ca3016604ea75b5410f",
+        "signal": "Ok ma gadre 3,900 de tagola",
+        "reason": "Owner actively discussed plan details, price, and made a purchase decision.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "cb094e50-b703-4af7-b5ce-0f2bbf34cde9",
+        "user_id": "8a9f9a827c3b4f31017c3b96ebdc2b1d",
+        "signal": "Ha theek hain then no problem you do that",
+        "reason": "Owner agreed to pay for a plan and asked to activate it tomorrow, showing clear commercial interest.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "38ff6688-b252-40e2-820a-b1ab6c8d65cd",
+        "user_id": "ff8081816d011e2d016d016dd1763c92",
+        "signal": "So how much does it cost?",
+        "reason": "Owner asked about cost, plan details, and requested a link to review. Property is vacant.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "45af4025-0fcd-4460-81d2-9797e0b00ffe",
+        "user_id": "ff80818164b6878b0164b8d901250b30",
+        "signal": "premium nahi kar raha hai na?",
+        "reason": "Owner asked about premium, guarantee, and money refund, indicating commercial interest.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "515c3e6f-df2c-4620-a149-32856acdb0cf",
+        "user_id": "8a9fae8496f0cc0f0196f1279d351527",
+        "signal": "Purchase the I am looking for commercial properties",
+        "reason": "Owner purchased a plan and is asking about RM and timeline for property search.",
+        "date": "2026-07-08"
+      }
+    ],
+    "high_intent_leads_total": 10
   },
   "NBTSA305094": {
     "employee_id": "NBTSA305094",
@@ -11395,7 +15138,101 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "163d49a5-e9f4-4231-9dd4-fd3e2eb47060",
+        "user_id": "ff80818165c5f2d20165c70bedaf19ab",
+        "signal": "will do on Saturday",
+        "reason": "Owner inquired about pricing, discounts, total cost, and agreed to a callback for Saturday to proceed.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "357e20a7-2403-4f64-82d2-5f811cd0e163",
+        "user_id": "8a9fa78994ff75210194ffa9765611dd",
+        "signal": "Can you please email me",
+        "reason": "Owner asked for details on plans, requested callback for discussion, and confirmed availability for discussion.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "ae1f0043-1edc-410b-be34-d1b72bb58101",
+        "user_id": "8a9f829a75abd2930175abf4e2b513c3",
+        "signal": "negotiable hain",
+        "reason": "Owner asked about price negotiability and mentioned receiving calls, indicating interest in renting the property.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "ef62969f-e62d-4395-829f-7a9e6222a40d",
+        "user_id": "ff8081816c6b5cfb016c6b8bd29e13c9",
+        "signal": "I will try to make the payment",
+        "reason": "Owner asked about plan details, money back guarantee, duration, and requested details via WhatsApp to make payment soon.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "1cf2fedf-e477-4c30-8542-bcc470375a39",
+        "user_id": "8a9f8096705d06c901705d35667915db",
+        "signal": "ippo na rent kudukanum",
+        "reason": "Owner explicitly stated 'ennoda veedu vandhu ippo na rent kudukanum' indicating immediate need to rent.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "4f1ed2c1-0e79-445a-a44e-4bee03390563",
+        "user_id": "8aa9a8189f2b3046019f2bdab2dc6264",
+        "signal": "Within 1 week.",
+        "reason": "Owner wants to rent out property within 1 week and asks about money back plan and refund conditions.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "98410af5-7d39-42c1-b64f-0209b338601a",
+        "user_id": "ff808181611c79d901611c81c93d0424",
+        "signal": "What is the guarantee plan?",
+        "reason": "Owner inquired about the guarantee plan and confirmation, indicating commercial interest in NoBroker's services.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "9ec026c4-1045-4d3c-9b67-020ed6651232",
+        "user_id": "8aa9b5179f4bdb2e019f4bf14fdc0c38",
+        "signal": "payment kar di",
+        "reason": "Owner confirmed payment and asked for activation.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "ca2a522d-c28a-4f89-99a8-e8867a316180",
+        "user_id": "8aa9a7e69b78951b019b798a61e94fbb",
+        "signal": "what is the cost",
+        "reason": "Owner asked about cost, discount, and refund, and agreed to check and call back.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "d262a3a9-04a8-4250-b268-33898e460f0c",
+        "user_id": "ff8081816d8baf7d016d8be350a624c4",
+        "signal": "Which how much amount",
+        "reason": "Owner asked about plan amount, details, and requested callback for decision.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "db295d26-f87b-480d-adac-95ededfd1a38",
+        "user_id": "8a9f9c827f9d2115017f9d542b1916ac",
+        "signal": "what is the cost?",
+        "reason": "Owner asked about cost, plan details, and agreed to share with landlord and proceed after discussion.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "1b7ccbb5-d794-4f02-b68d-37e154ec7680",
+        "user_id": "8a9f97827a3c35e1017a3c6ae81c1623",
+        "signal": "Kya plan hain usmein?",
+        "reason": "Owner asked about plan details, cost, discount, and how to proceed.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "a43fb53d-0256-47e5-a999-494d75ab8f19",
+        "user_id": "8a9f884391644cc20191645a07e905cd",
+        "signal": "Howdu howdu nodi",
+        "reason": "Owner confirmed property is for rent and asked about tenant search and plan details.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 13
   },
   "NBTSA304465": {
     "employee_id": "NBTSA304465",
@@ -11791,7 +15628,122 @@
     ],
     "team_size": 36,
     "rpl_source": "latest_update",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "6967a631-dfde-4b8f-bfb9-c9b840df2402",
+        "user_id": "ff80818155f3f9b90155fe50b403213f",
+        "signal": "Can you send me details",
+        "reason": "Owner asked about plans, details, and how to proceed. Negotiated discount and agreed to receive link.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "71b7c4a3-1976-4e4f-aba6-f36e92abbc81",
+        "user_id": "8a9fc88280dfd7040180e02e7bd1006a",
+        "signal": "Kitne charges hote uske?",
+        "reason": "Owner asked about premium services, plan charges, discount, and guarantee, and requested callback to decide.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "78a3fa76-e240-48a5-b740-6b6fcba2c271",
+        "user_id": "8a9ffd8387bcacc70187bcb8e60b04d6",
+        "signal": "what is the I mean",
+        "reason": "Owner asked about plan charges, discounts, and how to proceed with payment.",
+        "date": "2026-07-05"
+      },
+      {
+        "cdr_id": "851f2bd1-263c-461c-be0c-10ccfa595a11",
+        "user_id": "8a9fde8283959396018395ffb2b703ef",
+        "signal": "Tho kya karna jaise mane pay kar diya",
+        "reason": "Owner asked about plan details, payment, other charges, and how the service works, and eventually made the payment.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "88977a75-4889-443e-ac24-9e4c187583ca",
+        "user_id": "ff8081815185752901518683a25c159a",
+        "signal": "give me 1 day tomorrow",
+        "reason": "Owner asked about amount and agreed to do it tomorrow after callback.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "e845b2cf-d59e-446b-b126-7d76fb202330",
+        "user_id": "ff808181609db3d501609dc6686f03bb",
+        "signal": "Already paid the amount",
+        "reason": "Owner confirmed paying for a plan and asked about the plan details.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "249ec795-4e68-4fc7-9a9b-0e26706a7f17",
+        "user_id": "ff8081815ba96f7c015ba9bb47b20ca8",
+        "signal": "What what what what what what is the price for the plan?",
+        "reason": "Owner asked about plan price, validity, and how it works, indicating commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "35ca50b0-952a-4ecd-82a1-ed0c4bd2eda5",
+        "user_id": "8a9f878797d146b80197d18d3f150bd6",
+        "signal": "Vo mein available hungi vo 4 thousand wale lera hou",
+        "reason": "Owner asked about plan details, payment, refund, and how to proceed with payment.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "444df30d-be61-41ca-9a6e-5110ac5233b9",
+        "user_id": "ff8081816d7b5745016d7c05996e08f4",
+        "signal": "Yes yes yes yes yes",
+        "reason": "Owner explicitly asked about premium services and confirmed interest in paying for them.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "4daf3203-5a21-4681-89eb-0ef536508eb1",
+        "user_id": "8a9f8fc3938108800193814871012192",
+        "signal": "when will you ah? Take over the chees.",
+        "reason": "Owner asks about key handover, minor works, and when agent can take over keys after payment.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "55d91d2a-ce9c-439c-b692-8eaa42f7367a",
+        "user_id": "8a9f99838bf1fa75018bf20950c60661",
+        "signal": "what am I losing",
+        "reason": "Owner asked about plan differences, cost, and expressed intent to decide by weekend.",
+        "date": "2026-07-01"
+      },
+      {
+        "cdr_id": "63ae0ccf-0c1f-48a9-b441-647280c97db3",
+        "user_id": "ff80818157480b0201574b16f0b42545",
+        "signal": "Ok. And is there any money back plan also.",
+        "reason": "Owner asked about plan details, support, money back, and rent range, showing clear commercial interest.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "0e38dccf-3c91-43f5-9a42-28dd69c58eb1",
+        "user_id": "8a9f8f039286d62b0192874135e40b03",
+        "signal": "You will be taking care of guarantee",
+        "reason": "Owner asked about guarantee for renting out property within 60 days and how the plan works.",
+        "date": "2026-07-02"
+      },
+      {
+        "cdr_id": "14345fa7-2249-4512-a964-913df6ba560d",
+        "user_id": "ff8081815fee2ff4015ff7707fff321c",
+        "signal": "How much ah if it is",
+        "reason": "Owner asked about premium plan cost and details, showing commercial interest.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "28cc3a4e-ca86-467c-88ff-4b00f937daf3",
+        "user_id": "8a9fb1838c631e50018c633450ce0e82",
+        "signal": "tho uska faida kya mada premium diya tha",
+        "reason": "Owner asked about premium services, benefits, plan validity, and how to proceed after hearing about competition.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "c108aea4-fc6a-4201-98f9-ba72255485e0",
+        "user_id": "8a9f94849781da73019781e0ddad0161",
+        "signal": "I know your plan",
+        "reason": "Owner knows the plan, will upload shortly, and will OTP for the plan next month.",
+        "date": "2026-07-10"
+      }
+    ],
+    "high_intent_leads_total": 16
   },
   "NBTSA305152": {
     "employee_id": "NBTSA305152",
@@ -11864,7 +15816,17 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "9f169e5d-b4c4-4031-9134-91be48bae3fc",
+        "user_id": "8aa9cf4d9e21c1b2019e21de1a880883",
+        "signal": "I want to take the time",
+        "reason": "Owner explicitly stated 'I want to take the time' and asked about the basic package, then proceeded to payment.",
+        "date": "2026-07-09"
+      }
+    ],
+    "high_intent_leads_total": 1
   },
   "NBTSC401067": {
     "employee_id": "NBTSC401067",
@@ -12246,6 +16208,79 @@
     "daily_trend": [],
     "team_size": 36,
     "rpl_source": "carried_forward",
-    "data_updated_on": "2026-07-13"
+    "data_updated_on": "2026-07-13",
+    "high_intent_leads": [
+      {
+        "cdr_id": "190f1f0a-e090-406c-8f4c-6dce04f916f2",
+        "user_id": "ff8081816957e5ff01695bac942e596a",
+        "signal": "what is your plan",
+        "reason": "Owner asked about plans, price, discount, and confirmed payment. Property is available.",
+        "date": "2026-07-04"
+      },
+      {
+        "cdr_id": "57395367-7821-4a4b-867d-a20f4920bc6d",
+        "user_id": "ff8081816dd9b1ca016ddd7bacfc7213",
+        "signal": "Idi naku rental ki ivvadaniki kavali",
+        "reason": "Owner explicitly stated need to rent out commercial property, mentioned multiple vacant units, and inquired about service availability in Vijayawada.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "7a77787c-f117-4f29-ab64-502e91942604",
+        "user_id": "ff80818160c5f1330160c60498ed0a8c",
+        "signal": "So, so it is open for rent now.",
+        "reason": "Owner confirmed property is available, wants services activated, and needs to finalize things immediately.",
+        "date": "2026-07-07"
+      },
+      {
+        "cdr_id": "c4289990-8da5-4965-8b64-60aae7d66546",
+        "user_id": "8aa9c1279d9a5be3019d9a64b54501e8",
+        "signal": "En cost.",
+        "reason": "Owner asked about cost, plan details, and payment options.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "24c86c8b-0cb7-48fb-a60d-f0367fa43764",
+        "user_id": "8a9fae838c7ab3fc018c7b540b5b3856",
+        "signal": "nalug vela podu rupayla ani",
+        "reason": "Owner asked about plan cost, validity, and compared pricing with another offer.",
+        "date": "2026-07-03"
+      },
+      {
+        "cdr_id": "36a972a7-6a1e-48fd-a7f1-71227beb50fa",
+        "user_id": "8aa99f849b63fb29019b64e5574c7080",
+        "signal": "they told after discount",
+        "reason": "Owner confirmed previous discussion, finalized amount, and asked for payment link.",
+        "date": "2026-07-08"
+      },
+      {
+        "cdr_id": "94ad6d4c-f982-479e-85cd-50e7b535e579",
+        "user_id": "8a9fae838c7ab3fc018c7b540b5b3856",
+        "signal": "Aythu kattan bidi aythu",
+        "reason": "Owner asked about plan cost, payment, and agreed to pay after discussion.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "971a2680-c9c0-4472-94a3-f902b32b0e01",
+        "user_id": "8a9faf8280a50e410180a51c561401a1",
+        "signal": "purchased the plan",
+        "reason": "Owner explicitly states they purchased a plan, had no tenant, and the plan expired, indicating a strong need for service.",
+        "date": "2026-07-09"
+      },
+      {
+        "cdr_id": "c7f8d21e-8bdc-48ae-9f32-02053a388cd3",
+        "user_id": "8a9fb182791412440179147adc322fd3",
+        "signal": "Yes mam.",
+        "reason": "Owner confirmed payment initiation and expressed satisfaction with the process.",
+        "date": "2026-07-10"
+      },
+      {
+        "cdr_id": "cf219f31-955b-4d5e-8bf3-b821805f5383",
+        "user_id": "8a9f825171d8faca0171d9c5c4bf3712",
+        "signal": "Can you just send me the plan details.",
+        "reason": "Owner asked about plan details, WhatsApp details, and payment link, indicating commercial interest.",
+        "date": "2026-07-03"
+      }
+    ],
+    "high_intent_leads_total": 10
   }
 }
