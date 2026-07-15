@@ -1158,6 +1158,56 @@ def render_trends(agent: Dict[str, Any]) -> None:
     )
 
 
+def render_high_intent_leads(agent: Dict[str, Any]) -> None:
+    leads = agent.get("high_intent_leads", []) or []
+    total = int(agent.get("high_intent_leads_total", len(leads)) or 0)
+
+    section_title(
+        "High-intent leads this cycle",
+        "Every call the analyser flagged as HIGH intent, with the customer's user ID — confirm whether the flag was right.",
+        f"{total} leads",
+    )
+
+    if not leads:
+        render_html('<div class="coach-note">No HIGH-intent calls found for this agent in this cycle.</div>')
+        return
+
+    for lead in leads:
+        cdr = lead.get("cdr_id", "")
+        user_id = lead.get("user_id") or "—"
+        signal = lead.get("signal") or lead.get("reason") or "No specific signal text captured."
+        date = lead.get("date") or "—"
+
+        with st.container(border=True):
+            left, right = st.columns([3, 1])
+            with left:
+                st.markdown(f"**User ID:** `{esc(user_id)}`  ·  {esc(date)}", unsafe_allow_html=True)
+                st.markdown(f"<span style='color:{MUTED};font-size:13px;'>{esc(signal)}</span>", unsafe_allow_html=True)
+            with right:
+                st.code(cdr, language=None)
+
+            key = f"hi_{cdr}"
+            reaction_key = f"{key}_reaction"
+            c1, c2, c3 = st.columns(3)
+            if c1.button("✅ Correct", key=f"{key}_yes", use_container_width=True):
+                st.session_state[reaction_key] = "Confirmed high intent"
+            if c2.button("❌ Not really", key=f"{key}_no", use_container_width=True):
+                st.session_state[reaction_key] = "Disputed — not actually high intent"
+            if c3.button("🤔 Unsure", key=f"{key}_unsure", use_container_width=True):
+                st.session_state[reaction_key] = "Unsure"
+
+            reaction = st.session_state.get(reaction_key)
+            if reaction:
+                st.caption(f"Marked: {reaction}")
+                remark = st.text_input("Remarks (optional)", key=f"{key}_remark", placeholder="Any context on why...")
+                if st.button("Submit", key=f"{key}_submit"):
+                    area_label = f"High-Intent Verification — user {user_id} — CDR {cdr}"
+                    if send_feedback(str(agent.get("employee_id", "")), area_label, reaction, remark):
+                        st.success("✓ Recorded")
+                        del st.session_state[reaction_key]
+                        st.rerun()
+
+
 def render_profile(agent: Dict[str, Any]) -> None:
     initials = "".join(w[0] for w in str(agent.get("name", "A")).split()[:2]).upper() or "A"
     section_title("Agent profile", "Quick reference for manager 1:1 preparation.")
@@ -1369,9 +1419,13 @@ def main() -> None:
 
     render_hero(agent)
 
-    tab_home, tab_trends, tab_profile, tab_feedback = st.tabs(["Overview", "Trends", "Profile", "Feedback"])
+    tab_home, tab_leads, tab_trends, tab_profile, tab_feedback = st.tabs(
+        ["Overview", "High-Intent Leads", "Trends", "Profile", "Feedback"]
+    )
     with tab_home:
         render_home(agent)
+    with tab_leads:
+        render_high_intent_leads(agent)
     with tab_trends:
         render_trends(agent)
     with tab_profile:
