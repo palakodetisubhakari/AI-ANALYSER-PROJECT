@@ -1080,78 +1080,125 @@ def feedback_widget(key: str, agent_id: str, area_title: str) -> None:
 
 
 # ── PAGES ────────────────────────────────────────────────────────────────
+def closing_strategy_bar_chart(agent: Dict[str, Any]) -> None:
+    strategies = [
+        ("No close attempted", agent.get("pct_no_close", 0), CORAL),
+        ("Passive close", agent.get("pct_passive_close", 0), AMBER),
+        ("Follow-up close", agent.get("pct_follow_up_close", 0), TEAL),
+        ("Hybrid close", agent.get("pct_hybrid_close", 0), BLUE),
+        ("Payment close", agent.get("pct_payment_close", 0), GREEN),
+    ]
+    fig = go.Figure()
+    for label, pct, color in strategies:
+        fig.add_trace(go.Bar(y=[label], x=[pct], orientation="h", marker_color=color,
+                              text=f"{pct:.0f}%", textposition="outside", showlegend=False))
+    fig.update_layout(
+        height=210, margin=dict(l=10, r=40, t=10, b=10),
+        xaxis=dict(range=[0, 100], gridcolor="#EAE3D5", title=None),
+        yaxis=dict(title=None),
+        plot_bgcolor="#FFFDF8", paper_bgcolor="rgba(0,0,0,0)", font=dict(color=INK, size=12),
+    )
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+
+
+def closing_moment_card(item: Dict[str, Any]) -> str:
+    strategy = str(item.get("strategy") or "—").replace("_", " ").title()
+    agent_said = item.get("agent_said")
+    owner_said = item.get("owner_said")
+    dialogue = ""
+    if owner_said:
+        dialogue += f'<div class="moment-meta">Owner: {esc(owner_said)}</div>'
+    if agent_said:
+        dialogue += f'<div class="moment-meta">Agent: {esc(agent_said)}</div>'
+    return f"""
+    <div class="moment">
+      <div class="moment-icon">✕</div>
+      <div>
+        <div class="moment-quote">{esc(item.get('reason', ''))}</div>
+        {dialogue}
+        <div class="moment-miss">Score: {esc(item.get('score', '—'))}/100 · Strategy used: {esc(strategy)}</div>
+      </div>
+      <div class="call-chip" title="user_id">User · {esc(short_id(item.get('user_id', '')))}</div>
+    </div>
+    """
+
+
 def render_home(agent: Dict[str, Any]) -> None:
     render_quick_grid(agent)
     render_strengths_card(agent)
 
+    avg_score = agent.get("avg_closing_score")
+    team_avg = agent.get("team_avg_closing_score")
+    pctl = agent.get("closing_percentile")
+    next_step_rate = agent.get("next_step_secured_rate")
+    team_next_step = agent.get("team_avg_next_step_rate")
+
     section_title(
-        "Priority coaching moments",
-        "Each card shows what happened, why it matters, and the call evidence to review.",
-        "2 focus areas",
+        "Call closing score — this cycle's focus",
+        "Everything below explains why the score is what it is, based on the calls this cycle.",
+        f"{pctl:.0f}th percentile" if pctl is not None else "",
     )
 
-    area_a = agent.get("area_a", []) or []
-    area_a_total = int(agent.get("area_a_total", len(area_a)) or 0)
-    area_a_rows = "".join(issue_row_a(item) for item in area_a[:3]) or empty_focus_row("No SOP-mapped rebuttal misses found.")
-    area_a_note = f"Showing {min(len(area_a), 3)} of {area_a_total}. Review remaining examples in the call log / Trends view." if area_a_total > 3 else ""
+    col1, col2 = st.columns([1, 1.3], gap="medium")
+    with col1:
+        with st.container(border=True):
+            st.markdown('<div class="card-title">Average closing score</div>', unsafe_allow_html=True)
+            colour = score_colour(int(avg_score) if avg_score is not None else 0)
+            render_html(f'<div style="font-size:44px;font-weight:950;color:{colour};">{avg_score if avg_score is not None else "—"}<span style="font-size:16px;color:{MUTED};">/100</span></div>')
+            st.caption(f"Team average: {team_avg}/100" if team_avg is not None else "")
+            st.markdown("---")
+            st.markdown(f"**Next step secured:** {next_step_rate}%" if next_step_rate is not None else "**Next step secured:** —")
+            st.caption(f"Team average: {team_next_step}%" if team_next_step is not None else "")
 
-    area_b = agent.get("area_b", []) or []
-    area_b_total = int(agent.get("area_b_total", len(area_b)) or 0)
-    area_b_rows = "".join(issue_row_b(item) for item in area_b[:3]) or empty_focus_row("No confirmed missed high-intent pitches found.")
-    excluded = int(agent.get("area_b_excluded_deferred", 0) or 0)
-    area_b_note_parts: List[str] = []
-    if area_b_total > 3:
-        area_b_note_parts.append(f"Showing {min(len(area_b), 3)} of {area_b_total}. Review remaining examples in the call log / Trends view.")
-    if excluded:
-        area_b_note_parts.append(f"{excluded} calls were excluded because the owner asked for a callback, so those are not counted as fair misses.")
-    area_b_note = " ".join(area_b_note_parts)
+    with col2:
+        with st.container(border=True):
+            st.markdown('<div class="card-title">How calls are actually closing</div>', unsafe_allow_html=True)
+            st.markdown('<div class="card-subtitle">Share of calls by closing strategy used, this cycle.</div>', unsafe_allow_html=True)
+            closing_strategy_bar_chart(agent)
 
-    focus_col1, focus_col2 = st.columns(2, gap="medium")
-    with focus_col1:
-        focus_card(
-            1,
-            "Match the rebuttal to the exact objection",
-            "Coach the agent to name the objection first, then use the right SOP response, then ask a simple next question.",
-            area_a_total,
-            area_a_rows,
-            area_a_note,
-        )
-        feedback_widget("fb_area_a", str(agent.get("employee_id", "")), "Area 1 — rebuttal match")
+    section_title(
+        "Calls that dragged the score down",
+        "Lowest-scoring closes this cycle — what happened, and why it counted against the score.",
+        f"{agent.get('worst_closing_total', 0)} calls scored 10 or below",
+    )
 
-    with focus_col2:
-        focus_card(
-            2,
-            "Offer the plan when the owner asks directly",
-            "When intent is explicit, the agent should move from explanation to a concrete plan and next step.",
-            area_b_total,
-            area_b_rows,
-            area_b_note,
-        )
-        feedback_widget("fb_area_b", str(agent.get("employee_id", "")), "Area 2 — offer the plan")
+    worst = agent.get("worst_closing_calls", []) or []
+    if worst:
+        rows_html = "".join(closing_moment_card(item) for item in worst)
+    else:
+        rows_html = empty_focus_row("No low-scoring closes found this cycle — good sign.")
+    focus_card(1, "Lowest-scoring closes this cycle", "Each of these calls scored 10 or below on the closing score.", len(worst), rows_html)
+    feedback_widget("fb_closing", str(agent.get("employee_id", "")), "Call closing score — coaching moments")
+
+    good = agent.get("good_closing_example")
+    if good:
+        section_title("A close that worked — reuse this", "Highest-scoring close this cycle for this agent.", "")
+        with st.container(border=True):
+            strategy = str(good.get("strategy") or "—").replace("_", " ").title()
+            st.markdown(f"**Score: {good.get('score', '—')}/100 · {strategy}**")
+            if good.get("owner_said"):
+                st.markdown(f"Owner: {esc(good['owner_said'])}", unsafe_allow_html=True)
+            if good.get("agent_said"):
+                st.markdown(f"<span style='color:{GREEN};font-weight:600;'>Agent:</span> {esc(good['agent_said'])}", unsafe_allow_html=True)
+            st.caption(good.get("reason", ""))
+            st.code(good.get("user_id", ""), language=None)
 
 
 def render_trends(agent: Dict[str, Any]) -> None:
     section_title("Trend and examples", "Use this view for the manager review, not just the agent summary.")
-    col1, col2 = st.columns([1.25, 1], gap="medium")
-    with col1:
-        render_html(
-            '<div class="soft-card"><div class="card-title">Performance over this cycle</div><div class="card-subtitle">Daily score combines rebuttal compliance and pitch-completion rate for this agent only.</div>',
-        )
-        trend_chart(agent.get("daily_trend", []))
-        render_html('</div>')
-
-    with col2:
-        render_html(
-            f'<div class="soft-card"><div class="card-title">A rebuttal that worked</div><div class="card-subtitle">Use this as the positive coaching anchor.</div>{good_example_html(agent.get("good_example"))}</div>',
-        )
+    render_html(
+        '<div class="soft-card"><div class="card-title">Performance over this cycle</div><div class="card-subtitle">Daily average call closing score for this agent only.</div>',
+    )
+    trend_chart(agent.get("daily_trend", []))
+    render_html('</div>')
 
     section_title("Data note", "What was scored and what was intentionally excluded.")
     render_html(
         """
         <div class="soft-card">
           <div class="coach-note">
-            <b>This cycle's focus areas were auto-detected, not manually transcript-reviewed.</b><br><br>
-            Use the feedback buttons on the Overview tab to flag anything that looks wrong. Customer intent / language match is not scored because it is the AI analyser's read of the call, not something the agent controls.
+            <b>This cycle's focus is the call closing score</b>, generated by the analyser per call along with a reason, the closing strategy used, and whether a next step was secured.<br><br>
+            Use the feedback buttons on the Overview tab to flag anything that looks wrong. Customer intent / language match are not scored because those are the AI analyser's interpretation of the call, not something the agent controls.
           </div>
         </div>
         """,
@@ -1164,7 +1211,7 @@ def render_high_intent_leads(agent: Dict[str, Any]) -> None:
 
     section_title(
         "High-intent leads this cycle",
-        "Every call the analyser flagged as HIGH intent, with the customer's user ID — confirm whether the flag was right.",
+        "Every call the analyser flagged as HIGH intent, with the customer's user ID, why it was flagged, and a concrete pitch angle to open with.",
         f"{total} leads",
     )
 
@@ -1172,21 +1219,19 @@ def render_high_intent_leads(agent: Dict[str, Any]) -> None:
         render_html('<div class="coach-note">No HIGH-intent calls found for this agent in this cycle.</div>')
         return
 
-    for lead in leads:
-        cdr = lead.get("cdr_id", "")
+    for i, lead in enumerate(leads):
         user_id = lead.get("user_id") or "—"
-        signal = lead.get("signal") or lead.get("reason") or "No specific signal text captured."
+        signal = lead.get("signal") or "No specific signal text captured."
+        reason = lead.get("reason") or ""
         date = lead.get("date") or "—"
+        key = f"hi_{user_id}_{i}"
 
         with st.container(border=True):
-            left, right = st.columns([3, 1])
-            with left:
-                st.markdown(f"**User ID:** `{esc(user_id)}`  ·  {esc(date)}", unsafe_allow_html=True)
-                st.markdown(f"<span style='color:{MUTED};font-size:13px;'>{esc(signal)}</span>", unsafe_allow_html=True)
-            with right:
-                st.code(cdr, language=None)
+            st.markdown(f"**User ID:** `{esc(user_id)}`  ·  {esc(date)}", unsafe_allow_html=True)
+            st.markdown(f"<span style='color:{MUTED};font-size:13px;'>Owner said: \"{esc(signal)}\"</span>", unsafe_allow_html=True)
+            if reason:
+                st.caption(reason)
 
-            key = f"hi_{cdr}"
             reaction_key = f"{key}_reaction"
             c1, c2, c3 = st.columns(3)
             if c1.button("✅ Correct", key=f"{key}_yes", use_container_width=True):
@@ -1201,7 +1246,7 @@ def render_high_intent_leads(agent: Dict[str, Any]) -> None:
                 st.caption(f"Marked: {reaction}")
                 remark = st.text_input("Remarks (optional)", key=f"{key}_remark", placeholder="Any context on why...")
                 if st.button("Submit", key=f"{key}_submit"):
-                    area_label = f"High-Intent Verification — user {user_id} — CDR {cdr}"
+                    area_label = f"High-Intent Verification — user {user_id}"
                     if send_feedback(str(agent.get("employee_id", "")), area_label, reaction, remark):
                         st.success("✓ Recorded")
                         del st.session_state[reaction_key]
