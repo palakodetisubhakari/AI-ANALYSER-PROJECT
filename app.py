@@ -1143,14 +1143,6 @@ def render_home(agent: Dict[str, Any]) -> None:
     render_quick_grid(agent)
     render_strengths_card(agent)
 
-    pctl = agent.get("closing_percentile")
-
-    section_title(
-        "Call closing score — this cycle's focus",
-        "Everything below explains why the score is what it is, based on the calls this cycle.",
-        f"{pctl:.0f}th percentile" if pctl is not None else "",
-    )
-
     section_title(
         "Calls that dragged the score down",
         "Full-length calls that scored low on closing — short calls where the owner ended things immediately are excluded, since there was no real window to close.",
