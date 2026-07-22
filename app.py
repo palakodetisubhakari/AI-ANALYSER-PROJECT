@@ -1143,11 +1143,7 @@ def render_home(agent: Dict[str, Any]) -> None:
     render_quick_grid(agent)
     render_strengths_card(agent)
 
-    avg_score = agent.get("avg_closing_score")
-    team_avg = agent.get("team_avg_closing_score")
     pctl = agent.get("closing_percentile")
-    next_step_rate = agent.get("next_step_secured_rate")
-    team_next_step = agent.get("team_avg_next_step_rate")
 
     section_title(
         "Call closing score — this cycle's focus",
@@ -1155,22 +1151,10 @@ def render_home(agent: Dict[str, Any]) -> None:
         f"{pctl:.0f}th percentile" if pctl is not None else "",
     )
 
-    col1, col2 = st.columns([1, 1.3], gap="medium")
-    with col1:
-        with st.container(border=True):
-            st.markdown('<div class="card-title">Average closing score</div>', unsafe_allow_html=True)
-            colour = score_colour(int(avg_score) if avg_score is not None else 0)
-            render_html(f'<div style="font-size:44px;font-weight:950;color:{colour};">{avg_score if avg_score is not None else "—"}<span style="font-size:16px;color:{MUTED};">/100</span></div>')
-            st.caption(f"Team average: {team_avg}/100" if team_avg is not None else "")
-            st.markdown("---")
-            st.markdown(f"**Next step secured:** {next_step_rate}%" if next_step_rate is not None else "**Next step secured:** —")
-            st.caption(f"Team average: {team_next_step}%" if team_next_step is not None else "")
-
-    with col2:
-        with st.container(border=True):
-            st.markdown('<div class="card-title">How calls are actually closing</div>', unsafe_allow_html=True)
-            st.markdown('<div class="card-subtitle">Share of calls by closing strategy used, this cycle.</div>', unsafe_allow_html=True)
-            closing_strategy_bar_chart(agent)
+    with st.container(border=True):
+        st.markdown('<div class="card-title">How calls are actually closing</div>', unsafe_allow_html=True)
+        st.markdown('<div class="card-subtitle">Share of calls by closing strategy used, this cycle.</div>', unsafe_allow_html=True)
+        closing_strategy_bar_chart(agent)
 
     section_title(
         "Calls that dragged the score down",
