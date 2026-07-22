@@ -1151,11 +1151,6 @@ def render_home(agent: Dict[str, Any]) -> None:
         f"{pctl:.0f}th percentile" if pctl is not None else "",
     )
 
-    with st.container(border=True):
-        st.markdown('<div class="card-title">How calls are actually closing</div>', unsafe_allow_html=True)
-        st.markdown('<div class="card-subtitle">Share of calls by closing strategy used, this cycle.</div>', unsafe_allow_html=True)
-        closing_strategy_bar_chart(agent)
-
     section_title(
         "Calls that dragged the score down",
         "Full-length calls that scored low on closing — short calls where the owner ended things immediately are excluded, since there was no real window to close.",
