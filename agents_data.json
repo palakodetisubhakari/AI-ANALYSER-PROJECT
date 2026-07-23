@@ -2,76 +2,52 @@
   "NBTSC400668": {
     "employee_id": "NBTSC400668",
     "name": "Noor Fathima",
-    "n_live_calls": 78,
+    "n_live_calls": 199,
     "rpl": 950.0,
     "rpl_rank": 1,
     "call_score": 89,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 2.6% NO_CLOSE vs. 3.0% team average.",
-      "Uses a real follow-up close more than most \u2014 28.2% of calls vs. 16.7% team average."
+      "Above-average closing score \u2014 27.6 vs. 19.0 team average.",
+      "Full, real conversations \u2014 27% of calls run full length vs. 19% team average."
     ],
-    "avg_closing_score": 25.4,
-    "closing_percentile": 95.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 2.6,
-    "pct_passive_close": 59.0,
-    "pct_follow_up_close": 28.2,
-    "pct_hybrid_close": 9.0,
-    "pct_payment_close": 1.3,
-    "next_step_secured_rate": 26.7,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 27.6,
+    "closing_percentile": 94.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.5,
+    "pct_passive_close": 72.4,
+    "pct_follow_up_close": 21.1,
+    "pct_hybrid_close": 4.0,
+    "pct_payment_close": 2.0,
+    "next_step_secured_rate": 17.5,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff8081816b7ad97e016b7fdc1edf40f9",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close. They confirmed the property was inactive and offered to arrange a call from the previous relationship manager to resolve the rental agreement issue.",
+        "user_id": "8a9f82c48cbda5ad018cbe66ab755844",
+        "score": "10",
+        "reason": "Agent acknowledged owner's stance but did not attempt to persuade or secure a concrete next step, ending with a vague 'I will check if anything will be there means I will let you know'.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9ff183859f069101859f16b70404fc",
-        "score": "10.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up, ending the call passively after the owner expressed disinterest in the plan.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9ffe8287cdc2500187ce07ce0f1787",
-        "score": "10.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The closing was passive, with the owner explicitly stating disinterest for now.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f86c771530e6101715316e3d40193",
-        "score": "15.0",
-        "reason": "Agent attempted to clarify plan cost but did not actively persuade for payment or secure a confirmed follow-up. Owner's hesitation was not fully resolved.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081814eef2dc5014ef2e9ddf11020",
-        "score": "15.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The owner expressed a need to check and get back, and the agent passively accepted this.",
+        "user_id": "8a9f8e8390f36ef20190f3c9f8c43399",
+        "score": "15",
+        "reason": "Agent attempted to persuade for the Super Relax plan but did not actively push for payment. No clear follow-up was confirmed, and owner commitment was not secured.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 5,
+    "worst_closing_total": 2,
     "good_closing_example": {
-      "user_id": "ff8081815def3a02015df306464b5879",
-      "score": "80.0",
-      "reason": "Agent persuaded for payment by offering a discount, secured a confirmed callback, and obtained owner commitment to pay after receiving the link.",
+      "user_id": "8a9fd48287a1fc690187a25abd363600",
+      "score": "100",
+      "reason": "Agent offered a discount for immediate payment, sent a payment link, and confirmed successful payment, leading to a direct sale.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -216,55 +192,75 @@
     "high_intent_leads_total": 23,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 31
+      },
+      {
+        "date": "2026-07-14",
+        "score": 28
+      },
+      {
+        "date": "2026-07-15",
+        "score": 24
+      },
+      {
+        "date": "2026-07-16",
+        "score": 30
+      },
+      {
         "date": "2026-07-21",
-        "score": 25
+        "score": 26
+      },
+      {
+        "date": "2026-07-22",
+        "score": 27
       }
     ]
   },
   "NBTS36720": {
     "employee_id": "NBTS36720",
     "name": "Jaya priya",
-    "n_live_calls": 80,
+    "n_live_calls": 215,
     "rpl": 892.0,
     "rpl_rank": 2,
-    "call_score": 86,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "call_score": 87,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.2% NO_CLOSE vs. 3.0% team average.",
-      "Uses a real follow-up close more than most \u2014 18.8% of calls vs. 16.7% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Above-average closing score \u2014 21.2 vs. 19.0 team average."
     ],
-    "avg_closing_score": 14.2,
-    "closing_percentile": 59.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.2,
-    "pct_passive_close": 75.0,
-    "pct_follow_up_close": 18.8,
-    "pct_hybrid_close": 5.0,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 7.1,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 21.2,
+    "closing_percentile": 69.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 80.5,
+    "pct_follow_up_close": 12.6,
+    "pct_hybrid_close": 5.6,
+    "pct_payment_close": 1.4,
+    "next_step_secured_rate": 15.1,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9fba88964672d2019646ceb7d807ab",
-        "score": "5.0",
-        "reason": "The agent made a weak attempt to close by asking for 2 minutes, but did not persuade for payment or secure a follow-up. Owner commitment was negative.",
+        "user_id": "8aa9ba849d8650fd019d86dc58d03dbe",
+        "score": "0",
+        "reason": "After the owner's clear rejection, the agent passively ended the call without attempting to persuade or secure any next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f91828292cc23018292ef101f0a0b",
-        "score": "10.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The call ended abruptly due to a technical issue without securing any commitment.",
+        "user_id": "8aa9b4939e63e3d3019e644de073330c",
+        "score": "10",
+        "reason": "Agent ended the call abruptly after the owner stated they were out of station, without securing a next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f85827f117049017f11af960627e9",
-        "score": "15.0",
-        "reason": "Agent mentioned different plan options but did not actively push for payment or confirm a specific next step.",
+        "user_id": "8aa9ac3e9f75a564019f766d05e3577f",
+        "score": "15",
+        "reason": "The agent did not actively persuade for payment or confirm a follow-up. Instead, they promised to notify a department, which was a weak closing attempt.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -272,12 +268,12 @@
     ],
     "worst_closing_total": 3,
     "good_closing_example": {
-      "user_id": "ff8081815c8b6d19015c8b924d2f091f",
-      "score": "80.0",
-      "reason": "Agent successfully secured a follow-up call for the next week and provided instructions for the owner. No payment was pushed, respecting the owner's current situation.",
+      "user_id": "ff8081815612f2d60156163023e53efe",
+      "score": "100",
+      "reason": "Agent actively pursued payment, sent the link, and confirmed successful payment, leading to a clear next step.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -386,84 +382,84 @@
     "high_intent_leads_total": 17,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 14
+        "date": "2026-07-13",
+        "score": 24
+      },
+      {
+        "date": "2026-07-14",
+        "score": 23
+      },
+      {
+        "date": "2026-07-15",
+        "score": 27
+      },
+      {
+        "date": "2026-07-16",
+        "score": 16
+      },
+      {
+        "date": "2026-07-22",
+        "score": 15
       }
     ]
   },
   "NBTS16898": {
     "employee_id": "NBTS16898",
     "name": "Nishita Sumant",
-    "n_live_calls": 76,
+    "n_live_calls": 154,
     "rpl": 861.0,
     "rpl_rank": 3,
-    "call_score": 83,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "call_score": 85,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Secures a next step more often than most \u2014 50.0% vs. 22.1% team average.",
-      "Handled 76 live calls this cycle."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 7.6,
-    "closing_percentile": 0.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 3.9,
-    "pct_passive_close": 86.8,
-    "pct_follow_up_close": 5.3,
-    "pct_hybrid_close": 3.9,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 50.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 13.4,
+    "closing_percentile": 14.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 89.6,
+    "pct_follow_up_close": 8.4,
+    "pct_hybrid_close": 1.3,
+    "pct_payment_close": 0.6,
+    "next_step_secured_rate": 6.8,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9fe5828713b7c6018713e859fa18e8",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close. They offered to check on the previous issue and asked for time, but did not secure a confirmed follow-up or owner commitment.",
+        "user_id": "8a9fed82850af0cf01850b70314e5780",
+        "score": "0",
+        "reason": "Agent did not attempt to close. The conversation devolved into an argument, and the agent eventually gave up trying to explain or persuade.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8aa990a29f6efe87019f6f981f756030",
-        "score": "10.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. After the owner's rejection, the agent passively accepted and ended the call without securing a next step.",
+        "user_id": "ff8081816bc61845016bc78a841c2e29",
+        "score": "0",
+        "reason": "Agent did not make any attempt to persuade or secure a next step after the owner clearly stated disinterest and ended the call.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9faa827f7d95be017f7df7621d3d7e",
-        "score": "15.0",
-        "reason": "Agent did not actively persuade for payment or secure a confirmed follow-up. Owner expressed a need to think, and the agent accepted this passively.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f9a849947e5a40199483647852509",
-        "score": "15.0",
-        "reason": "Agent mentioned payment and a refundable plan but did not actively persuade for payment or secure a confirmed follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9feb838a6f2057018a6f5ea6a32ada",
-        "score": "15.0",
-        "reason": "The agent mentioned a refundable plan as a closing attempt but did not actively persuade for payment or secure a concrete follow-up.",
+        "user_id": "8a9f88838de090f7018de09e6666063d",
+        "score": "10",
+        "reason": "Agent mentioned plan charges after owner said 'not required', but did not attempt to persuade or secure a next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 5,
+    "worst_closing_total": 3,
     "good_closing_example": {
-      "user_id": "ff808181684b645001684b89cf4d0e6c",
-      "score": "85.0",
-      "reason": "Agent confirmed property details for payment, sent a link, and secured owner commitment for payment and follow-up contact.",
+      "user_id": "8a9ff082863ea4c801863f2eed696d70",
+      "score": "90",
+      "reason": "Agent directly asked for payment link and confirmed payment received, leading to plan activation.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -566,43 +562,155 @@
     "high_intent_leads_total": 16,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 13
+      },
+      {
+        "date": "2026-07-14",
+        "score": 13
+      },
+      {
+        "date": "2026-07-16",
+        "score": 15
+      },
+      {
         "date": "2026-07-21",
-        "score": 8
+        "score": 7
+      }
+    ]
+  },
+  "NBTS44223": {
+    "employee_id": "NBTS44223",
+    "name": "JAGADEESH S",
+    "n_live_calls": 158,
+    "rpl": 718.32,
+    "rpl_rank": 4,
+    "call_score": 84,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
+    ],
+    "avg_closing_score": 24.4,
+    "closing_percentile": 89.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 76.6,
+    "pct_follow_up_close": 19.6,
+    "pct_hybrid_close": 3.2,
+    "pct_payment_close": 0.6,
+    "next_step_secured_rate": 19.6,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8a9f90839680ca63019680dfe91606e3",
+        "score": "10",
+        "reason": "Agent made a weak attempt to push plans but did not secure a payment or confirmed callback, ending passively after owner's final statement.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f92838c76d738018c76ef6d3b0f8a",
+        "score": "10",
+        "reason": "Agent acknowledged the owner's lack of interest and ended the call without attempting to secure a callback or persuade further.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 2,
+    "good_closing_example": {
+      "user_id": "8a9f91c36f6aaaa4016f6ac0445304a6",
+      "score": "90",
+      "reason": "Agent guided the owner on how to upgrade via the app and confirmed payment details, securing a commitment to proceed.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "HYBRID_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-14",
+        "score": 17
+      },
+      {
+        "date": "2026-07-15",
+        "score": 31
+      },
+      {
+        "date": "2026-07-16",
+        "score": 27
       }
     ]
   },
   "NBTS44026": {
     "employee_id": "NBTS44026",
     "name": "P.chandana",
-    "n_live_calls": 159,
+    "n_live_calls": 362,
     "rpl": 691.0,
-    "rpl_rank": 4,
-    "call_score": 80,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 5,
+    "call_score": 82,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.3% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 0.6% vs. 2.9% team average."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Uses a real follow-up close more than most \u2014 17.1% of calls vs. 13.6% team average."
     ],
-    "avg_closing_score": 12.1,
-    "closing_percentile": 32.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.3,
-    "pct_passive_close": 75.9,
-    "pct_follow_up_close": 21.5,
-    "pct_hybrid_close": 1.3,
+    "avg_closing_score": 17.3,
+    "closing_percentile": 37.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.3,
+    "pct_passive_close": 80.7,
+    "pct_follow_up_close": 17.1,
+    "pct_hybrid_close": 1.9,
     "pct_payment_close": 0.0,
-    "next_step_secured_rate": 10.0,
-    "team_avg_next_step_rate": 22.1,
-    "worst_closing_calls": [],
-    "worst_closing_total": 0,
+    "next_step_secured_rate": 15.8,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8aa9aa589e4973de019e49d848b83184",
+        "score": "0",
+        "reason": "Agent ended the call passively after the owner expressed dissatisfaction and requested a callback on the Hindi number, without attempting to secure a next step.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fe6828378d32e018378edc19e0e75",
+        "score": "10",
+        "reason": "Agent did not make a clear attempt to close. The call ended after the owner expressed dissatisfaction and a desire to end the conversation.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9ba189f553ece019f564cc79f4c60",
+        "score": "10",
+        "reason": "Agent acknowledged the owner's feedback and stated they would pass it on as a complaint, but made no attempt to persuade or schedule a follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fb082786f4a3e01786f7a5ce40af6",
+        "score": "15",
+        "reason": "The agent attempted a close by suggesting the owner go with free listing but did not actively persuade for the paid plan or secure a concrete next step.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 4,
     "good_closing_example": {
-      "user_id": "8a9f87ae6fd295d6016fd2b7224f0f47",
-      "score": "70.0",
-      "reason": "Agent attempted a follow-up close, confirming a callback for Saturday. Owner agreed to the callback, but payment commitment was not secured.",
+      "user_id": "8a9f94838f193890018f196dad7f1cd1",
+      "score": "85",
+      "reason": "Agent sent a payment link and confirmed the amount. Owner agreed to process and send the payment.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "HYBRID_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -741,76 +849,68 @@
     "high_intent_leads_total": 22,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 19
+      },
+      {
+        "date": "2026-07-15",
+        "score": 19
+      },
+      {
+        "date": "2026-07-16",
+        "score": 20
+      },
+      {
         "date": "2026-07-21",
-        "score": 12
+        "score": 18
+      },
+      {
+        "date": "2026-07-22",
+        "score": 13
       }
     ]
   },
   "NBTS21671": {
     "employee_id": "NBTS21671",
     "name": "PRAVEENKUMAR",
-    "n_live_calls": 85,
+    "n_live_calls": 209,
     "rpl": 688.0,
-    "rpl_rank": 5,
-    "call_score": 77,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 6,
+    "call_score": 80,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.2% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 2.4% vs. 2.9% team average."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Secures a next step more often than most \u2014 15.4% vs. 13.7% team average."
     ],
-    "avg_closing_score": 14.8,
-    "closing_percentile": 64.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.2,
-    "pct_passive_close": 77.4,
-    "pct_follow_up_close": 19.0,
-    "pct_hybrid_close": 2.4,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 18.2,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 18.1,
+    "closing_percentile": 43.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.5,
+    "pct_passive_close": 82.8,
+    "pct_follow_up_close": 12.4,
+    "pct_hybrid_close": 3.3,
+    "pct_payment_close": 1.0,
+    "next_step_secured_rate": 15.4,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8aa98ba29edecc6b019ee015387a090d",
-        "score": "10.0",
-        "reason": "Agent did not actively push for payment or a confirmed follow-up. The closing was passive, with no clear next step secured from the owner.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
         "user_id": "ff8081815d4158c4015d44f6c65606ec",
-        "score": "15.0",
+        "score": "15",
         "reason": "Agent mentioned the plan details and its cost but did not actively persuade for payment or secure a concrete follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081816b2c7166016b308518f303c8",
-        "score": "15.0",
-        "reason": "Agent attempted a close by mentioning a money-back guarantee but did not secure explicit commitment or a confirmed follow-up after the owner's rejection.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fb09a93f293450193f2b374de0a4d",
-        "score": "15.0",
-        "reason": "The agent attempted a close by mentioning plans but did not actively persuade for payment. No follow-up was confirmed, and no owner commitment was secured.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 4,
+    "worst_closing_total": 1,
     "good_closing_example": {
-      "user_id": "8a9fb0827d37a6de017d381a1a4d3fae",
-      "score": "60.0",
-      "reason": "Agent attempted a follow-up close, confirming a callback time. Owner agreed to a callback, but the timing was slightly vague initially.",
+      "user_id": "ff80818165a44d310165a4d9c6645c4a",
+      "score": "90",
+      "reason": "Agent offered a payment link after the owner agreed to pay. Provided details about relationship manager and receipt, securing a clear next step.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -901,49 +1001,56 @@
     "high_intent_leads_total": 14,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 16
+      },
+      {
+        "date": "2026-07-14",
+        "score": 26
+      },
+      {
+        "date": "2026-07-15",
+        "score": 19
+      },
+      {
         "date": "2026-07-21",
-        "score": 15
+        "score": 11
+      },
+      {
+        "date": "2026-07-22",
+        "score": 12
       }
     ]
   },
   "NBTS26420": {
     "employee_id": "NBTS26420",
     "name": "Jennifer A",
-    "n_live_calls": 85,
+    "n_live_calls": 189,
     "rpl": 666.0,
-    "rpl_rank": 6,
-    "call_score": 74,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 7,
+    "call_score": 78,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Secures a next step more often than most \u2014 57.1% vs. 22.1% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 2.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 19.8,
-    "closing_percentile": 86.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 3.5,
-    "pct_passive_close": 62.4,
-    "pct_follow_up_close": 25.9,
-    "pct_hybrid_close": 4.7,
-    "pct_payment_close": 3.5,
-    "next_step_secured_rate": 57.1,
-    "team_avg_next_step_rate": 22.1,
-    "worst_closing_calls": [
-      {
-        "user_id": "8aa9aefa9e7e73cf019e7ee5ba5d1be3",
-        "score": "15.0",
-        "reason": "The agent asked if the owner was interested in taking the service but did not actively persuade for payment or secure a confirmed follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 1,
+    "avg_closing_score": 25.6,
+    "closing_percentile": 91.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 76.7,
+    "pct_follow_up_close": 16.4,
+    "pct_hybrid_close": 4.2,
+    "pct_payment_close": 2.6,
+    "next_step_secured_rate": 21.3,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [],
+    "worst_closing_total": 0,
     "good_closing_example": {
-      "user_id": "ff80818158d583720158d9f0a83512e4",
-      "score": "95.0",
-      "reason": "Agent actively persuaded for payment, resolved hesitation by confirming details and offering a direct number. Secured explicit owner commitment to payment and a confirmed callback time.",
+      "user_id": "ff8081816c8fe4dd016c943965c26b4d",
+      "score": "100",
+      "reason": "Agent successfully guided the owner to make the payment after explaining the plan and addressing concerns about price and activation.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "PAYMENT_CLOSE"
@@ -1103,60 +1210,59 @@
     "high_intent_leads_total": 25,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 30
+      },
+      {
+        "date": "2026-07-15",
+        "score": 25
+      },
+      {
+        "date": "2026-07-16",
+        "score": 33
+      },
+      {
         "date": "2026-07-21",
-        "score": 20
+        "score": 49
+      },
+      {
+        "date": "2026-07-22",
+        "score": 17
       }
     ]
   },
   "NBTS35806": {
     "employee_id": "NBTS35806",
     "name": "Priya K",
-    "n_live_calls": 67,
+    "n_live_calls": 109,
     "rpl": 649.0,
-    "rpl_rank": 7,
-    "call_score": 72,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 8,
+    "call_score": 76,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.5% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 1.5% vs. 2.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Above-average closing score \u2014 21.1 vs. 19.0 team average."
     ],
-    "avg_closing_score": 13.7,
-    "closing_percentile": 55.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.5,
-    "pct_passive_close": 77.6,
-    "pct_follow_up_close": 11.9,
-    "pct_hybrid_close": 9.0,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 33.3,
-    "team_avg_next_step_rate": 22.1,
-    "worst_closing_calls": [
-      {
-        "user_id": "ff80818169dce9a70169dd993c917e73",
-        "score": "0.0",
-        "reason": "The agent did not attempt to persuade for payment or secure a follow-up. The call ended abruptly with the agent saying thank you, with no clear next step.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081814fe5e616014fee2b8d6a2ee2",
-        "score": "15.0",
-        "reason": "Agent acknowledged the owner's request to connect directly with tenants and agreed to update, but did not actively push for payment or secure a concrete follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 2,
+    "avg_closing_score": 21.1,
+    "closing_percentile": 66.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 81.7,
+    "pct_follow_up_close": 13.8,
+    "pct_hybrid_close": 2.8,
+    "pct_payment_close": 1.8,
+    "next_step_secured_rate": 17.0,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [],
+    "worst_closing_total": 0,
     "good_closing_example": {
-      "user_id": "8a9fac8a94bf15d40194bf700ba6079a",
-      "score": "60.0",
-      "reason": "Agent attempted a follow-up close by agreeing to call back after 1 PM. Owner confirmed this callback time. No payment persuasion was made, but a specific follow-up was agreed upon.",
+      "user_id": "8a9fc2828040677701804088cd511618",
+      "score": "95",
+      "reason": "Agent successfully secured payment intent by offering a discounted price and sending the payment link via WhatsApp.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -1283,52 +1389,76 @@
     "high_intent_leads_total": 20,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 14
+        "date": "2026-07-13",
+        "score": 26
+      },
+      {
+        "date": "2026-07-14",
+        "score": 19
+      },
+      {
+        "date": "2026-07-16",
+        "score": 20
       }
     ]
   },
   "NBTS40957": {
     "employee_id": "NBTS40957",
     "name": "Pallem pavani",
-    "n_live_calls": 70,
+    "n_live_calls": 261,
     "rpl": 600.0,
-    "rpl_rank": 8,
-    "call_score": 69,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 9,
+    "call_score": 74,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 1.4% vs. 2.9% team average.",
-      "Handled 70 live calls this cycle."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Handled 261 live calls this cycle."
     ],
-    "avg_closing_score": 12.1,
-    "closing_percentile": 41.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 4.3,
-    "pct_passive_close": 77.1,
-    "pct_follow_up_close": 14.3,
-    "pct_hybrid_close": 1.4,
-    "pct_payment_close": 2.9,
-    "next_step_secured_rate": 0.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 15.3,
+    "closing_percentile": 20.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.8,
+    "pct_passive_close": 88.1,
+    "pct_follow_up_close": 8.8,
+    "pct_hybrid_close": 1.9,
+    "pct_payment_close": 0.4,
+    "next_step_secured_rate": 7.7,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff8081816ead16b6016eb09069431dad",
-        "score": "15.0",
-        "reason": "The agent did not actively persuade for payment or confirm a follow-up. The closing was passive, accepting the owner's decision to not proceed.",
+        "user_id": "8a9fbca181e78f6a0181e799e11e0403",
+        "score": "0",
+        "reason": "Agent gave up after the owner expressed budget concerns and did not attempt to persuade, offer alternatives, or schedule a follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081816044de8e016045b0a4ca09ee",
+        "score": "10",
+        "reason": "Agent did not attempt to close the call or secure a next step after the owner expressed dissatisfaction and a desire to 'see'.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081816534813c01653786295f14bf",
+        "score": "10",
+        "reason": "Agent did not attempt to close. The conversation devolved into a discussion about the meaning of 'NoBroker' without any effort to secure a next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 1,
+    "worst_closing_total": 3,
     "good_closing_example": {
-      "user_id": "ff8081815a52a425015a55aa47d67ffd",
-      "score": "90.0",
-      "reason": "Agent actively persuaded for payment, resolved hesitation about price, and confirmed payment success, leading to plan activation.",
+      "user_id": "8a9fa08281e7906b0181e823023569fd",
+      "score": "85",
+      "reason": "Agent attempted to close by sharing an activation link and explaining the next steps for payment and onboarding, which the owner agreed to.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "PAYMENT_CLOSE"
+      "strategy": "HYBRID_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -1431,63 +1561,174 @@
     "high_intent_leads_total": 16,
     "daily_trend": [
       {
-        "date": "2026-07-21",
+        "date": "2026-07-13",
+        "score": 19
+      },
+      {
+        "date": "2026-07-14",
+        "score": 16
+      },
+      {
+        "date": "2026-07-15",
+        "score": 14
+      },
+      {
+        "date": "2026-07-16",
+        "score": 18
+      },
+      {
+        "date": "2026-07-22",
         "score": 12
       }
     ]
   },
-  "NBTS35805": {
-    "employee_id": "NBTS35805",
-    "name": "BS Bhagyalakshmi",
-    "n_live_calls": 69,
-    "rpl": 558.0,
-    "rpl_rank": 9,
-    "call_score": 66,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+  "NBTS14577": {
+    "employee_id": "NBTS14577",
+    "name": "Shaik Samreena",
+    "n_live_calls": 197,
+    "rpl": 593.0,
+    "rpl_rank": 10,
+    "call_score": 73,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.4% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 1.4% vs. 2.9% team average."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Full, real conversations \u2014 28% of calls run full length vs. 19% team average."
     ],
-    "avg_closing_score": 12.5,
-    "closing_percentile": 45.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.4,
-    "pct_passive_close": 79.7,
-    "pct_follow_up_close": 11.6,
-    "pct_hybrid_close": 4.3,
-    "pct_payment_close": 2.9,
-    "next_step_secured_rate": 10.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 21.2,
+    "closing_percentile": 71.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 1.0,
+    "pct_passive_close": 78.7,
+    "pct_follow_up_close": 15.2,
+    "pct_hybrid_close": 4.6,
+    "pct_payment_close": 0.5,
+    "next_step_secured_rate": 18.0,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff80818163e382ef0163e3cab7c82820",
-        "score": "0.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The call ended with the owner declining further services.",
+        "user_id": "8aa9bf969ad400d5019ad435b47a15f7",
+        "score": "0",
+        "reason": "Agent did not attempt to close for the rental plan after the owner's rejection and stated they would get back.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8aa9c06a9d8a0cf7019d8aca39fd5f8a",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The owner ended the call abruptly, and the agent did not try to re-engage or confirm a next step.",
+        "user_id": "ff8081816d53e402016d588e332c52bf",
+        "score": "0",
+        "reason": "Agent did not make a genuine attempt to persuade or secure a next step after the owner's clear rejection and dissatisfaction. The call ended passively.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fa78395bc3c960195bc90f02e27fa",
-        "score": "10.0",
-        "reason": "The agent acknowledged the owner's statement about not receiving calls and stated they would notify their team. No attempt was made to secure a follow-up or close the call affirmatively.",
+        "user_id": "ff8081816d3e3696016d3ee29408671f",
+        "score": "0",
+        "reason": "Agent did not attempt to close. The owner explicitly stated they were not interested in any plan and asked for a superior's number.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f8b9097f4907b0197f4b984220dc8",
-        "score": "15.0",
-        "reason": "Agent attempted to persuade for a plan but did not push for payment or secure a confirmed follow-up. Owner's hesitation was not resolved.",
+        "user_id": "8a9f910c72df512e0172e47ca30c4f10",
+        "score": "10",
+        "reason": "After the owner's rejection and clear statement of not wanting the service, the agent passively accepted the decision without any further attempt to persuade or secure a next step.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081815245369b0152458633e30481",
+        "score": "10",
+        "reason": "Agent did not make a clear attempt to close. Owner expressed frustration and a desire to end the call.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 5,
+    "good_closing_example": {
+      "user_id": "8aa9bb549e58117f019e58c64f415a7b",
+      "score": "95",
+      "reason": "Agent successfully secured payment and provided a payment link, confirming plan activation and manager assignment.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "HYBRID_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-14",
+        "score": 22
+      },
+      {
+        "date": "2026-07-15",
+        "score": 21
+      },
+      {
+        "date": "2026-07-16",
+        "score": 36
+      },
+      {
+        "date": "2026-07-22",
+        "score": 16
+      }
+    ]
+  },
+  "NBTSC401040": {
+    "employee_id": "NBTSC401040",
+    "name": "Swapna k",
+    "n_live_calls": 207,
+    "rpl": 579.41,
+    "rpl_rank": 11,
+    "call_score": 71,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
+    ],
+    "avg_closing_score": 13.2,
+    "closing_percentile": 11.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 89.4,
+    "pct_follow_up_close": 8.7,
+    "pct_hybrid_close": 1.4,
+    "pct_payment_close": 0.5,
+    "next_step_secured_rate": 7.3,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "ff8081816d53dff3016d593458b14d51",
+        "score": "10",
+        "reason": "Agent ended the call passively after the owner expressed dissatisfaction with past services, without attempting to persuade or schedule a follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9bb839ec50c80019ec61a23f506c7",
+        "score": "10",
+        "reason": "Agent offered to check and call back but made no attempt to persuade the owner or secure a confirmed next step.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9c3e89f63d665019f6422a7c32044",
+        "score": "10",
+        "reason": "After the owner rejected the premium services, the agent simply said 'Thank you' and ended the call without attempting to secure a next step or confirm any follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081816daf1df4016db11e9bac1f5b",
+        "score": "10",
+        "reason": "Agent did not attempt to close for payment or a confirmed callback. Owner requested a callback in the evening, which the agent agreed to.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -1495,12 +1736,138 @@
     ],
     "worst_closing_total": 4,
     "good_closing_example": {
-      "user_id": "ff8081815bfc1263015bfc3c915d10e3",
-      "score": "70.0",
-      "reason": "Agent persuaded owner to activate services, provided a payment link, and confirmed the next steps with the RM. Owner agreed to activate services but did not explicitly commit to payment.",
+      "user_id": "8a9f84838eb7604d018eb79264d72297",
+      "score": "90",
+      "reason": "Agent successfully guided the owner through payment, confirmed receipt, and explained the next steps with the relationship manager, securing a payment.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 19
+      },
+      {
+        "date": "2026-07-15",
+        "score": 10
+      },
+      {
+        "date": "2026-07-16",
+        "score": 13
+      }
+    ]
+  },
+  "NBTSC400804": {
+    "employee_id": "NBTSC400804",
+    "name": "Chandrashekhar",
+    "n_live_calls": 251,
+    "rpl": 576.0,
+    "rpl_rank": 12,
+    "call_score": 69,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Above-average closing score \u2014 19.9 vs. 19.0 team average."
+    ],
+    "avg_closing_score": 19.9,
+    "closing_percentile": 54.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.4,
+    "pct_passive_close": 83.7,
+    "pct_follow_up_close": 13.1,
+    "pct_hybrid_close": 2.4,
+    "pct_payment_close": 0.4,
+    "next_step_secured_rate": 15.7,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8aa9b1ee9f598991019f59ce58551bdd",
+        "score": "10",
+        "reason": "Agent offered premium plan or staying with free listing but did not actively push for payment or a confirmed callback after owner's rejection.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fa78394d0b35e0194d0bfece40350",
+        "score": "10",
+        "reason": "Agent did not attempt to close or schedule a follow-up after the owner expressed disinterest. Call ended passively.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 2,
+    "good_closing_example": {
+      "user_id": "8a9fa98e9816690f019816b0935c1260",
+      "score": "90",
+      "reason": "Agent clearly asked for payment and owner confirmed they would proceed with payment via the app.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "PAYMENT_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 15
+      },
+      {
+        "date": "2026-07-14",
+        "score": 21
+      },
+      {
+        "date": "2026-07-15",
+        "score": 26
+      }
+    ]
+  },
+  "NBTS35805": {
+    "employee_id": "NBTS35805",
+    "name": "BS Bhagyalakshmi",
+    "n_live_calls": 172,
+    "rpl": 558.0,
+    "rpl_rank": 13,
+    "call_score": 67,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Full, real conversations \u2014 22% of calls run full length vs. 19% team average."
+    ],
+    "avg_closing_score": 20.6,
+    "closing_percentile": 60.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 1.2,
+    "pct_passive_close": 79.1,
+    "pct_follow_up_close": 14.0,
+    "pct_hybrid_close": 3.5,
+    "pct_payment_close": 2.3,
+    "next_step_secured_rate": 15.6,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8a9f9a827d641188017d649fb33e13bb",
+        "score": "15",
+        "reason": "The agent asked for a callback time but did not actively persuade for payment or resolve the owner's hesitation. No explicit commitment was secured.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 1,
+    "good_closing_example": {
+      "user_id": "ff808181595ef1a00159604a61521c94",
+      "score": "100",
+      "reason": "Agent successfully guided the owner to select a plan, shared a discounted link, and confirmed payment receipt, leading to a successful closure.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -1585,60 +1952,100 @@
     "high_intent_leads_total": 13,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 25
+      },
+      {
+        "date": "2026-07-15",
+        "score": 20
+      },
+      {
+        "date": "2026-07-16",
+        "score": 28
+      },
+      {
         "date": "2026-07-21",
-        "score": 12
+        "score": 23
+      },
+      {
+        "date": "2026-07-22",
+        "score": 16
       }
     ]
   },
   "NBTS26153": {
     "employee_id": "NBTS26153",
     "name": "KUMAR GAURAV",
-    "n_live_calls": 91,
+    "n_live_calls": 278,
     "rpl": 552.0,
-    "rpl_rank": 10,
-    "call_score": 63,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 14,
+    "call_score": 65,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 1.1% vs. 2.9% team average.",
-      "Full, real conversations \u2014 16% of calls run full length vs. 15% team average."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Full, real conversations \u2014 20% of calls run full length vs. 19% team average."
     ],
-    "avg_closing_score": 15.0,
-    "closing_percentile": 68.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 3.3,
-    "pct_passive_close": 76.7,
-    "pct_follow_up_close": 16.7,
-    "pct_hybrid_close": 3.3,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 6.2,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 18.5,
+    "closing_percentile": 46.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.4,
+    "pct_passive_close": 87.8,
+    "pct_follow_up_close": 9.4,
+    "pct_hybrid_close": 1.8,
+    "pct_payment_close": 0.7,
+    "next_step_secured_rate": 10.4,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff80818152ab67620152bf3dc36e3de3",
-        "score": "10.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The closing was passive, with the owner dictating the next call timing.",
+        "user_id": "8a9f8fbe6fcd7b0b016fcda08cef106d",
+        "score": "0",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner's strong negative feedback. Call ended passively.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f9149737a6a5f01737b73fd45758f",
-        "score": "15.0",
-        "reason": "The agent acknowledged the owner's statement about the tenant moving out and the property becoming available soon. No strong attempt was made to secure a payment or a confirmed follow-up.",
+        "user_id": "8a9f8ab37110ad6d017115de5b5305c0",
+        "score": "10",
+        "reason": "Agent did not attempt to close for payment or a confirmed callback. The call ended passively after the owner's continued hesitation.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9a36b9f610c0e019f6134519d106f",
+        "score": "10",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner rejected the prepaid model and stated no need.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fbb827d88c350017d8913248a286c",
+        "score": "10",
+        "reason": "Agent acknowledged the owner's negative experience and ended the call without attempting to persuade or secure a next step.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081816e1b5c56016e1c7710c845c9",
+        "score": "10",
+        "reason": "Agent made a weak attempt to close by stating 'we will rent it out', but owner dismissed it and the call ended without a clear next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 2,
+    "worst_closing_total": 5,
     "good_closing_example": {
-      "user_id": "8a9fbc8278af04d50178af9606be1158",
-      "score": "70.0",
-      "reason": "Agent attempted a payment close by sending a link, but it failed. They then secured a confirmed callback to complete the transaction.",
+      "user_id": "8aa9b6669f5a6525019f5b80e83c4733",
+      "score": "100",
+      "reason": "Agent directly asked for payment, provided a discounted link, and confirmed payment receipt and activation.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -1735,68 +2142,96 @@
     "high_intent_leads_total": 15,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 22
+      },
+      {
+        "date": "2026-07-14",
+        "score": 19
+      },
+      {
+        "date": "2026-07-15",
+        "score": 19
+      },
+      {
+        "date": "2026-07-16",
+        "score": 21
+      },
+      {
         "date": "2026-07-21",
-        "score": 15
+        "score": 19
+      },
+      {
+        "date": "2026-07-22",
+        "score": 16
       }
     ]
   },
   "NBTSC400946": {
     "employee_id": "NBTSC400946",
     "name": "Bhavitha A",
-    "n_live_calls": 134,
+    "n_live_calls": 215,
     "rpl": 548.0,
-    "rpl_rank": 11,
-    "call_score": 60,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 15,
+    "call_score": 63,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 1.5% vs. 2.9% team average.",
-      "Secures a next step more often than most \u2014 25.0% vs. 22.1% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Handled 215 live calls this cycle."
     ],
-    "avg_closing_score": 9.7,
-    "closing_percentile": 14.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 3.8,
-    "pct_passive_close": 81.8,
-    "pct_follow_up_close": 13.6,
-    "pct_hybrid_close": 0.8,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 25.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 16.9,
+    "closing_percentile": 34.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 84.7,
+    "pct_follow_up_close": 12.1,
+    "pct_hybrid_close": 1.9,
+    "pct_payment_close": 1.4,
+    "next_step_secured_rate": 11.9,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9f84828205d206018206618c2772be",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The call ended with the owner asking for time to check the app.",
+        "user_id": "8a9f8fc391d6e27b0191d7270b4412c2",
+        "score": "0",
+        "reason": "Agent made no attempt to persuade or close after the owner's strong rejection and explicit request to not be contacted. The call ended passively.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fa39577491e600177499a058f242a",
-        "score": "15.0",
-        "reason": "The agent attempted to offer a new plan with a discount but did not actively persuade for payment or secure a concrete follow-up. The owner expressed hesitation.",
+        "user_id": "ff8081814c286360014c2b44b45403eb",
+        "score": "10",
+        "reason": "Agent acknowledged the owner's request to stop calling but made no attempt to persuade or secure a next step, ending the call passively.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
         "user_id": "8aa992669f72a3e8019f7329e3300e36",
-        "score": "15.0",
+        "score": "15",
         "reason": "The agent attempted to confirm the final price but did not actively persuade for payment or secure a concrete follow-up, leaving the next step to the owner.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fa39577491e600177499a058f242a",
+        "score": "15",
+        "reason": "The agent attempted to offer a new plan with a discount but did not actively persuade for payment or secure a concrete follow-up. The owner expressed hesitation.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 3,
+    "worst_closing_total": 4,
     "good_closing_example": {
-      "user_id": "8a9fd5828478d01a01847912a1fc0823",
-      "score": "70.0",
-      "reason": "Agent did not push for payment but secured a confirmed follow-up call after the owner discussed with a friend.",
+      "user_id": "8aa9bbcc9d918f7e019d91e7590a199b",
+      "score": "90",
+      "reason": "Agent successfully guided the owner to make the payment after addressing concerns and sharing the discount link, leading to a successful closure.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -1965,55 +2400,62 @@
     "high_intent_leads_total": 27,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 10
+        "date": "2026-07-15",
+        "score": 19
+      },
+      {
+        "date": "2026-07-16",
+        "score": 14
+      },
+      {
+        "date": "2026-07-22",
+        "score": 16
       }
     ]
   },
   "NBTSC400669": {
     "employee_id": "NBTSC400669",
     "name": "Vijay Pratap Singh",
-    "n_live_calls": 91,
+    "n_live_calls": 311,
     "rpl": 544.0,
-    "rpl_rank": 12,
-    "call_score": 57,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 16,
+    "call_score": 62,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 2.2% NO_CLOSE vs. 3.0% team average.",
-      "Secures a next step more often than most \u2014 25.0% vs. 22.1% team average."
+      "Handled 311 live calls this cycle."
     ],
-    "avg_closing_score": 8.9,
-    "closing_percentile": 9.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 2.2,
-    "pct_passive_close": 85.7,
-    "pct_follow_up_close": 5.5,
-    "pct_hybrid_close": 4.4,
-    "pct_payment_close": 2.2,
-    "next_step_secured_rate": 25.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 13.0,
+    "closing_percentile": 6.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.3,
+    "pct_passive_close": 89.1,
+    "pct_follow_up_close": 7.1,
+    "pct_hybrid_close": 2.3,
+    "pct_payment_close": 1.3,
+    "next_step_secured_rate": 8.0,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9f932974b06e050174b0ff9ca33f9e",
-        "score": "0.0",
-        "reason": "The agent did not attempt any payment persuasion or secure a follow-up. The call ended passively after the owner stated no interest.",
+        "user_id": "ff8081816c4c034a016c4c834fff4f8c",
+        "score": "10",
+        "reason": "Agent made a weak attempt to suggest services if interested but quickly gave up after the owner's clear rejection.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fa39577491e600177499a058f242a",
-        "score": "10.0",
-        "reason": "The agent attempted to resolve the owner's issue by promising a callback from the relationship manager within half an hour to discuss the refund process.",
+        "user_id": "8a9f09838738231201873855180e12ce",
+        "score": "10",
+        "reason": "Agent did not attempt to close for payment or a confirmed callback. The call ended passively after the owner's final statement.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8aa9b3b19b3f506a019b3ff97c6648bc",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close. They vaguely mentioned calling back but did not confirm a specific time or secure owner commitment for a follow-up.",
+        "user_id": "ff80818152d572890152d5d77fab0724",
+        "score": "10",
+        "reason": "Agent did not make a clear attempt to close or secure a next step after the owner expressed dissatisfaction with the guarantee.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -2021,9 +2463,9 @@
     ],
     "worst_closing_total": 3,
     "good_closing_example": {
-      "user_id": "ff8081814d1e1f05014d27de19ba297f",
-      "score": "90.0",
-      "reason": "Agent actively persuaded for payment, resolved hesitation about package upgrade, and secured payment. Follow-up details were provided via email/WhatsApp.",
+      "user_id": "ff8081816e64de4c016e69ce55776dfe",
+      "score": "95",
+      "reason": "Agent successfully persuaded the owner to purchase the Owner Relax Plan after addressing concerns about refunds and discounts, leading to immediate payment.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "PAYMENT_CLOSE"
@@ -2117,60 +2559,80 @@
     "high_intent_leads_total": 14,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 9
+        "date": "2026-07-13",
+        "score": 12
+      },
+      {
+        "date": "2026-07-14",
+        "score": 14
+      },
+      {
+        "date": "2026-07-15",
+        "score": 14
+      },
+      {
+        "date": "2026-07-22",
+        "score": 13
       }
     ]
   },
   "NBTS27353": {
     "employee_id": "NBTS27353",
     "name": "Chand basha",
-    "n_live_calls": 91,
+    "n_live_calls": 236,
     "rpl": 515.0,
-    "rpl_rank": 13,
-    "call_score": 54,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 17,
+    "call_score": 60,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Secures a next step more often than most \u2014 50.0% vs. 22.1% team average.",
-      "Rarely lets a call end with zero closing attempt \u2014 2.2% NO_CLOSE vs. 3.0% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 10.2,
-    "closing_percentile": 18.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 2.2,
-    "pct_passive_close": 81.3,
-    "pct_follow_up_close": 14.3,
-    "pct_hybrid_close": 2.2,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 50.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 13.1,
+    "closing_percentile": 9.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 90.3,
+    "pct_follow_up_close": 7.2,
+    "pct_hybrid_close": 2.1,
+    "pct_payment_close": 0.4,
+    "next_step_secured_rate": 8.3,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff80818154aefdea0154b34a6d5531de",
-        "score": "0.0",
-        "reason": "The agent did not attempt to close for payment or a confirmed follow-up. The call ended passively after the owner expressed satisfaction with previous NoBroker usage.",
+        "user_id": "8a9f92838f5f2be6018f600702a6061e",
+        "score": "10",
+        "reason": "Agent did not attempt to close or secure a next step, instead ending the call after the owner expressed frustration and dissatisfaction.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fa7fb81233985018123d17d556ef9",
-        "score": "10.0",
-        "reason": "The agent did not actively persuade for payment or confirm a follow-up. The call ended passively with the owner stating their decision and the agent thanking them.",
+        "user_id": "8aa9b0879c7447cb019c74a2a9ef2d08",
+        "score": "10",
+        "reason": "Agent ended the call passively after the owner's confusing response about payment, without attempting to secure a next step or clarify.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9acf99f8518c2019f87d0c5ba2f09",
+        "score": "15",
+        "reason": "The agent did not actively push for payment or a confirmed follow-up. The owner expressed a need for confirmation before proceeding.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 2,
+    "worst_closing_total": 3,
     "good_closing_example": {
-      "user_id": "ff8081815de1bb03015de4b134c532e6",
-      "score": "70.0",
-      "reason": "Agent attempted to close by asking for payment and then confirmed a follow-up via WhatsApp for plan details, which the owner agreed to.",
+      "user_id": "ff8081816b501db5016b508ea31b3165",
+      "score": "90",
+      "reason": "Agent actively pushed for payment, confirmed the discount, and provided a payment link, leading to the owner initiating payment.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -2273,47 +2735,241 @@
     "high_intent_leads_total": 16,
     "daily_trend": [
       {
-        "date": "2026-07-21",
+        "date": "2026-07-13",
+        "score": 13
+      },
+      {
+        "date": "2026-07-14",
+        "score": 14
+      },
+      {
+        "date": "2026-07-15",
+        "score": 18
+      },
+      {
+        "date": "2026-07-22",
+        "score": 9
+      }
+    ]
+  },
+  "NBTS42035": {
+    "employee_id": "NBTS42035",
+    "name": "Bhoomika",
+    "n_live_calls": 45,
+    "rpl": 512.0,
+    "rpl_rank": 18,
+    "call_score": 58,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
+    ],
+    "avg_closing_score": 15.8,
+    "closing_percentile": 26.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 91.1,
+    "pct_follow_up_close": 4.4,
+    "pct_hybrid_close": 2.2,
+    "pct_payment_close": 2.2,
+    "next_step_secured_rate": 4.4,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [],
+    "worst_closing_total": 0,
+    "good_closing_example": {
+      "user_id": "8a9fa1859762248f0197627da564177e",
+      "score": "70",
+      "reason": "Agent asked to onboard but owner requested to discuss with team and get back tomorrow. Agent agreed.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "FOLLOW_UP_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 16
+      }
+    ]
+  },
+  "NBTS33786": {
+    "employee_id": "NBTS33786",
+    "name": "Sharanabasava S",
+    "n_live_calls": 89,
+    "rpl": 472.0,
+    "rpl_rank": 19,
+    "call_score": 56,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
+    ],
+    "avg_closing_score": 11.6,
+    "closing_percentile": 0.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 92.1,
+    "pct_follow_up_close": 3.4,
+    "pct_hybrid_close": 4.5,
+    "pct_payment_close": 0.0,
+    "next_step_secured_rate": 4.5,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [],
+    "worst_closing_total": 0,
+    "good_closing_example": {
+      "user_id": "8a9fa382807a91e701807a97f0b50044",
+      "score": "80",
+      "reason": "Agent attempted to secure payment by explaining the benefits and asking for confirmation. Owner agreed to pay by evening, indicating a positive closing outcome.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "HYBRID_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 17
+      },
+      {
+        "date": "2026-07-14",
         "score": 10
+      },
+      {
+        "date": "2026-07-15",
+        "score": 13
+      }
+    ]
+  },
+  "NBTS27511": {
+    "employee_id": "NBTS27511",
+    "name": "Abhishek K",
+    "n_live_calls": 248,
+    "rpl": 452.0,
+    "rpl_rank": 20,
+    "call_score": 54,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Handled 248 live calls this cycle."
+    ],
+    "avg_closing_score": 18.7,
+    "closing_percentile": 51.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.4,
+    "pct_passive_close": 85.5,
+    "pct_follow_up_close": 11.7,
+    "pct_hybrid_close": 1.6,
+    "pct_payment_close": 0.8,
+    "next_step_secured_rate": 13.4,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8a9f931874aad36b0174ab6549963d47",
+        "score": "0",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner's rejection and negative feedback.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081814ff00cb1014ff478c39d19c2",
+        "score": "0",
+        "reason": "The agent asked a generic question about service after resolving the technical issue, but did not attempt to close for payment or a confirmed callback.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9a0b59f45cc11019f45e5214f0e38",
+        "score": "0",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner clearly stated they would not pay without leads.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fb0827be82129017be9f7bf251528",
+        "score": "15",
+        "reason": "Agent did not actively push for payment or a confirmed follow-up. The owner expressed inability to pay and a preference for direct contact if suitable tenants are found.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 4,
+    "good_closing_example": {
+      "user_id": "8aa9b5159f260a57019f2612c3ce016b",
+      "score": "100",
+      "reason": "Agent successfully guided the owner to select a plan, provided the payment link, and confirmed payment completion, leading to a successful transaction.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "PAYMENT_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 21
+      },
+      {
+        "date": "2026-07-14",
+        "score": 14
+      },
+      {
+        "date": "2026-07-15",
+        "score": 24
+      },
+      {
+        "date": "2026-07-16",
+        "score": 13
+      },
+      {
+        "date": "2026-07-22",
+        "score": 18
       }
     ]
   },
   "NBTS40448": {
     "employee_id": "NBTS40448",
     "name": "SUNIL KUMARCH",
-    "n_live_calls": 72,
+    "n_live_calls": 195,
     "rpl": 417.0,
-    "rpl_rank": 14,
-    "call_score": 51,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 21,
+    "call_score": 52,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Secures a next step more often than most \u2014 40.0% vs. 22.1% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 1.4% vs. 2.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 18.5,
-    "closing_percentile": 82.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 6.9,
-    "pct_passive_close": 62.5,
-    "pct_follow_up_close": 20.8,
-    "pct_hybrid_close": 8.3,
-    "pct_payment_close": 1.4,
-    "next_step_secured_rate": 40.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 20.6,
+    "closing_percentile": 63.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 81.5,
+    "pct_follow_up_close": 15.9,
+    "pct_hybrid_close": 1.5,
+    "pct_payment_close": 1.0,
+    "next_step_secured_rate": 17.0,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff80818152dddb9b0152de804ce508c3",
-        "score": "0.0",
-        "reason": "The agent did not attempt to close the call for payment or a confirmed follow-up. The owner explicitly stated they would consider it next time, and the agent accepted this passively.",
+        "user_id": "8a9fb6827d693813017d69cb57f51476",
+        "score": "10",
+        "reason": "The agent attempted to persuade the owner towards the 'Relax plan' but did not actively push for payment or secure a concrete follow-up after the owner expressed intent to explore other platforms.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff8081815373f3bb0153747f2db50f14",
-        "score": "10.0",
-        "reason": "Agent did not actively push for payment or a confirmed follow-up after the owner's rejection. The closing was passive, ending with a thank you.",
+        "user_id": "8a9f8daa6f5a5b12016f5bb6c6993ade",
+        "score": "10",
+        "reason": "Agent did not actively push for payment or a confirmed follow-up. The call ended passively after the owner expressed dissatisfaction with the price.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -2321,9 +2977,9 @@
     ],
     "worst_closing_total": 2,
     "good_closing_example": {
-      "user_id": "ff808181512082ce015123602b320b11",
-      "score": "95.0",
-      "reason": "Agent actively persuaded for payment, resolved concerns about showing the property, and successfully secured payment. Follow-up was implicitly handled by the RM assignment.",
+      "user_id": "8a9fff8389be52df0189bf96d0fe408e",
+      "score": "100",
+      "reason": "Agent actively pushed for payment, shared a discounted link, and confirmed successful payment, leading to a clear next step.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "PAYMENT_CLOSE"
@@ -2435,71 +3091,83 @@
     "high_intent_leads_total": 17,
     "daily_trend": [
       {
-        "date": "2026-07-21",
+        "date": "2026-07-13",
+        "score": 16
+      },
+      {
+        "date": "2026-07-15",
+        "score": 21
+      },
+      {
+        "date": "2026-07-16",
         "score": 19
+      },
+      {
+        "date": "2026-07-22",
+        "score": 24
       }
     ]
   },
   "NBTSC400994": {
     "employee_id": "NBTSC400994",
     "name": "Prajwal P R",
-    "n_live_calls": 109,
+    "n_live_calls": 338,
     "rpl": 406.0,
-    "rpl_rank": 15,
-    "call_score": 48,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 22,
+    "call_score": 51,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 0.9% vs. 2.9% team average.",
-      "Secures a next step more often than most \u2014 30.0% vs. 22.1% team average."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Handled 338 live calls this cycle."
     ],
-    "avg_closing_score": 11.7,
-    "closing_percentile": 27.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 3.7,
-    "pct_passive_close": 78.0,
-    "pct_follow_up_close": 14.7,
-    "pct_hybrid_close": 3.7,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 30.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 17.4,
+    "closing_percentile": 40.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.9,
+    "pct_passive_close": 85.8,
+    "pct_follow_up_close": 10.7,
+    "pct_hybrid_close": 1.8,
+    "pct_payment_close": 0.9,
+    "next_step_secured_rate": 8.9,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9f8184708b0b9201709186aad71a23",
-        "score": "0.0",
-        "reason": "The agent did not attempt any payment persuasion or confirm a follow-up. The call ended with the agent saying they would check with their team and call back, without owner commitment.",
+        "user_id": "ff808181675a30b801675a63082d146e",
+        "score": "0",
+        "reason": "Agent did not attempt to close. The owner explicitly requested deactivation and no further calls, which the agent did not respect.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff8081816d2daaef016d2fb92bd74f7b",
-        "score": "0.0",
-        "reason": "The agent did not attempt a payment close or secure a follow-up. After the owner's clear rejection, the agent simply stated they would not work for free and the call ended passively.",
+        "user_id": "8a9fb7839a1a2e78019a1a63c6ca192e",
+        "score": "0",
+        "reason": "Agent made a weak attempt to re-pitch after the owner's strong rejection and request to stop marketing calls.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff8081816b797b76016b7a28f9874faa",
-        "score": "0.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The owner explicitly asked to block their number, and the agent passively accepted this.",
+        "user_id": "8a9fbd827d1f30ca017d1f883cb919c7",
+        "score": "0",
+        "reason": "The agent did not attempt to close the call. The conversation ended with the owner asking a question about tenant plans.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f888279a821490179a8a8a0a83bf5",
-        "score": "0.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The closing was passive, with the agent stating they would take feedback and help, without any clear next step.",
+        "user_id": "8a9f0b8286d020230186d09a387554e1",
+        "score": "10",
+        "reason": "Agent transferred the call to an expert instead of attempting to close or secure a next step, indicating a passive end to the interaction.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f90c38fe81b58018fe87c8d702c4c",
-        "score": "10.0",
-        "reason": "The agent attempted a close by stating it's a prepaid service but did not actively persuade for payment or secure a follow-up. The owner clearly indicated hesitation and a desire to end the call.",
+        "user_id": "ff80818157f503970157f64aa2151174",
+        "score": "10",
+        "reason": "Agent did not attempt to close the sale or schedule a callback after the owner expressed strong dissatisfaction and asked to stop calling.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -2507,12 +3175,12 @@
     ],
     "worst_closing_total": 5,
     "good_closing_example": {
-      "user_id": "8a9fb9828031d3fa018031e988e00bfb",
-      "score": "70.0",
-      "reason": "Agent secured a confirmed callback after the owner requested time to decide, demonstrating a clear next step.",
+      "user_id": "8a9fb1827b915d55017b9179e7e60dc4",
+      "score": "90",
+      "reason": "Agent directly asked the owner to pay, confirmed payment receipt, and explained the next steps with the relationship manager.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -2663,71 +3331,91 @@
     "high_intent_leads_total": 24,
     "daily_trend": [
       {
-        "date": "2026-07-21",
+        "date": "2026-07-13",
+        "score": 14
+      },
+      {
+        "date": "2026-07-14",
+        "score": 18
+      },
+      {
+        "date": "2026-07-15",
+        "score": 21
+      },
+      {
+        "date": "2026-07-16",
         "score": 12
+      },
+      {
+        "date": "2026-07-21",
+        "score": 30
+      },
+      {
+        "date": "2026-07-22",
+        "score": 15
       }
     ]
   },
   "NBTSC400614": {
     "employee_id": "NBTSC400614",
     "name": "Ashfak singanamala",
-    "n_live_calls": 92,
+    "n_live_calls": 372,
     "rpl": 366.0,
-    "rpl_rank": 16,
-    "call_score": 45,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 23,
+    "call_score": 49,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.1% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 2.2% vs. 2.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 18.0,
-    "closing_percentile": 77.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.1,
-    "pct_passive_close": 76.1,
-    "pct_follow_up_close": 15.2,
-    "pct_hybrid_close": 7.6,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 16.7,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 20.5,
+    "closing_percentile": 57.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 84.1,
+    "pct_follow_up_close": 13.2,
+    "pct_hybrid_close": 1.9,
+    "pct_payment_close": 0.8,
+    "next_step_secured_rate": 13.5,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8aa9a0ab9f7ff272019f81d27f647b76",
-        "score": "5.0",
-        "reason": "Agent acknowledged owner's disinterest but did not attempt a payment close or secure a confirmed follow-up. The closing was passive.",
+        "user_id": "ff80818159fa0f0f015a0323be7a0eec",
+        "score": "10",
+        "reason": "The agent ended the call passively without attempting a payment close or securing a confirmed follow-up, simply thanking the owner for their time.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8aa9c0599dae195d019dae3fd37a097f",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The call ended passively after gathering information about the property.",
+        "user_id": "ff8081816888234e016888e9bd196013",
+        "score": "10",
+        "reason": "Agent passively accepted the owner's decision not to take the plan and ended the call without attempting to secure a callback or persuade further.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fbc827ddbd307017ddc48040743d6",
-        "score": "10.0",
-        "reason": "The agent confirmed the owner's request to deactivate the listing and mentioned setting an 'activate later' option, but did not attempt a payment close or secure a specific follow-up.",
+        "user_id": "ff80818158dd97e00158dda44c8d0281",
+        "score": "10",
+        "reason": "Agent did not make a strong attempt to close after the owner rejected the discount and asked to end the call. The agent passively accepted the rejection.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fb0838c44a186018c45c97ce76361",
-        "score": "10.0",
-        "reason": "The agent did not actively push for payment or secure a confirmed follow-up. The closing was passive, with the agent suggesting the owner consider the plan if nothing materializes.",
+        "user_id": "8a9f80c36f6aa877016f6b0cfe281569",
+        "score": "10",
+        "reason": "Agent ended the call passively after the owner expressed disinterest in premium plans and asked about agreement validity.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff8081816e83f37d016e86998c582387",
-        "score": "10.0",
-        "reason": "The agent attempted a passive close by stating they would update the property, but did not secure explicit commitment or a clear next step from the owner.",
+        "user_id": "8a9f97848bc14f2f018bc159803e00b5",
+        "score": "10",
+        "reason": "Agent did not make a strong attempt to close after the owner stated no interest in discounted plans. The call ended passively.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -2735,12 +3423,12 @@
     ],
     "worst_closing_total": 5,
     "good_closing_example": {
-      "user_id": "8aa9ab9c9b0b5c88019b0bb0a4d4123f",
-      "score": "70.0",
-      "reason": "Agent secured a confirmed callback for Friday or Saturday, respecting the owner's preference. While not a payment close, a concrete next step was agreed upon.",
+      "user_id": "8a9f93827c4bb819017c4bc36a6f0752",
+      "score": "100",
+      "reason": "Agent successfully guided the owner to payment, confirmed receipt, and provided details of assigned managers.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -2891,63 +3579,83 @@
     "high_intent_leads_total": 24,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 22
+      },
+      {
+        "date": "2026-07-14",
+        "score": 23
+      },
+      {
+        "date": "2026-07-15",
+        "score": 22
+      },
+      {
+        "date": "2026-07-16",
+        "score": 20
+      },
+      {
         "date": "2026-07-21",
-        "score": 18
+        "score": 15
+      },
+      {
+        "date": "2026-07-22",
+        "score": 17
       }
     ]
   },
   "NBTS15547": {
     "employee_id": "NBTS15547",
     "name": "Syed Ibrahim",
-    "n_live_calls": 46,
+    "n_live_calls": 175,
     "rpl": 363.0,
-    "rpl_rank": 17,
-    "call_score": 42,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 24,
+    "call_score": 47,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 2.9% team average.",
-      "Full, real conversations \u2014 15% of calls run full length vs. 15% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 11.6,
-    "closing_percentile": 23.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 8.7,
-    "pct_passive_close": 80.4,
-    "pct_follow_up_close": 6.5,
-    "pct_hybrid_close": 4.3,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 0.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 18.7,
+    "closing_percentile": 49.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 84.6,
+    "pct_follow_up_close": 13.7,
+    "pct_hybrid_close": 1.1,
+    "pct_payment_close": 0.6,
+    "next_step_secured_rate": 10.6,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8aa9b0109f663213019f666da44f188d",
-        "score": "10.0",
-        "reason": "The agent attempted a close by asking about the plan page but did not persuade for payment or secure a follow-up after the owner's rejection.",
+        "user_id": "8aa9b9df9b86f577019b879ae70c4368",
+        "score": "0",
+        "reason": "The agent did not attempt to close the call. After the owner's strong objections, the agent simply stated they would update the information.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8aa9b91c9f82bc3b019f832097d72cf8",
-        "score": "10.0",
-        "reason": "Agent did not actively push for payment or a confirmed follow-up. The owner stated they would think and contact if needed, to which the agent passively agreed.",
+        "user_id": "8aa99f509c5b63a2019c5bbe4fbf257e",
+        "score": "0",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner expressed clear unwillingness to pay upfront.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff8081814ed8e0b7014ee2f07203387f",
-        "score": "15.0",
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The owner explicitly stated dissatisfaction with the plan, and the agent accepted this without further persuasion.",
+        "user_id": "ff8081814cff7251014d0f2971a54205",
+        "score": "10",
+        "reason": "Agent acknowledged owner's request and said they would 'do the needful on priority basis' but made no attempt to secure payment or a confirmed callback.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f8e8596b830570196b843dbbe0345",
-        "score": "15.0",
-        "reason": "The agent attempted to persuade the owner to proceed with the services but did not actively push for payment. The owner expressed a need to speak with another consultant, and the agent accepted this without securing a concrete follow-up.",
+        "user_id": "8a9f9c827d196553017d1969d251010b",
+        "score": "10",
+        "reason": "Agent did not attempt to close the sale or schedule a follow-up after the owner expressed dissatisfaction and asked not to be called.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -2955,12 +3663,12 @@
     ],
     "worst_closing_total": 4,
     "good_closing_example": {
-      "user_id": "ff8081816a022566016a0249a8ae0a3c",
-      "score": "80.0",
-      "reason": "Agent secured a confirmed follow-up for August 10th, linking it to the owner's interior work timeline. Owner commitment to the follow-up was explicit.",
+      "user_id": "ff8081815c165180015c1668b5fc0371",
+      "score": "100",
+      "reason": "Agent successfully persuaded the owner to purchase the plan, confirmed payment, and provided post-purchase information.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -3045,47 +3753,118 @@
     "high_intent_leads_total": 13,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 12
+        "date": "2026-07-13",
+        "score": 17
+      },
+      {
+        "date": "2026-07-14",
+        "score": 21
+      },
+      {
+        "date": "2026-07-15",
+        "score": 20
+      },
+      {
+        "date": "2026-07-22",
+        "score": 19
       }
     ]
   },
-  "NBTSA304976": {
-    "employee_id": "NBTSA304976",
-    "name": "Anshika Dubey",
-    "n_live_calls": 47,
-    "rpl": 334.79,
-    "rpl_rank": 18,
-    "call_score": 40,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+  "NBTSC400396": {
+    "employee_id": "NBTSC400396",
+    "name": "Abhinethri CT",
+    "n_live_calls": 132,
+    "rpl": 343.0,
+    "rpl_rank": 25,
+    "call_score": 45,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Secures a next step more often than most \u2014 40.0% vs. 22.1% team average.",
-      "Uses a real follow-up close more than most \u2014 32.6% of calls vs. 16.7% team average."
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Handled 132 live calls this cycle."
     ],
-    "avg_closing_score": 26.8,
-    "closing_percentile": 100.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 4.3,
-    "pct_passive_close": 60.9,
-    "pct_follow_up_close": 32.6,
-    "pct_hybrid_close": 2.2,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 40.0,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 15.5,
+    "closing_percentile": 23.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.8,
+    "pct_passive_close": 87.1,
+    "pct_follow_up_close": 10.6,
+    "pct_hybrid_close": 0.8,
+    "pct_payment_close": 0.8,
+    "next_step_secured_rate": 10.8,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff8081816cc25e43016cc7385f0f7f4e",
-        "score": "15.0",
-        "reason": "The agent attempted to explain the plan but did not actively persuade for payment or secure a confirmed follow-up. The call ended with the owner requesting Hindi, indicating no clear next step was agreed upon.",
+        "user_id": "8a9fee82850000500185009b98867f99",
+        "score": "0",
+        "reason": "The agent did not make a genuine attempt to close the sale after the owner expressed dissatisfaction and rejected the offer.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 1,
+    "good_closing_example": {
+      "user_id": "8aa98a019ea286b1019ea2a5e70f0853",
+      "score": "80",
+      "reason": "Agent agreed to call back in 15 minutes after the owner requested to speak with her husband. Agent confirmed the callback time.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "FOLLOW_UP_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-14",
+        "score": 16
+      },
+      {
+        "date": "2026-07-15",
+        "score": 17
+      },
+      {
+        "date": "2026-07-16",
+        "score": 13
+      }
+    ]
+  },
+  "NBTS44025": {
+    "employee_id": "NBTS44025",
+    "name": "B. poornima",
+    "n_live_calls": 458,
+    "rpl": 339.0,
+    "rpl_rank": 26,
+    "call_score": 43,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average.",
+      "Uses a real follow-up close more than most \u2014 13.8% of calls vs. 13.6% team average."
+    ],
+    "avg_closing_score": 15.2,
+    "closing_percentile": 17.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.7,
+    "pct_passive_close": 83.6,
+    "pct_follow_up_close": 13.8,
+    "pct_hybrid_close": 1.3,
+    "pct_payment_close": 0.7,
+    "next_step_secured_rate": 13.1,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8aa9b7079f501872019f5068bfb53b41",
+        "score": "10",
+        "reason": "Agent made a weak attempt to keep future contact open but did not push for payment or a confirmed callback after owner's clear rejection.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff8081816a970c6d016a97bf9ffc328a",
-        "score": "15.0",
-        "reason": "The agent attempted to persuade the owner to take the money-back plan but failed to resolve the owner's core objection about payment terms and guarantees. No explicit commitment was secured, and the call ended with the owner declining the service.",
+        "user_id": "8aa9ae129f786f22019f7904392d5a43",
+        "score": "15",
+        "reason": "Agent attempted to persuade owner by highlighting free listing disadvantages and mentioned plan cost with discount. No explicit payment close or confirmed follow-up was secured.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -3093,12 +3872,103 @@
     ],
     "worst_closing_total": 2,
     "good_closing_example": {
-      "user_id": "8a9f82c9723b514301723bb2dc5823a1",
-      "score": "70.0",
-      "reason": "Agent attempted a follow-up close, confirming a callback for August 10th. Owner agreed to this, securing a next step.",
+      "user_id": "8a9fb38279ef996b0179efda298121d4",
+      "score": "100",
+      "reason": "Agent shared the payment link, confirmed payment success, and explained the next steps for the onboarding call.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 13
+      },
+      {
+        "date": "2026-07-14",
+        "score": 14
+      },
+      {
+        "date": "2026-07-15",
+        "score": 16
+      },
+      {
+        "date": "2026-07-16",
+        "score": 21
+      },
+      {
+        "date": "2026-07-22",
+        "score": 15
+      }
+    ]
+  },
+  "NBTSA304976": {
+    "employee_id": "NBTSA304976",
+    "name": "Anshika Dubey",
+    "n_live_calls": 78,
+    "rpl": 334.79,
+    "rpl_rank": 27,
+    "call_score": 41,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Full, real conversations \u2014 42% of calls run full length vs. 19% team average."
+    ],
+    "avg_closing_score": 27.8,
+    "closing_percentile": 97.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 73.1,
+    "pct_follow_up_close": 21.8,
+    "pct_hybrid_close": 3.8,
+    "pct_payment_close": 1.3,
+    "next_step_secured_rate": 24.7,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "ff8081815f48e653015f4cf3f4163d65",
+        "score": "0",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner clearly rejected the plan and asked to cancel.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081816cfd43d5016cfff939b77ea2",
+        "score": "10",
+        "reason": "Agent acknowledged the owner's refusal to continue with premium listing and passively suggested continuing with free listing, making no attempt to persuade or secure a next step.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f98438f7b1195018f7b6984163025",
+        "score": "10",
+        "reason": "Agent passively accepted owner's rejection and ended the call without attempting to secure a callback or persuade further.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff808181615af46301615b950ccb35bb",
+        "score": "10",
+        "reason": "Agent accepted the owner's refusal without attempting to persuade further or schedule a follow-up, ending the call passively.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 4,
+    "good_closing_example": {
+      "user_id": "8a9f888499d2834f0199d291b40204b5",
+      "score": "100",
+      "reason": "Agent actively pursued payment, confirmed the amount, and guided the owner to make the payment via WhatsApp. Owner successfully made the payment.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -3177,73 +4047,89 @@
     "high_intent_leads_total": 12,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 27
+        "date": "2026-07-13",
+        "score": 28
+      },
+      {
+        "date": "2026-07-14",
+        "score": 25
+      },
+      {
+        "date": "2026-07-16",
+        "score": 34
       }
     ]
   },
   "NBTS44216": {
     "employee_id": "NBTS44216",
     "name": "Srinivasan N",
-    "n_live_calls": 92,
+    "n_live_calls": 146,
     "rpl": 331.09,
-    "rpl_rank": 19,
-    "call_score": 37,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 28,
+    "call_score": 40,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 2.2% vs. 2.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 12.1,
-    "closing_percentile": 36.0,
-    "team_avg_closing_score": 14.5,
+    "avg_closing_score": 22.7,
+    "closing_percentile": 86.0,
+    "team_avg_closing_score": 19.0,
     "pct_no_close": 0.0,
-    "pct_passive_close": 82.6,
-    "pct_follow_up_close": 16.3,
-    "pct_hybrid_close": 1.1,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 14.3,
-    "team_avg_next_step_rate": 22.1,
+    "pct_passive_close": 76.0,
+    "pct_follow_up_close": 22.6,
+    "pct_hybrid_close": 0.7,
+    "pct_payment_close": 0.7,
+    "next_step_secured_rate": 17.6,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9f923b75f912750175f9bf6e47389d",
-        "score": "0.0",
-        "reason": "The agent did not attempt to persuade for payment or secure a follow-up. The owner explicitly stated they would not purchase a plan, and the agent did not address this or try to salvage the call.",
+        "user_id": "8a9f910390cccf310190cd3f1fb7025e",
+        "score": "0",
+        "reason": "The agent did not attempt to close the call. After the owner's objection, the agent asked for a minute to check, then the call ended.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fc70390a5c2e80190a5c83b8d0033",
-        "score": "10.0",
-        "reason": "The agent attempted to secure a callback by checking for a specific RM's availability, but did not actively push for payment or a confirmed next step.",
+        "user_id": "8a9f03848a0297a7018a0345185f123b",
+        "score": "10",
+        "reason": "Agent passively accepted the owner's rejection and ended the call without attempting to persuade or secure a next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8aa9a79f9f7e8f7d019f7edd47523211",
-        "score": "10.0",
-        "reason": "The agent mentioned a plan but did not actively push for payment or confirm a specific follow-up, leading to a passive close.",
+        "user_id": "8a9fbf828253b62301825417a7e94fa8",
+        "score": "10",
+        "reason": "Agent explained the plan but did not attempt to close for payment or a confirmed callback, ending passively.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9fb1827a04d675017a04dbbbbe01a0",
-        "score": "10.0",
-        "reason": "The agent attempted a passive close by promising a callback after checking the issue, but did not secure any commitment or specific follow-up time from the owner.",
+        "user_id": "ff8081815d314a40015d32568db337df",
+        "score": "10",
+        "reason": "Agent attempted to offer plan details but owner refused. Agent did not push for a confirmed callback or payment, ending passively.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff80818150dc3c000150dc8c867203d8",
+        "score": "10",
+        "reason": "Agent attempted to transfer the call to a senior manager instead of directly closing or securing a confirmed callback.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 4,
+    "worst_closing_total": 5,
     "good_closing_example": {
-      "user_id": "8a9faa838b740fbd018b75212872242e",
-      "score": "60.0",
-      "reason": "Agent attempted a follow-up close by asking for a callback date. Owner agreed to a callback in 1-2 days, which was confirmed for the 23rd.",
+      "user_id": "8a9fbd827d761809017d763996db0f0b",
+      "score": "80",
+      "reason": "Agent confirmed owner's request for time and agreed to follow up, securing a next step.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "FOLLOW_UP_CLOSE"
@@ -3252,81 +4138,65 @@
     "high_intent_leads_total": 0,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 12
+        "date": "2026-07-13",
+        "score": 25
+      },
+      {
+        "date": "2026-07-14",
+        "score": 30
+      },
+      {
+        "date": "2026-07-22",
+        "score": 16
       }
     ]
   },
   "NBTS42531": {
     "employee_id": "NBTS42531",
     "name": "Suthikshan",
-    "n_live_calls": 141,
+    "n_live_calls": 201,
     "rpl": 294.0,
-    "rpl_rank": 20,
-    "call_score": 34,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 29,
+    "call_score": 38,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.4% NO_CLOSE vs. 3.0% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 2.8% vs. 2.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 12.5,
-    "closing_percentile": 50.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 1.4,
-    "pct_passive_close": 79.4,
-    "pct_follow_up_close": 15.6,
-    "pct_hybrid_close": 2.1,
-    "pct_payment_close": 1.4,
-    "next_step_secured_rate": 8.7,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 22.6,
+    "closing_percentile": 83.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 76.1,
+    "pct_follow_up_close": 22.4,
+    "pct_hybrid_close": 1.0,
+    "pct_payment_close": 0.5,
+    "next_step_secured_rate": 20.5,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff8081815461f92101546205497300e4",
-        "score": "0.0",
-        "reason": "The agent did not attempt to persuade for payment or secure a follow-up. The call ended with the owner explicitly stating they did not require service.",
+        "user_id": "8a9fd88286f2e3710186f3256e3828c8",
+        "score": "0",
+        "reason": "Agent did not attempt to close. After owner's complaint, agent only offered to take feedback and ended the call.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff808181680fd203016810fe02750d7f",
-        "score": "0.0",
-        "reason": "The agent did not attempt to persuade for payment or secure a follow-up. The call ended passively with the agent stating they would take feedback.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff80818169bf6e690169c2fed4de2f74",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close. They passively accepted the owner's request to wait 10 days and then potentially enroll, without confirming a follow-up or securing commitment.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081814f79be78014f7df907b913ca",
-        "score": "10.0",
-        "reason": "Agent made a weak attempt to close by mentioning the free listing but did not actively persuade for payment or secure a follow-up after the owner expressed disinterest.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8aa9b4a19f839819019f8416ebdb501a",
-        "score": "10.0",
-        "reason": "The agent did not push for payment or a confirmed follow-up. The closing was passive, ending with 'Thank you'. No commitment was secured.",
+        "user_id": "8a9fa984780c26df01780c57fd061894",
+        "score": "15",
+        "reason": "The agent attempted to persuade for the plan but did not actively push for payment or secure a concrete follow-up. Owner commitment was not obtained.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 5,
+    "worst_closing_total": 2,
     "good_closing_example": {
-      "user_id": "8a9f91e2759e2b810175a1b79fdc2215",
-      "score": "85.0",
-      "reason": "Agent persuaded owner to pay, resolved hesitation about rental agreement cost, and secured explicit commitment to pay immediately.",
+      "user_id": "ff8081816e23115f016e264f11ab05be",
+      "score": "95",
+      "reason": "Agent successfully secured payment after offering a discount and shared a payment link. The owner confirmed payment and next steps.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "PAYMENT_CLOSE"
@@ -3504,146 +4374,71 @@
     "high_intent_leads_total": 28,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 13
+        "date": "2026-07-15",
+        "score": 25
+      },
+      {
+        "date": "2026-07-16",
+        "score": 34
+      },
+      {
+        "date": "2026-07-22",
+        "score": 20
       }
     ]
   },
   "NBTS43779": {
     "employee_id": "NBTS43779",
     "name": "Biswajit Behera",
-    "n_live_calls": 56,
+    "n_live_calls": 117,
     "rpl": 250.0,
-    "rpl_rank": 21,
-    "call_score": 31,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 30,
+    "call_score": 36,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 3.0% team average.",
-      "Full, real conversations \u2014 32% of calls run full length vs. 15% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 21.8,
-    "closing_percentile": 91.0,
-    "team_avg_closing_score": 14.5,
+    "avg_closing_score": 15.8,
+    "closing_percentile": 29.0,
+    "team_avg_closing_score": 19.0,
     "pct_no_close": 0.0,
-    "pct_passive_close": 67.9,
-    "pct_follow_up_close": 26.8,
-    "pct_hybrid_close": 3.6,
-    "pct_payment_close": 1.8,
-    "next_step_secured_rate": 11.1,
-    "team_avg_next_step_rate": 22.1,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9fef8288ca50370188ca839e690f2f",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The closing was passive, offering to update and reach out if needed, with no explicit owner commitment.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f928279d05f3e0179d07bba020e35",
-        "score": "10.0",
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The closing was passive, offering future help without any concrete next step.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8aa9d8cf9e1b20f5019e1b36aeb5086a",
-        "score": "10.0",
-        "reason": "Agent confirmed deactivation of the listing as requested by the owner, but made no attempt to persuade for payment or secure a follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f8e438f1aefc4018f1b56a6542310",
-        "score": "10.0",
-        "reason": "The agent acknowledged the owner's preference and updated the property status. No attempt was made to secure a payment or a confirmed follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f88438efb2e15018efb9f775565b6",
-        "score": "10.0",
-        "reason": "Agent did not attempt a payment close. A vague follow-up was offered but not confirmed, and no explicit owner commitment was secured.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 5,
-    "good_closing_example": {
-      "user_id": "8a9f93438d4f2286018d5061f0171c7b",
-      "score": "90.0",
-      "reason": "The agent actively persuaded the owner to proceed with the Super Relax plan, offered a discount, and successfully secured a commitment for a payment link to be sent via WhatsApp/text message.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "PAYMENT_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-21",
-        "score": 22
-      }
-    ]
-  },
-  "NBTSA304465": {
-    "employee_id": "NBTSA304465",
-    "name": "Priya",
-    "n_live_calls": 84,
-    "rpl": 218.0,
-    "rpl_rank": 22,
-    "call_score": 28,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
-    "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 2.9% team average.",
-      "Secures a next step more often than most \u2014 23.1% vs. 22.1% team average."
-    ],
-    "avg_closing_score": 16.8,
-    "closing_percentile": 73.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 6.0,
-    "pct_passive_close": 67.9,
-    "pct_follow_up_close": 20.2,
-    "pct_hybrid_close": 6.0,
+    "pct_passive_close": 91.5,
+    "pct_follow_up_close": 7.7,
+    "pct_hybrid_close": 0.9,
     "pct_payment_close": 0.0,
-    "next_step_secured_rate": 23.1,
-    "team_avg_next_step_rate": 22.1,
+    "next_step_secured_rate": 6.4,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8aa9b7349aca2271019aca6125dd18db",
-        "score": "0.0",
-        "reason": "The agent did not attempt to persuade for payment or secure a follow-up. The owner explicitly stated they were not interested and asked not to be called again, which the agent accepted.",
+        "user_id": "8a9f91b57458e20f01746710fa7469a1",
+        "score": "10",
+        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The closing was passive, with the agent offering to be reached out to if further help was needed.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff80818157c6bb180157c728c1405c9b",
-        "score": "15.0",
-        "reason": "The agent did not actively persuade for payment or secure a confirmed follow-up. The owner requested the agent to check with superiors for more discount and call back, which the agent agreed to without confirming a specific time.",
+        "user_id": "8a9f8e438f08e94d018f091988880b7e",
+        "score": "10",
+        "reason": "Agent accepted the owner's request to wait and ended the call passively without attempting to secure a callback or persuade the owner further.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "ff80818153f097650153f5d889d541ef",
-        "score": "15.0",
-        "reason": "The agent attempted to persuade the owner to take the Super Relax plan after the money-back plan was rejected. No clear follow-up was confirmed, and owner commitment was not secured.",
+        "user_id": "ff80818150ced9d60150d130eabb074e",
+        "score": "10",
+        "reason": "Agent ended the call abruptly after the owner mentioned a previous subscription and refused to share details, without attempting to secure a next step.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       },
       {
-        "user_id": "8a9f93ef72d59b520172db94b22a2919",
-        "score": "15.0",
-        "reason": "Agent attempted to persuade for payment by highlighting existing enquiries and potential rental savings, but did not secure a clear commitment or follow-up.",
+        "user_id": "8a9fd582847e9b6f01847ef6061f36e8",
+        "score": "10",
+        "reason": "Agent passively ended the call after the owner's clear rejection of further calls about plans, offering help only if owner reaches out.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -3651,12 +4446,186 @@
     ],
     "worst_closing_total": 4,
     "good_closing_example": {
-      "user_id": "8aa9abfe9f786f37019f791af4006e79",
-      "score": "70.0",
-      "reason": "Agent attempted a hybrid close by offering a discounted link and asking if the owner would proceed. Secured a tentative agreement for the next step.",
+      "user_id": "8a9f935e738545eb01738ae69c162176",
+      "score": "80",
+      "reason": "Agent sent the activation link and confirmed payment details. Owner agreed to check and call back.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "HYBRID_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-14",
+        "score": 20
+      },
+      {
+        "date": "2026-07-22",
+        "score": 12
+      }
+    ]
+  },
+  "NBTSC400665": {
+    "employee_id": "NBTSC400665",
+    "name": "Gandikota Tejrajsingh",
+    "n_live_calls": 214,
+    "rpl": 243.0,
+    "rpl_rank": 31,
+    "call_score": 34,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
+    ],
+    "avg_closing_score": 21.9,
+    "closing_percentile": 80.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 83.2,
+    "pct_follow_up_close": 14.5,
+    "pct_hybrid_close": 1.9,
+    "pct_payment_close": 0.5,
+    "next_step_secured_rate": 12.7,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "ff8081815ab80870015abd30313868bb",
+        "score": "0",
+        "reason": "Agent transferred the call to an expert without attempting to resolve the owner's objection or secure a commitment for payment or a callback.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f8d9f6f4ba67e016f4c213ad118ef",
+        "score": "10",
+        "reason": "Agent acknowledged the complaint and promised to inform the RM but made no attempt to secure payment, a callback, or offer a resolution beyond informing the RM.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f94827a22739b017a22baad581f62",
+        "score": "10",
+        "reason": "Agent acknowledged owner's refusal to register ('Theek hain sir, aapka janam ji.') but made no attempt to persuade further or schedule a callback.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fcb7b829a847501829a980c8a0669",
+        "score": "10",
+        "reason": "Agent attempted a weak close by mentioning money-back guarantee, but the owner rejected it. Agent did not attempt to secure a callback or persuade further.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 4,
+    "good_closing_example": {
+      "user_id": "ff8081815752a3e60157611d011b5abf",
+      "score": "85",
+      "reason": "Agent attempted to close by asking for payment and offering to provide RM details. Owner agreed to pay today.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "HYBRID_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 24
+      },
+      {
+        "date": "2026-07-14",
+        "score": 24
+      },
+      {
+        "date": "2026-07-15",
+        "score": 20
+      },
+      {
+        "date": "2026-07-16",
+        "score": 22
+      }
+    ]
+  },
+  "NBTSA304465": {
+    "employee_id": "NBTSA304465",
+    "name": "Priya",
+    "n_live_calls": 250,
+    "rpl": 218.0,
+    "rpl_rank": 32,
+    "call_score": 32,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
+    ],
+    "avg_closing_score": 21.7,
+    "closing_percentile": 77.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 81.2,
+    "pct_follow_up_close": 17.2,
+    "pct_hybrid_close": 1.2,
+    "pct_payment_close": 0.4,
+    "next_step_secured_rate": 18.1,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "8a9f92038eaca4b1018eace8069228ce",
+        "score": "10",
+        "reason": "Agent did not make a clear attempt to persuade or schedule a next step. The call ended with the owner's unresolved concerns.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081815525cfad01552980547922ab",
+        "score": "10",
+        "reason": "Agent accepted the owner's decision to not opt for a premium plan without attempting to persuade further or schedule a follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f93827a9460fd017a94fa14c9679a",
+        "score": "10",
+        "reason": "Agent asked if the owner wanted to proceed but gave up easily when the owner expressed discomfort and requested a callback.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9fa782844bc08301844c1a68d94d4c",
+        "score": "10",
+        "reason": "Agent accepted owner's rejection of premium service and ended the call without attempting to secure any next step or offer alternatives.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff808181624738d1016247d387452f06",
+        "score": "10",
+        "reason": "Agent accepted the owner's rejection of prepaid service and ended the call without attempting to persuade or schedule a follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 5,
+    "good_closing_example": {
+      "user_id": "8a9fb8827ed25a73017ed292631914c4",
+      "score": "95",
+      "reason": "Agent actively pushed for payment by sending a link and asking to make payment immediately to confirm and assign RM.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -3759,52 +4728,96 @@
     "high_intent_leads_total": 16,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 17
+        "date": "2026-07-13",
+        "score": 26
+      },
+      {
+        "date": "2026-07-14",
+        "score": 20
+      },
+      {
+        "date": "2026-07-15",
+        "score": 21
+      },
+      {
+        "date": "2026-07-22",
+        "score": 20
       }
     ]
   },
   "NBTSA305094": {
     "employee_id": "NBTSA305094",
     "name": "Amrin Sowdagar",
-    "n_live_calls": 116,
+    "n_live_calls": 231,
     "rpl": 186.76,
-    "rpl_rank": 23,
-    "call_score": 25,
-    "team_size": 23,
-    "data_updated_on": "2026-07-22",
+    "rpl_rank": 33,
+    "call_score": 30,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 2.6% vs. 2.9% team average.",
-      "Handled 116 live calls this cycle."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 8.2,
-    "closing_percentile": 5.0,
-    "team_avg_closing_score": 14.5,
-    "pct_no_close": 3.4,
-    "pct_passive_close": 85.3,
-    "pct_follow_up_close": 8.6,
-    "pct_hybrid_close": 2.6,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 5.3,
-    "team_avg_next_step_rate": 22.1,
+    "avg_closing_score": 11.8,
+    "closing_percentile": 3.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 91.8,
+    "pct_follow_up_close": 5.2,
+    "pct_hybrid_close": 1.3,
+    "pct_payment_close": 1.7,
+    "next_step_secured_rate": 6.6,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9f048389d059520189d0782ada105d",
-        "score": "15.0",
-        "reason": "The agent attempted a passive close, asking about a refund and a new subscription, but did not actively persuade for payment or secure a confirmed follow-up.",
+        "user_id": "8a9fd182854d3e8101854d54664b0c39",
+        "score": "0",
+        "reason": "Agent did not attempt to persuade or secure a next step after the owner's clear rejection and request to end the call.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f93ef72d59b520172d5c6642f1430",
+        "score": "0",
+        "reason": "The agent did not attempt to close the call or secure a next step. The owner ended the conversation.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8a9f8a846fe0ab29016fe29343070dc9",
+        "score": "0",
+        "reason": "The agent did not attempt to persuade or secure a next step after the owner's clear rejection and stated conditions for payment.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081815d1c2606015d1c77df34284f",
+        "score": "0",
+        "reason": "Agent ended the call immediately after the owner declined premium services and expressed dissatisfaction with previous interactions.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "ff8081815115c85501511aa379db2467",
+        "score": "0",
+        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up after the owner declined the premium service.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 1,
+    "worst_closing_total": 5,
     "good_closing_example": {
-      "user_id": "8a9fea82848f581901848fd7986b6585",
-      "score": "70.0",
-      "reason": "Agent attempted a payment close, then secured a confirmed callback for payment within a specific timeframe.",
+      "user_id": "ff8081816a0bb417016a0ff24b1c226d",
+      "score": "90",
+      "reason": "Agent successfully guided the owner to make the payment after clarifying the process and sending the link, securing a clear next step.",
       "agent_said": null,
       "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
+      "strategy": "PAYMENT_CLOSE"
     },
     "high_intent_leads": [
       {
@@ -3955,829 +4968,65 @@
     "high_intent_leads_total": 24,
     "daily_trend": [
       {
-        "date": "2026-07-21",
-        "score": 8
-      }
-    ]
-  },
-  "NBTS44223": {
-    "employee_id": "NBTS44223",
-    "name": "JAGADEESH S",
-    "n_live_calls": 72,
-    "rpl": 718.32,
-    "rpl_rank": 4,
-    "call_score": 83,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Secures a next step more often than most \u2014 50.0% vs. 22.7% team average.",
-      "Rarely lets a call end with zero closing attempt \u2014 1.4% NO_CLOSE vs. 3.4% team average."
-    ],
-    "avg_closing_score": 23.5,
-    "closing_percentile": 100.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 1.4,
-    "pct_passive_close": 68.1,
-    "pct_follow_up_close": 23.6,
-    "pct_hybrid_close": 4.2,
-    "pct_payment_close": 2.8,
-    "next_step_secured_rate": 50.0,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9f8c0770d899270170ddc2cf523037",
-        "score": 0.0,
-        "reason": "The agent did not attempt a payment close or secure a follow-up. The owner explicitly rejected the service, and the agent did not pursue any further action.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9faa8496ec81940196ece9daca2b44",
-        "score": 10.0,
-        "reason": "The agent attempted to clarify account issues but did not actively push for payment or secure a concrete follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081815fbae441015fbb70862d233c",
-        "score": 15.0,
-        "reason": "Agent did not actively push for payment or a confirmed follow-up. The owner expressed interest in checking another plan, and the agent passively agreed.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081815fbae441015fbb70862d233c",
-        "score": 15.0,
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The closing was passive, with the agent stating they would call back if needed, lacking commitment.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 4,
-    "good_closing_example": {
-      "user_id": "8a9f85c39087b6ff019087d851e80b38",
-      "score": 95.0,
-      "reason": "Agent clearly persuaded for payment, confirmed the amount, and secured immediate payment. Property promotion was initiated post-payment.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "PAYMENT_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-14",
-        "score": 11
-      },
-      {
-        "date": "2026-07-15",
-        "score": 25
-      },
-      {
-        "date": "2026-07-16",
-        "score": 27
-      }
-    ]
-  },
-  "NBTS14577": {
-    "employee_id": "NBTS14577",
-    "name": "Shaik Samreena",
-    "n_live_calls": 174,
-    "rpl": 593.0,
-    "rpl_rank": 10,
-    "call_score": 70,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 2.3% NO_CLOSE vs. 3.4% team average.",
-      "Secures a next step more often than most \u2014 34.6% vs. 22.7% team average."
-    ],
-    "avg_closing_score": 16.5,
-    "closing_percentile": 71.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 2.3,
-    "pct_passive_close": 72.4,
-    "pct_follow_up_close": 20.1,
-    "pct_hybrid_close": 4.0,
-    "pct_payment_close": 1.1,
-    "next_step_secured_rate": 34.6,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9f910c72df512e0172e47ca30c4f10",
-        "score": 10.0,
-        "reason": "The agent did not actively push for payment or a confirmed follow-up after the owner's rejection. The closing was passive, accepting the owner's decision without further persuasion.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fa68499a505c10199a56c3ef01d5f",
-        "score": 10.0,
-        "reason": "The agent attempted to persuade for payment but did not resolve the owner's objection. No follow-up was confirmed, and no commitment was secured.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fcf83833ff683018340667a744ab3",
-        "score": 10.0,
-        "reason": "The agent attempted to resolve the owner's past payment issue and refresh the listing. No explicit payment persuasion or follow-up confirmation was made.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f92838c76d738018c76ef6d3b0f8a",
-        "score": 15.0,
-        "reason": "The agent did not actively push for payment or a confirmed follow-up after the owner rejected the plan and stated they didn't want any service.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8aa9ab559f26e57e019f274d53a43847",
-        "score": 15.0,
-        "reason": "The agent attempted to close by asking the owner to activate services but did not push for payment or secure a confirmed follow-up. Owner expressed hesitation.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 5,
-    "good_closing_example": {
-      "user_id": "8a9f8207727b6d200172834891fb582c",
-      "score": 95.0,
-      "reason": "Agent actively persuaded for payment, confirmed payment receipt, and set expectations for next steps with RM and field manager.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "PAYMENT_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-14",
-        "score": 14
-      },
-      {
-        "date": "2026-07-15",
-        "score": 12
-      },
-      {
-        "date": "2026-07-16",
-        "score": 25
-      },
-      {
-        "date": "2026-07-17",
-        "score": 16
-      },
-      {
-        "date": "2026-07-18",
-        "score": 17
-      }
-    ]
-  },
-  "NBTSC401040": {
-    "employee_id": "NBTSC401040",
-    "name": "Swapna k",
-    "n_live_calls": 270,
-    "rpl": 579.41,
-    "rpl_rank": 11,
-    "call_score": 68,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 3.0% NO_CLOSE vs. 3.4% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 1.5% vs. 1.8% team average."
-    ],
-    "avg_closing_score": 7.3,
-    "closing_percentile": 6.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 3.0,
-    "pct_passive_close": 87.0,
-    "pct_follow_up_close": 8.2,
-    "pct_hybrid_close": 1.9,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 19.2,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9f910874302eba017430ed99674981",
-        "score": 10.0,
-        "reason": "The agent did not actively pursue payment or a confirmed follow-up. The call ended with the owner asking about the total amount for the Power Plan, with no clear next step agreed upon.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fdc828474f3c9018475853f287307",
-        "score": 10.0,
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The closing was passive, with the agent simply agreeing to update the property details.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f939397d36fea0197d3b58b9f0f3d",
-        "score": 15.0,
-        "reason": "Agent did not actively push for payment or a confirmed follow-up after the owner rejected the premium service.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 3,
-    "good_closing_example": {
-      "user_id": "8a9f84838eb7604d018eb79264d72297",
-      "score": 90.0,
-      "reason": "Agent persuaded for payment, resolved hesitation about call routing, and secured payment. A confirmed callback for onboarding was also arranged.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
         "date": "2026-07-13",
-        "score": 7
-      },
-      {
-        "date": "2026-07-15",
-        "score": 7
-      },
-      {
-        "date": "2026-07-16",
-        "score": 14
-      },
-      {
-        "date": "2026-07-17",
-        "score": 6
-      },
-      {
-        "date": "2026-07-18",
-        "score": 16
-      }
-    ]
-  },
-  "NBTSC400804": {
-    "employee_id": "NBTSC400804",
-    "name": "Chandrashekhar",
-    "n_live_calls": 238,
-    "rpl": 576.0,
-    "rpl_rank": 12,
-    "call_score": 66,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 2.5% NO_CLOSE vs. 3.4% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 1.7% vs. 1.8% team average."
-    ],
-    "avg_closing_score": 12.1,
-    "closing_percentile": 39.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 2.5,
-    "pct_passive_close": 81.5,
-    "pct_follow_up_close": 13.9,
-    "pct_hybrid_close": 2.1,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 22.2,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9fac8278871bb0017887b07db84290",
-        "score": 0.0,
-        "reason": "The agent did not attempt to close the call for payment or a confirmed follow-up. The conversation ended with the owner explaining their current situation.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8aa9cdd69e1774f0019e1848a77d320e",
-        "score": 0.0,
-        "reason": "The agent did not attempt any payment persuasion or confirm a follow-up. The call ended with the agent stating they would escalate the issue.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081814cff7251014d0e9327483d50",
-        "score": 5.0,
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The call ended passively after the owner rejected the service model.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fc482827afa8201827b5fa8f50dbe",
-        "score": 5.0,
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The agent simply stated 'Thank you mam' after the owner expressed no immediate need.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f9982856c248f01856c9687db40b7",
-        "score": 10.0,
-        "reason": "The agent acknowledged the owner's choice for the postpaid plan but did not actively persuade for payment or secure a confirmed follow-up. The call ended passively.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 5,
-    "good_closing_example": {
-      "user_id": "ff80818167164f24016716f516722baa",
-      "score": 80.0,
-      "reason": "Agent attempted a payment close, resolved hesitation, and secured a confirmed callback for payment, showing good closing effort.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-10",
         "score": 12
       },
       {
-        "date": "2026-07-12",
-        "score": 0
-      },
-      {
         "date": "2026-07-14",
-        "score": 10
-      },
-      {
-        "date": "2026-07-15",
-        "score": 23
-      },
-      {
-        "date": "2026-07-16",
-        "score": 13
-      },
-      {
-        "date": "2026-07-17",
-        "score": 11
-      },
-      {
-        "date": "2026-07-18",
-        "score": 8
-      }
-    ]
-  },
-  "NBTS33786": {
-    "employee_id": "NBTS33786",
-    "name": "Sharanabasava S",
-    "n_live_calls": 88,
-    "rpl": 472.0,
-    "rpl_rank": 18,
-    "call_score": 54,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Handled 88 live calls this cycle."
-    ],
-    "avg_closing_score": 3.4,
-    "closing_percentile": 0.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 18.4,
-    "pct_passive_close": 78.2,
-    "pct_follow_up_close": 1.1,
-    "pct_hybrid_close": 2.3,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 16.7,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "ff8081815c8d56aa015c906f01ef58b2",
-        "score": 0.0,
-        "reason": "The agent did not attempt to close the call for payment or a confirmed follow-up. The conversation ended abruptly without any clear next steps.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff80818159e9b2510159edfa40f90425",
-        "score": 0.0,
-        "reason": "The agent did not attempt to close the call for payment or a confirmed follow-up. The conversation ended with the owner stating they would look elsewhere and the agent accepting this.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 2,
-    "good_closing_example": {
-      "user_id": "8aa9acf59f610c2b019f63bfa252177a",
-      "score": 65.0,
-      "reason": "Agent attempted a payment close by offering a discount, then pivoted to a follow-up close to discuss a higher discount. Owner agreed to a callback to discuss the discount.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-11",
-        "score": 0
-      },
-      {
-        "date": "2026-07-15",
-        "score": 6
-      },
-      {
-        "date": "2026-07-17",
-        "score": 4
-      },
-      {
-        "date": "2026-07-18",
-        "score": 2
-      }
-    ]
-  },
-  "NBTS27511": {
-    "employee_id": "NBTS27511",
-    "name": "Abhishek K",
-    "n_live_calls": 173,
-    "rpl": 452.0,
-    "rpl_rank": 19,
-    "call_score": 52,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.7% NO_CLOSE vs. 3.4% team average.",
-      "Clean, low-risk selling style \u2014 overpromising rate 1.7% vs. 1.8% team average."
-    ],
-    "avg_closing_score": 14.3,
-    "closing_percentile": 55.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 1.7,
-    "pct_passive_close": 75.1,
-    "pct_follow_up_close": 17.9,
-    "pct_hybrid_close": 2.9,
-    "pct_payment_close": 2.3,
-    "next_step_secured_rate": 15.0,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [],
-    "worst_closing_total": 0,
-    "good_closing_example": {
-      "user_id": "8a9fae8d983e467f01983f2e04dd0547",
-      "score": 90.0,
-      "reason": "Agent actively persuaded for payment, resolved a technical issue with the link, and secured explicit owner commitment to pay. Follow-up timing was confirmed.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "PAYMENT_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-14",
-        "score": 15
-      },
-      {
-        "date": "2026-07-15",
-        "score": 22
-      },
-      {
-        "date": "2026-07-16",
-        "score": 21
-      },
-      {
-        "date": "2026-07-17",
-        "score": 11
-      },
-      {
-        "date": "2026-07-18",
-        "score": 10
-      }
-    ]
-  },
-  "NBTSC400396": {
-    "employee_id": "NBTSC400396",
-    "name": "Abhinethri CT",
-    "n_live_calls": 135,
-    "rpl": 343.0,
-    "rpl_rank": 24,
-    "call_score": 42,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Handled 135 live calls this cycle."
-    ],
-    "avg_closing_score": 11.9,
-    "closing_percentile": 32.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 3.7,
-    "pct_passive_close": 78.5,
-    "pct_follow_up_close": 10.4,
-    "pct_hybrid_close": 7.4,
-    "pct_payment_close": 0.0,
-    "next_step_secured_rate": 15.0,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9fee82850000500185009b98867f99",
-        "score": 0.0,
-        "reason": "The agent did not attempt a payment close or secure a confirmed follow-up. The call ended with the owner's clear rejection.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8aa9b0219eff32d8019f001acf1a408a",
-        "score": 10.0,
-        "reason": "The agent acknowledged the owner's feedback and stated they would forward it, but made no attempt to persuade for payment or secure a follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 2,
-    "good_closing_example": {
-      "user_id": "8a9f8a827d094d8b017d098197d72012",
-      "score": 70.0,
-      "reason": "Agent attempted to secure a follow-up by confirming a callback time. Owner agreed to a callback for the next day around the same time.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "FOLLOW_UP_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-10",
-        "score": 6
-      },
-      {
-        "date": "2026-07-15",
-        "score": 15
-      },
-      {
-        "date": "2026-07-16",
         "score": 9
       },
       {
-        "date": "2026-07-17",
-        "score": 12
-      }
-    ]
-  },
-  "NBTS44025": {
-    "employee_id": "NBTS44025",
-    "name": "B. poornima",
-    "n_live_calls": 312,
-    "rpl": 339.0,
-    "rpl_rank": 25,
-    "call_score": 39,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Secures a next step more often than most \u2014 29.4% vs. 22.7% team average.",
-      "Uses a real follow-up close more than most \u2014 15.1% of calls vs. 14.9% team average."
-    ],
-    "avg_closing_score": 12.0,
-    "closing_percentile": 35.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 3.8,
-    "pct_passive_close": 76.9,
-    "pct_follow_up_close": 15.1,
-    "pct_hybrid_close": 2.2,
-    "pct_payment_close": 1.9,
-    "next_step_secured_rate": 29.4,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "8a9fa18395d5fc610195d61de8db0d1c",
-        "score": 0.0,
-        "reason": "The agent made no attempt to persuade for payment or secure a follow-up. The call ended with the owner expressing extreme dissatisfaction and disinterest.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fc8828290dd710182915051df45b5",
-        "score": 0.0,
-        "reason": "The agent did not attempt a payment close or secure a follow-up. Upon realizing the owner's intent to sell, the agent offered a callback from another department without confirming details.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9f935676547e50017654ac2c2d01f0",
-        "score": 10.0,
-        "reason": "Agent did not actively persuade for payment or confirm a follow-up. No explicit owner commitment was secured.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fb9827baa2c37017baa78bba026e3",
-        "score": 10.0,
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The owner expressed dissatisfaction and a lack of interest in a new plan.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8a9fb5827cbd57f4017cc06458bd3515",
-        "score": 10.0,
-        "reason": "The agent did not actively push for payment or a confirmed follow-up. The call ended with the owner expressing dissatisfaction and the agent not securing a clear next step.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 5,
-    "good_closing_example": {
-      "user_id": "8a9fb38279ef996b0179efda298121d4",
-      "score": 95.0,
-      "reason": "Agent actively persuaded for payment, resolved objections with a money-back guarantee, and secured explicit owner commitment to pay. Payment was successfully processed.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "PAYMENT_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-11",
-        "score": 9
-      },
-      {
-        "date": "2026-07-13",
-        "score": 3
-      },
-      {
-        "date": "2026-07-14",
-        "score": 19
-      },
-      {
-        "date": "2026-07-15",
-        "score": 13
-      },
-      {
-        "date": "2026-07-16",
+        "date": "2026-07-22",
         "score": 15
-      },
-      {
-        "date": "2026-07-17",
-        "score": 11
-      },
-      {
-        "date": "2026-07-18",
-        "score": 11
-      }
-    ]
-  },
-  "NBTSC400665": {
-    "employee_id": "NBTSC400665",
-    "name": "Gandikota Tejrajsingh",
-    "n_live_calls": 242,
-    "rpl": 243.0,
-    "rpl_rank": 28,
-    "call_score": 33,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
-    "strengths": [
-      "Rarely lets a call end with zero closing attempt \u2014 1.7% NO_CLOSE vs. 3.4% team average.",
-      "Uses a real follow-up close more than most \u2014 15.3% of calls vs. 14.9% team average."
-    ],
-    "avg_closing_score": 14.3,
-    "closing_percentile": 58.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 1.7,
-    "pct_passive_close": 79.8,
-    "pct_follow_up_close": 15.3,
-    "pct_hybrid_close": 2.9,
-    "pct_payment_close": 0.4,
-    "next_step_secured_rate": 11.8,
-    "team_avg_next_step_rate": 22.7,
-    "worst_closing_calls": [
-      {
-        "user_id": "ff8081815aacc6b9015aadf6a3d30ada",
-        "score": 0.0,
-        "reason": "The agent did not attempt to persuade for payment or secure a follow-up. The call ended with the owner's request to disconnect.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081815ca0cca1015ca0d49d8b0106",
-        "score": 10.0,
-        "reason": "The agent did not actively persuade for payment or confirm a follow-up. The closing was passive after the owner's rejection.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081815d171c00015d1738a9df04bf",
-        "score": 10.0,
-        "reason": "Agent asked if owner wanted assistance but did not push for payment or a confirmed follow-up. No commitment was secured.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "ff8081815805fb82015805fd2dea0038",
-        "score": 10.0,
-        "reason": "Agent attempted a passive close after the owner's rejection, did not push for payment, and did not secure a follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      },
-      {
-        "user_id": "8aa9baf79f68fd00019f694ec9be2468",
-        "score": 10.0,
-        "reason": "Agent asked if the owner wanted to wait in free listing. No strong attempt was made to persuade for payment or confirm a follow-up.",
-        "agent_said": null,
-        "owner_said": null,
-        "strategy": "PASSIVE_CLOSE"
-      }
-    ],
-    "worst_closing_total": 5,
-    "good_closing_example": {
-      "user_id": "ff8081815752a3e60157611d011b5abf",
-      "score": 75.0,
-      "reason": "Agent attempted a payment close, then secured a confirmed callback for payment today, showing good persistence and clear next steps.",
-      "agent_said": null,
-      "owner_said": null,
-      "strategy": "HYBRID_CLOSE"
-    },
-    "high_intent_leads": [],
-    "high_intent_leads_total": 0,
-    "daily_trend": [
-      {
-        "date": "2026-07-13",
-        "score": 21
-      },
-      {
-        "date": "2026-07-14",
-        "score": 33
-      },
-      {
-        "date": "2026-07-15",
-        "score": 11
-      },
-      {
-        "date": "2026-07-16",
-        "score": 9
-      },
-      {
-        "date": "2026-07-17",
-        "score": 16
-      },
-      {
-        "date": "2026-07-18",
-        "score": 12
       }
     ]
   },
   "NBTS44553": {
     "employee_id": "NBTS44553",
     "name": "DhanaLakshmi.S",
-    "n_live_calls": 55,
+    "n_live_calls": 102,
     "rpl": 124.15,
-    "rpl_rank": 31,
-    "call_score": 27,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
+    "rpl_rank": 34,
+    "call_score": 29,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Secures a next step more often than most \u2014 25.0% vs. 22.7% team average.",
-      "Uses a real follow-up close more than most \u2014 21.8% of calls vs. 14.9% team average."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 17.1,
-    "closing_percentile": 84.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 3.6,
-    "pct_passive_close": 70.9,
-    "pct_follow_up_close": 21.8,
-    "pct_hybrid_close": 1.8,
-    "pct_payment_close": 1.8,
-    "next_step_secured_rate": 25.0,
-    "team_avg_next_step_rate": 22.7,
+    "avg_closing_score": 21.5,
+    "closing_percentile": 74.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 79.4,
+    "pct_follow_up_close": 19.6,
+    "pct_hybrid_close": 1.0,
+    "pct_payment_close": 0.0,
+    "next_step_secured_rate": 18.0,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "8a9fa0827fc98bfd017fca2e75407bf4",
-        "score": 10.0,
-        "reason": "The agent did not actively persuade for payment or confirm a follow-up after the owner's rejection. No commitment was secured.",
+        "user_id": "8a9f848393bd8aef0193bdae7d7e017f",
+        "score": "10",
+        "reason": "Agent did not attempt to close or secure a next step. Owner expressed disinterest and decided to remove the listing.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      },
+      {
+        "user_id": "8aa9a9139f56bee6019f56dbe1ef0c40",
+        "score": "10",
+        "reason": "Agent did not make a strong attempt to close. After the owner's objection, the agent ended the call without securing a next step or further persuasion.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
       }
     ],
-    "worst_closing_total": 1,
+    "worst_closing_total": 2,
     "good_closing_example": {
-      "user_id": "8a9fb2827a2eaeaa017a2ed2e05110ea",
-      "score": 70.0,
-      "reason": "Agent attempted to persuade for a quicker closure but respected the owner's need to discuss. Secured a confirmed callback for next week.",
+      "user_id": "8aa9b73a9f64c791019f651da17f3439",
+      "score": "80",
+      "reason": "Agent secured a confirmed callback for Friday at 6 PM after the owner requested time to decide, showing a clear next step.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "FOLLOW_UP_CLOSE"
@@ -4793,47 +5042,118 @@
     "high_intent_leads_total": 1,
     "daily_trend": [
       {
+        "date": "2026-07-13",
+        "score": 29
+      },
+      {
         "date": "2026-07-15",
-        "score": 15
+        "score": 20
       },
       {
-        "date": "2026-07-16",
-        "score": 14
+        "date": "2026-07-22",
+        "score": 17
+      }
+    ]
+  },
+  "NBTSA305152": {
+    "employee_id": "NBTSA305152",
+    "name": "Vaibhav Patil",
+    "n_live_calls": 70,
+    "rpl": 0.0,
+    "rpl_rank": 35,
+    "call_score": 27,
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
+    "strengths": [
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Full, real conversations \u2014 46% of calls run full length vs. 19% team average."
+    ],
+    "avg_closing_score": 28.5,
+    "closing_percentile": 100.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 67.1,
+    "pct_follow_up_close": 32.9,
+    "pct_hybrid_close": 0.0,
+    "pct_payment_close": 0.0,
+    "next_step_secured_rate": 30.4,
+    "team_avg_next_step_rate": 13.7,
+    "worst_closing_calls": [
+      {
+        "user_id": "ff80818165ae2e460165af25aa4e1084",
+        "score": "10",
+        "reason": "Agent acknowledged owner's disinterest and ended the call without a clear attempt to persuade or schedule a follow-up.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
       },
       {
-        "date": "2026-07-17",
-        "score": 16
+        "user_id": "8a9fbc827e4d19d7017e4d5fcd2f20a1",
+        "score": "10",
+        "reason": "Agent asked if owner wanted a plan but did not make a strong attempt to persuade or secure a next step after the owner's clear rejection.",
+        "agent_said": null,
+        "owner_said": null,
+        "strategy": "PASSIVE_CLOSE"
+      }
+    ],
+    "worst_closing_total": 2,
+    "good_closing_example": {
+      "user_id": "8a9fa6827829c469017829dd518906b1",
+      "score": "85",
+      "reason": "Agent attempted to secure a callback for discount link generation and follow-up, which the owner agreed to.",
+      "agent_said": null,
+      "owner_said": null,
+      "strategy": "FOLLOW_UP_CLOSE"
+    },
+    "high_intent_leads": [],
+    "high_intent_leads_total": 0,
+    "daily_trend": [
+      {
+        "date": "2026-07-13",
+        "score": 33
+      },
+      {
+        "date": "2026-07-14",
+        "score": 34
+      },
+      {
+        "date": "2026-07-15",
+        "score": 22
+      },
+      {
+        "date": "2026-07-22",
+        "score": 27
       }
     ]
   },
   "NBTSC401067": {
     "employee_id": "NBTSC401067",
     "name": "Kalyanapu Prasanna mani",
-    "n_live_calls": 199,
+    "n_live_calls": 185,
     "rpl": 0.0,
-    "rpl_rank": 32,
+    "rpl_rank": 36,
     "call_score": 25,
-    "team_size": 32,
-    "data_updated_on": "2026-07-21",
+    "team_size": 36,
+    "data_updated_on": "2026-07-23",
     "strengths": [
-      "Clean, low-risk selling style \u2014 overpromising rate 1.0% vs. 1.8% team average.",
-      "Handled 199 live calls this cycle."
+      "Rarely lets a call end with zero closing attempt \u2014 0.0% NO_CLOSE vs. 0.2% team average.",
+      "Clean, low-risk selling style \u2014 overpromising rate 0.0% vs. 0.2% team average."
     ],
-    "avg_closing_score": 7.3,
-    "closing_percentile": 10.0,
-    "team_avg_closing_score": 13.5,
-    "pct_no_close": 4.0,
-    "pct_passive_close": 88.4,
-    "pct_follow_up_close": 6.0,
-    "pct_hybrid_close": 1.0,
-    "pct_payment_close": 0.5,
-    "next_step_secured_rate": 22.2,
-    "team_avg_next_step_rate": 22.7,
+    "avg_closing_score": 16.2,
+    "closing_percentile": 31.0,
+    "team_avg_closing_score": 19.0,
+    "pct_no_close": 0.0,
+    "pct_passive_close": 86.5,
+    "pct_follow_up_close": 10.8,
+    "pct_hybrid_close": 1.1,
+    "pct_payment_close": 1.6,
+    "next_step_secured_rate": 10.4,
+    "team_avg_next_step_rate": 13.7,
     "worst_closing_calls": [
       {
-        "user_id": "ff8081816e2141c3016e2170a2c920e3",
-        "score": 15.0,
-        "reason": "Agent attempted a payment close by sending a WhatsApp link but did not actively persuade or resolve further objections. No explicit commitment was secured.",
+        "user_id": "ff8081814ed8e0b7014ee2f07203387f",
+        "score": "10",
+        "reason": "Agent accepted owner's decision to stick with the free plan without making a strong attempt to persuade or schedule a follow-up.",
         "agent_said": null,
         "owner_said": null,
         "strategy": "PASSIVE_CLOSE"
@@ -4842,8 +5162,8 @@
     "worst_closing_total": 1,
     "good_closing_example": {
       "user_id": "8a9f927974021351017406a39c415e4c",
-      "score": 90.0,
-      "reason": "Agent actively persuaded for payment, offered a discount, and confirmed payment completion. Secured explicit owner commitment to pay.",
+      "score": "90",
+      "reason": "Agent sent a payment link after price adjustment and confirmed payment, leading to a successful close.",
       "agent_said": null,
       "owner_said": null,
       "strategy": "PAYMENT_CLOSE"
@@ -4853,23 +5173,15 @@
     "daily_trend": [
       {
         "date": "2026-07-13",
-        "score": 4
+        "score": 17
       },
       {
         "date": "2026-07-14",
-        "score": 11
+        "score": 17
       },
       {
         "date": "2026-07-16",
         "score": 12
-      },
-      {
-        "date": "2026-07-17",
-        "score": 6
-      },
-      {
-        "date": "2026-07-18",
-        "score": 6
       }
     ]
   }
